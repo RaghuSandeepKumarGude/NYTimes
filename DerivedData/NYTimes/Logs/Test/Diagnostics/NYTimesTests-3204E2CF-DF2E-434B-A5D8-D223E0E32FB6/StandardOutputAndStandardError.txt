@@ -1,0 +1,11 @@
+Test Suite 'Selected tests' started at 2018-08-16 00:31:20.579
+Test Suite 'NYTimesTests.xctest' started at 2018-08-16 00:31:20.580
+Test Suite 'PopularNewsViewControllerTest' started at 2018-08-16 00:31:20.581
+Test Case '-[NYTimesTests.PopularNewsViewControllerTest testDidSelectRow]' started.
+Test Case '-[NYTimesTests.PopularNewsViewControllerTest testDidSelectRow]' passed (7.052 seconds).
+Test Suite 'PopularNewsViewControllerTest' passed at 2018-08-16 00:31:27.633.
+	 Executed 1 test, with 0 failures (0 unexpected) in 7.052 (7.053) seconds
+Test Suite 'NYTimesTests.xctest' passed at 2018-08-16 00:31:27.634.
+	 Executed 1 test, with 0 failures (0 unexpected) in 7.052 (7.054) seconds
+Test Suite 'Selected tests' passed at 2018-08-16 00:31:27.635.
+	 Executed 1 test, with 0 failures (0 unexpected) in 7.052 (7.055) seconds

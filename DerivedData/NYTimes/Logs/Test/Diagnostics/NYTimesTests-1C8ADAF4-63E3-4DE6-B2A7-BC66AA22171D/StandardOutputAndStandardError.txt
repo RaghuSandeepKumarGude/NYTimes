@@ -1,0 +1,6 @@
+Test Suite 'Selected tests' started at 2018-08-16 00:10:43.558
+Test Suite 'NYTimesTests.xctest' started at 2018-08-16 00:10:43.559
+Test Suite 'DetailPopularNewsViewControllerTest' started at 2018-08-16 00:10:43.559
+Test Case '-[NYTimesTests.DetailPopularNewsViewControllerTest testViewDidLoad]' started.
+Fatal error: Unexpectedly found nil while unwrapping an Optional value
+2018-08-16 00:11:09.756567+0530 NYTimes[89361:24985329] Fatal error: Unexpectedly found nil while unwrapping an Optional value

@@ -1,0 +1,529 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DetailPopularNewsViewControllerTest"
+provides-nominal:
+- "12NYTimesTests35DetailPopularNewsViewControllerTestC"
+provides-member:
+- ["12NYTimesTests35DetailPopularNewsViewControllerTestC", ""]
+provides-dynamic-lookup:
+- "dic"
+- "setUp"
+- "sut"
+- "tearDown"
+- "testTextViewShouldBeginEditing"
+- "testViewDidLoad"
+depends-top-level:
+- "AssignmentPrecedence"
+- !private "CGRect"
+- "CastingPrecedence"
+- "DetailPopularNewsViewController"
+- "DetailPopularNewsViewControllerTest"
+- "News"
+- !private "StringLiteralType"
+- !private "UIStoryboard"
+- !private "UITextView"
+- !private "XCTAssertFalse"
+- !private "XCTAssertNil"
+- !private "XCTFail"
+- "XCTestCase"
+depends-member:
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["SC6CGRectV", "init"]
+- !private ["s7CVarArgP", "CGRect"]
+- !private ["s7CVarArgP", "DetailPopularNewsViewController"]
+- !private ["s7CVarArgP", "UIStoryboard"]
+- !private ["s7CVarArgP", "UITextView"]
+- !private ["s7CVarArgP", "XCTAssertFalse"]
+- !private ["s7CVarArgP", "XCTAssertNil"]
+- !private ["s7CVarArgP", "XCTFail"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "articalTitle"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "instantiateViewController"]
+- !private ["s7CVarArgP", "loadViewIfNeeded"]
+- !private ["s7CVarArgP", "setUp"]
+- !private ["s7CVarArgP", "sut"]
+- !private ["s7CVarArgP", "tearDown"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "textViewShouldBeginEditing"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "CGRect"]
+- !private ["s28CustomDebugStringConvertibleP", "DetailPopularNewsViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "UIStoryboard"]
+- !private ["s28CustomDebugStringConvertibleP", "UITextView"]
+- !private ["s28CustomDebugStringConvertibleP", "XCTAssertFalse"]
+- !private ["s28CustomDebugStringConvertibleP", "XCTAssertNil"]
+- !private ["s28CustomDebugStringConvertibleP", "XCTFail"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "articalTitle"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "instantiateViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "loadViewIfNeeded"]
+- !private ["s28CustomDebugStringConvertibleP", "setUp"]
+- !private ["s28CustomDebugStringConvertibleP", "sut"]
+- !private ["s28CustomDebugStringConvertibleP", "tearDown"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "textViewShouldBeginEditing"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "CGRect"]
+- !private ["s23CustomStringConvertibleP", "DetailPopularNewsViewController"]
+- !private ["s23CustomStringConvertibleP", "UIStoryboard"]
+- !private ["s23CustomStringConvertibleP", "UITextView"]
+- !private ["s23CustomStringConvertibleP", "XCTAssertFalse"]
+- !private ["s23CustomStringConvertibleP", "XCTAssertNil"]
+- !private ["s23CustomStringConvertibleP", "XCTFail"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "articalTitle"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "instantiateViewController"]
+- !private ["s23CustomStringConvertibleP", "loadViewIfNeeded"]
+- !private ["s23CustomStringConvertibleP", "setUp"]
+- !private ["s23CustomStringConvertibleP", "sut"]
+- !private ["s23CustomStringConvertibleP", "tearDown"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "textViewShouldBeginEditing"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["s9DecodableP", "init"]
+- !private ["7NYTimes31DetailPopularNewsViewControllerC", "articalTitle"]
+- !private ["7NYTimes31DetailPopularNewsViewControllerC", "init"]
+- !private ["7NYTimes31DetailPopularNewsViewControllerC", "loadViewIfNeeded"]
+- !private ["7NYTimes31DetailPopularNewsViewControllerC", "textViewShouldBeginEditing"]
+- !private ["7NYTimes31DetailPopularNewsViewControllerC", "viewDidLoad"]
+- !private ["12NYTimesTests35DetailPopularNewsViewControllerTestC", "CGRect"]
+- ["12NYTimesTests35DetailPopularNewsViewControllerTestC", "DetailPopularNewsViewController"]
+- ["12NYTimesTests35DetailPopularNewsViewControllerTestC", "News"]
+- !private ["12NYTimesTests35DetailPopularNewsViewControllerTestC", "UIStoryboard"]
+- !private ["12NYTimesTests35DetailPopularNewsViewControllerTestC", "UITextView"]
+- !private ["12NYTimesTests35DetailPopularNewsViewControllerTestC", "XCTAssertFalse"]
+- !private ["12NYTimesTests35DetailPopularNewsViewControllerTestC", "XCTAssertNil"]
+- !private ["12NYTimesTests35DetailPopularNewsViewControllerTestC", "XCTFail"]
+- ["12NYTimesTests35DetailPopularNewsViewControllerTestC", "deinit"]
+- ["12NYTimesTests35DetailPopularNewsViewControllerTestC", "dic"]
+- ["12NYTimesTests35DetailPopularNewsViewControllerTestC", "init"]
+- ["12NYTimesTests35DetailPopularNewsViewControllerTestC", "setUp"]
+- ["12NYTimesTests35DetailPopularNewsViewControllerTestC", "sut"]
+- ["12NYTimesTests35DetailPopularNewsViewControllerTestC", "tearDown"]
+- ["12NYTimesTests35DetailPopularNewsViewControllerTestC", "testTextViewShouldBeginEditing"]
+- ["12NYTimesTests35DetailPopularNewsViewControllerTestC", "testViewDidLoad"]
+- !private ["7NYTimes21DetailPopularViewableP", "articalTitle"]
+- !private ["7NYTimes21DetailPopularViewableP", "init"]
+- !private ["7NYTimes21DetailPopularViewableP", "loadViewIfNeeded"]
+- !private ["7NYTimes21DetailPopularViewableP", "textViewShouldBeginEditing"]
+- !private ["7NYTimes21DetailPopularViewableP", "viewDidLoad"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "CGRect"]
+- !private ["s9EquatableP", "DetailPopularNewsViewController"]
+- !private ["s9EquatableP", "UIStoryboard"]
+- !private ["s9EquatableP", "UITextView"]
+- !private ["s9EquatableP", "XCTAssertFalse"]
+- !private ["s9EquatableP", "XCTAssertNil"]
+- !private ["s9EquatableP", "XCTFail"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "articalTitle"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "instantiateViewController"]
+- !private ["s9EquatableP", "loadViewIfNeeded"]
+- !private ["s9EquatableP", "setUp"]
+- !private ["s9EquatableP", "sut"]
+- !private ["s9EquatableP", "tearDown"]
+- !private ["s9EquatableP", "text"]
+- !private ["s9EquatableP", "textViewShouldBeginEditing"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "CGRect"]
+- !private ["s8HashableP", "DetailPopularNewsViewController"]
+- !private ["s8HashableP", "UIStoryboard"]
+- !private ["s8HashableP", "UITextView"]
+- !private ["s8HashableP", "XCTAssertFalse"]
+- !private ["s8HashableP", "XCTAssertNil"]
+- !private ["s8HashableP", "XCTFail"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "articalTitle"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "instantiateViewController"]
+- !private ["s8HashableP", "loadViewIfNeeded"]
+- !private ["s8HashableP", "setUp"]
+- !private ["s8HashableP", "sut"]
+- !private ["s8HashableP", "tearDown"]
+- !private ["s8HashableP", "text"]
+- !private ["s8HashableP", "textViewShouldBeginEditing"]
+- !private ["s8HashableP", "viewDidLoad"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "articalTitle"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "loadViewIfNeeded"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "textViewShouldBeginEditing"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So26NSExtensionRequestHandlingP", "articalTitle"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "loadViewIfNeeded"]
+- !private ["So26NSExtensionRequestHandlingP", "textViewShouldBeginEditing"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So8NSObjectC", "CGRect"]
+- ["So8NSObjectC", "DetailPopularNewsViewController"]
+- ["So8NSObjectC", "News"]
+- !private ["So8NSObjectC", "UIStoryboard"]
+- !private ["So8NSObjectC", "UITextView"]
+- !private ["So8NSObjectC", "XCTAssertFalse"]
+- !private ["So8NSObjectC", "XCTAssertNil"]
+- !private ["So8NSObjectC", "XCTFail"]
+- !private ["So8NSObjectC", "articalTitle"]
+- ["So8NSObjectC", "dic"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "instantiateViewController"]
+- !private ["So8NSObjectC", "loadViewIfNeeded"]
+- ["So8NSObjectC", "setUp"]
+- ["So8NSObjectC", "sut"]
+- ["So8NSObjectC", "tearDown"]
+- ["So8NSObjectC", "testTextViewShouldBeginEditing"]
+- ["So8NSObjectC", "testViewDidLoad"]
+- !private ["So8NSObjectC", "text"]
+- !private ["So8NSObjectC", "textViewShouldBeginEditing"]
+- !private ["So8NSObjectC", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "CGRect"]
+- !private ["So16NSObjectProtocolP", "DetailPopularNewsViewController"]
+- !private ["So16NSObjectProtocolP", "UIStoryboard"]
+- !private ["So16NSObjectProtocolP", "UITextView"]
+- !private ["So16NSObjectProtocolP", "XCTAssertFalse"]
+- !private ["So16NSObjectProtocolP", "XCTAssertNil"]
+- !private ["So16NSObjectProtocolP", "XCTFail"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "articalTitle"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "instantiateViewController"]
+- !private ["So16NSObjectProtocolP", "loadViewIfNeeded"]
+- !private ["So16NSObjectProtocolP", "setUp"]
+- !private ["So16NSObjectProtocolP", "sut"]
+- !private ["So16NSObjectProtocolP", "tearDown"]
+- !private ["So16NSObjectProtocolP", "text"]
+- !private ["So16NSObjectProtocolP", "textViewShouldBeginEditing"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s8SequenceP", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So21UIAppearanceContainerP", "articalTitle"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "loadViewIfNeeded"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "textViewShouldBeginEditing"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So18UIContentContainerP", "articalTitle"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "loadViewIfNeeded"]
+- !private ["So18UIContentContainerP", "textViewShouldBeginEditing"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "init"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So18UIFocusEnvironmentP", "articalTitle"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "loadViewIfNeeded"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "textViewShouldBeginEditing"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So10UIKeyInputP", "init"]
+- !private ["So7UILabelC", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "articalTitle"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "loadViewIfNeeded"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "textViewShouldBeginEditing"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So11UIResponderC", "articalTitle"]
+- !private ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "loadViewIfNeeded"]
+- !private ["So11UIResponderC", "text"]
+- !private ["So11UIResponderC", "textViewShouldBeginEditing"]
+- !private ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "articalTitle"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "loadViewIfNeeded"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "textViewShouldBeginEditing"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So12UIScrollViewC", "init"]
+- !private ["So20UIScrollViewDelegateP", "articalTitle"]
+- !private ["So20UIScrollViewDelegateP", "init"]
+- !private ["So20UIScrollViewDelegateP", "loadViewIfNeeded"]
+- !private ["So20UIScrollViewDelegateP", "textViewShouldBeginEditing"]
+- !private ["So20UIScrollViewDelegateP", "viewDidLoad"]
+- !private ["So16UIStateRestoringP", "articalTitle"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "loadViewIfNeeded"]
+- !private ["So16UIStateRestoringP", "textViewShouldBeginEditing"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So12UIStoryboardC", "init"]
+- !private ["So12UIStoryboardC", "instantiateViewController"]
+- !private ["So15UITextDraggableP", "init"]
+- !private ["So15UITextDroppableP", "init"]
+- !private ["So11UITextInputP", "init"]
+- !private ["So17UITextInputTraitsP", "init"]
+- !private ["So34UITextPasteConfigurationSupportingP", "init"]
+- !private ["So10UITextViewC", "init"]
+- !private ["So18UITextViewDelegateP", "articalTitle"]
+- !private ["So18UITextViewDelegateP", "init"]
+- !private ["So18UITextViewDelegateP", "loadViewIfNeeded"]
+- !private ["So18UITextViewDelegateP", "textViewShouldBeginEditing"]
+- !private ["So18UITextViewDelegateP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "articalTitle"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "loadViewIfNeeded"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "textViewShouldBeginEditing"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "text"]
+- !private ["So16UIViewControllerC", "articalTitle"]
+- !private ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "loadViewIfNeeded"]
+- !private ["So16UIViewControllerC", "textViewShouldBeginEditing"]
+- !private ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["So11XCTActivityP", "CGRect"]
+- !private ["So11XCTActivityP", "DetailPopularNewsViewController"]
+- !private ["So11XCTActivityP", "UIStoryboard"]
+- !private ["So11XCTActivityP", "UITextView"]
+- !private ["So11XCTActivityP", "XCTAssertFalse"]
+- !private ["So11XCTActivityP", "XCTAssertNil"]
+- !private ["So11XCTActivityP", "XCTFail"]
+- ["So11XCTActivityP", ""]
+- !private ["So11XCTActivityP", "init"]
+- !private ["So11XCTActivityP", "setUp"]
+- !private ["So11XCTActivityP", "sut"]
+- !private ["So11XCTActivityP", "tearDown"]
+- !private ["So17XCTWaiterDelegateP", "CGRect"]
+- !private ["So17XCTWaiterDelegateP", "DetailPopularNewsViewController"]
+- !private ["So17XCTWaiterDelegateP", "UIStoryboard"]
+- !private ["So17XCTWaiterDelegateP", "UITextView"]
+- !private ["So17XCTWaiterDelegateP", "XCTAssertFalse"]
+- !private ["So17XCTWaiterDelegateP", "XCTAssertNil"]
+- !private ["So17XCTWaiterDelegateP", "XCTFail"]
+- ["So17XCTWaiterDelegateP", ""]
+- !private ["So17XCTWaiterDelegateP", "init"]
+- !private ["So17XCTWaiterDelegateP", "setUp"]
+- !private ["So17XCTWaiterDelegateP", "sut"]
+- !private ["So17XCTWaiterDelegateP", "tearDown"]
+- !private ["So6XCTestC", "CGRect"]
+- ["So6XCTestC", "DetailPopularNewsViewController"]
+- ["So6XCTestC", "News"]
+- !private ["So6XCTestC", "UIStoryboard"]
+- !private ["So6XCTestC", "UITextView"]
+- !private ["So6XCTestC", "XCTAssertFalse"]
+- !private ["So6XCTestC", "XCTAssertNil"]
+- !private ["So6XCTestC", "XCTFail"]
+- ["So6XCTestC", "dic"]
+- ["So6XCTestC", "init"]
+- ["So6XCTestC", "setUp"]
+- ["So6XCTestC", "sut"]
+- ["So6XCTestC", "tearDown"]
+- ["So6XCTestC", "testTextViewShouldBeginEditing"]
+- ["So6XCTestC", "testViewDidLoad"]
+- !private ["So10XCTestCaseC", "CGRect"]
+- ["So10XCTestCaseC", "DetailPopularNewsViewController"]
+- ["So10XCTestCaseC", "News"]
+- !private ["So10XCTestCaseC", "UIStoryboard"]
+- !private ["So10XCTestCaseC", "UITextView"]
+- !private ["So10XCTestCaseC", "XCTAssertFalse"]
+- !private ["So10XCTestCaseC", "XCTAssertNil"]
+- !private ["So10XCTestCaseC", "XCTFail"]
+- ["So10XCTestCaseC", ""]
+- ["So10XCTestCaseC", "dic"]
+- ["So10XCTestCaseC", "init"]
+- ["So10XCTestCaseC", "setUp"]
+- ["So10XCTestCaseC", "sut"]
+- ["So10XCTestCaseC", "tearDown"]
+- ["So10XCTestCaseC", "testTextViewShouldBeginEditing"]
+- ["So10XCTestCaseC", "testViewDidLoad"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGRect"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DetailPopularNewsViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIStoryboard"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UITextView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XCTAssertFalse"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XCTAssertNil"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XCTFail"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "articalTitle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "instantiateViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "loadViewIfNeeded"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setUp"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sut"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tearDown"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "textViewShouldBeginEditing"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- !private "So15CALayerDelegateP"
+- !private "SC6CGRectV"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "7NYTimes31DetailPopularNewsViewControllerC"
+- "12NYTimesTests35DetailPopularNewsViewControllerTestC"
+- !private "7NYTimes21DetailPopularViewableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So10UIKeyInputP"
+- !private "So7UILabelC"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So12UIScrollViewC"
+- !private "So20UIScrollViewDelegateP"
+- !private "So16UIStateRestoringP"
+- !private "So12UIStoryboardC"
+- !private "So15UITextDraggableP"
+- !private "So15UITextDroppableP"
+- !private "So11UITextInputP"
+- !private "So17UITextInputTraitsP"
+- !private "So34UITextPasteConfigurationSupportingP"
+- !private "So10UITextViewC"
+- !private "So18UITextViewDelegateP"
+- !private "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- !private "So16UIViewControllerC"
+- "So11XCTActivityP"
+- "So17XCTWaiterDelegateP"
+- "So6XCTestC"
+- "So10XCTestCaseC"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/RaghuSandeep/Documents/NYTimes/DerivedData/NYTimes/Build/Products/Debug-iphonesimulator/NYTimes.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/XCTest.swiftmodule"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SVProgressHUD.framework/Headers/SVProgressHUD.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/UIImage+GIF.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/UIImage+WebP.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/UIImage+ForceDecode.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImage.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/FLAnimatedImage.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/UIButton+WebCache.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/UIView+WebCache.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/UIImageView+WebCache.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/FLAnimatedImageView+WebCache.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/MKAnnotationView+WebCache.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/UIImageView+HighlightedWebCache.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDImageCache.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageFrame.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/NSData+ImageContentType.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDImageCacheConfig.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageOperation.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/UIView+WebCacheOperation.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageDownloaderOperation.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageTransition.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/NYTimes/NYTimes-Bridging-Header.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageDownloader.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageGIFCoder.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageImageIOCoder.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageWebPCoder.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageCoder.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageManager.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageCodersManager.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImagePrefetcher.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageCoderHelper.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/UIImage+MultiFormat.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageCompat.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/FLAnimatedImageView.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SVProgressHUD.framework/Modules/module.modulemap"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "6fc43f1eb8cae0c326621dd6880c1b4a"

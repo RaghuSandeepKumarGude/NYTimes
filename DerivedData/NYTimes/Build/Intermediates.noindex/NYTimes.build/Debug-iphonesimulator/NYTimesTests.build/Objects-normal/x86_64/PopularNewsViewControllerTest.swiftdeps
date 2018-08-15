@@ -1,0 +1,686 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PopularNewsViewControllerTest"
+provides-nominal:
+- "12NYTimesTests29PopularNewsViewControllerTestC"
+provides-member:
+- ["12NYTimesTests29PopularNewsViewControllerTestC", ""]
+provides-dynamic-lookup:
+- "setUp"
+- "sut"
+- "tableView"
+- "tearDown"
+- "testCellForAtIndexPath"
+- "testDidSelectRow"
+- "testHeightForRowAt"
+- "testNumberOfRowsInSection"
+- "testViewDidLoad"
+- "testupdate"
+depends-top-level:
+- "AssignmentPrecedence"
+- !private "IndexPath"
+- "MockUITableView"
+- "PopularNewsViewController"
+- "PopularNewsViewControllerTest"
+- !private "StringLiteralType"
+- !private "UINib"
+- !private "UITableView"
+- !private "UIView"
+- !private "XCTAssertEqual"
+- !private "XCTAssertFalse"
+- !private "XCTAssertNotNil"
+- "XCTestCase"
+depends-member:
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "section"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "isUserInteractionEnabled"]
+- !private ["So15CALayerDelegateP", "register"]
+- !private ["So15CALayerDelegateP", "reloadDataCalled"]
+- !private ["s7CVarArgP", "IndexPath"]
+- !private ["s7CVarArgP", "MockUITableView"]
+- !private ["s7CVarArgP", "PopularNewsViewController"]
+- !private ["s7CVarArgP", "UINib"]
+- !private ["s7CVarArgP", "UITableView"]
+- !private ["s7CVarArgP", "UIView"]
+- !private ["s7CVarArgP", "XCTAssertEqual"]
+- !private ["s7CVarArgP", "XCTAssertFalse"]
+- !private ["s7CVarArgP", "XCTAssertNotNil"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isUserInteractionEnabled"]
+- !private ["s7CVarArgP", "newsFeed"]
+- !private ["s7CVarArgP", "register"]
+- !private ["s7CVarArgP", "reloadDataCalled"]
+- !private ["s7CVarArgP", "setUp"]
+- !private ["s7CVarArgP", "sut"]
+- !private ["s7CVarArgP", "tableView"]
+- !private ["s7CVarArgP", "tearDown"]
+- !private ["s7CVarArgP", "title"]
+- !private ["s7CVarArgP", "update"]
+- !private ["s7CVarArgP", "view"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "section"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "section"]
+- !private ["s28CustomDebugStringConvertibleP", "IndexPath"]
+- !private ["s28CustomDebugStringConvertibleP", "MockUITableView"]
+- !private ["s28CustomDebugStringConvertibleP", "PopularNewsViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "UINib"]
+- !private ["s28CustomDebugStringConvertibleP", "UITableView"]
+- !private ["s28CustomDebugStringConvertibleP", "UIView"]
+- !private ["s28CustomDebugStringConvertibleP", "XCTAssertEqual"]
+- !private ["s28CustomDebugStringConvertibleP", "XCTAssertFalse"]
+- !private ["s28CustomDebugStringConvertibleP", "XCTAssertNotNil"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isUserInteractionEnabled"]
+- !private ["s28CustomDebugStringConvertibleP", "newsFeed"]
+- !private ["s28CustomDebugStringConvertibleP", "register"]
+- !private ["s28CustomDebugStringConvertibleP", "reloadDataCalled"]
+- !private ["s28CustomDebugStringConvertibleP", "section"]
+- !private ["s28CustomDebugStringConvertibleP", "setUp"]
+- !private ["s28CustomDebugStringConvertibleP", "sut"]
+- !private ["s28CustomDebugStringConvertibleP", "tableView"]
+- !private ["s28CustomDebugStringConvertibleP", "tearDown"]
+- !private ["s28CustomDebugStringConvertibleP", "title"]
+- !private ["s28CustomDebugStringConvertibleP", "update"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "section"]
+- !private ["s23CustomStringConvertibleP", "IndexPath"]
+- !private ["s23CustomStringConvertibleP", "MockUITableView"]
+- !private ["s23CustomStringConvertibleP", "PopularNewsViewController"]
+- !private ["s23CustomStringConvertibleP", "UINib"]
+- !private ["s23CustomStringConvertibleP", "UITableView"]
+- !private ["s23CustomStringConvertibleP", "UIView"]
+- !private ["s23CustomStringConvertibleP", "XCTAssertEqual"]
+- !private ["s23CustomStringConvertibleP", "XCTAssertFalse"]
+- !private ["s23CustomStringConvertibleP", "XCTAssertNotNil"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isUserInteractionEnabled"]
+- !private ["s23CustomStringConvertibleP", "newsFeed"]
+- !private ["s23CustomStringConvertibleP", "register"]
+- !private ["s23CustomStringConvertibleP", "reloadDataCalled"]
+- !private ["s23CustomStringConvertibleP", "section"]
+- !private ["s23CustomStringConvertibleP", "setUp"]
+- !private ["s23CustomStringConvertibleP", "sut"]
+- !private ["s23CustomStringConvertibleP", "tableView"]
+- !private ["s23CustomStringConvertibleP", "tearDown"]
+- !private ["s23CustomStringConvertibleP", "title"]
+- !private ["s23CustomStringConvertibleP", "update"]
+- !private ["s23CustomStringConvertibleP", "view"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "section"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "section"]
+- !private ["s9EquatableP", "IndexPath"]
+- !private ["s9EquatableP", "MockUITableView"]
+- !private ["s9EquatableP", "PopularNewsViewController"]
+- !private ["s9EquatableP", "UINib"]
+- !private ["s9EquatableP", "UITableView"]
+- !private ["s9EquatableP", "UIView"]
+- !private ["s9EquatableP", "XCTAssertEqual"]
+- !private ["s9EquatableP", "XCTAssertFalse"]
+- !private ["s9EquatableP", "XCTAssertNotNil"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "isUserInteractionEnabled"]
+- !private ["s9EquatableP", "newsFeed"]
+- !private ["s9EquatableP", "register"]
+- !private ["s9EquatableP", "reloadDataCalled"]
+- !private ["s9EquatableP", "section"]
+- !private ["s9EquatableP", "setUp"]
+- !private ["s9EquatableP", "sut"]
+- !private ["s9EquatableP", "tableView"]
+- !private ["s9EquatableP", "tearDown"]
+- !private ["s9EquatableP", "title"]
+- !private ["s9EquatableP", "update"]
+- !private ["s9EquatableP", "view"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "section"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "IndexPath"]
+- !private ["s8HashableP", "MockUITableView"]
+- !private ["s8HashableP", "PopularNewsViewController"]
+- !private ["s8HashableP", "UINib"]
+- !private ["s8HashableP", "UITableView"]
+- !private ["s8HashableP", "UIView"]
+- !private ["s8HashableP", "XCTAssertEqual"]
+- !private ["s8HashableP", "XCTAssertFalse"]
+- !private ["s8HashableP", "XCTAssertNotNil"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "isUserInteractionEnabled"]
+- !private ["s8HashableP", "newsFeed"]
+- !private ["s8HashableP", "register"]
+- !private ["s8HashableP", "reloadDataCalled"]
+- !private ["s8HashableP", "section"]
+- !private ["s8HashableP", "setUp"]
+- !private ["s8HashableP", "sut"]
+- !private ["s8HashableP", "tableView"]
+- !private ["s8HashableP", "tearDown"]
+- !private ["s8HashableP", "title"]
+- !private ["s8HashableP", "update"]
+- !private ["s8HashableP", "view"]
+- !private ["s8HashableP", "viewDidLoad"]
+- !private ["10Foundation9IndexPathV", "init"]
+- !private ["10Foundation9IndexPathV", "section"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["12NYTimesTests15MockUITableViewC", "init"]
+- !private ["12NYTimesTests15MockUITableViewC", "reloadDataCalled"]
+- !private ["s17MutableCollectionP", "init"]
+- !private ["s17MutableCollectionP", "section"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isUserInteractionEnabled"]
+- !private ["So8NSCodingP", "newsFeed"]
+- !private ["So8NSCodingP", "register"]
+- !private ["So8NSCodingP", "reloadDataCalled"]
+- !private ["So8NSCodingP", "tableView"]
+- !private ["So8NSCodingP", "title"]
+- !private ["So8NSCodingP", "update"]
+- !private ["So8NSCodingP", "view"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "newsFeed"]
+- !private ["So26NSExtensionRequestHandlingP", "tableView"]
+- !private ["So26NSExtensionRequestHandlingP", "title"]
+- !private ["So26NSExtensionRequestHandlingP", "update"]
+- !private ["So26NSExtensionRequestHandlingP", "view"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So8NSObjectC", "IndexPath"]
+- ["So8NSObjectC", "MockUITableView"]
+- ["So8NSObjectC", "PopularNewsViewController"]
+- !private ["So8NSObjectC", "UINib"]
+- !private ["So8NSObjectC", "UITableView"]
+- !private ["So8NSObjectC", "UIView"]
+- !private ["So8NSObjectC", "XCTAssertEqual"]
+- !private ["So8NSObjectC", "XCTAssertFalse"]
+- !private ["So8NSObjectC", "XCTAssertNotNil"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isUserInteractionEnabled"]
+- !private ["So8NSObjectC", "newsFeed"]
+- !private ["So8NSObjectC", "register"]
+- !private ["So8NSObjectC", "reloadDataCalled"]
+- ["So8NSObjectC", "setUp"]
+- ["So8NSObjectC", "sut"]
+- ["So8NSObjectC", "tableView"]
+- ["So8NSObjectC", "tearDown"]
+- ["So8NSObjectC", "testCellForAtIndexPath"]
+- ["So8NSObjectC", "testDidSelectRow"]
+- ["So8NSObjectC", "testHeightForRowAt"]
+- ["So8NSObjectC", "testNumberOfRowsInSection"]
+- ["So8NSObjectC", "testViewDidLoad"]
+- ["So8NSObjectC", "testupdate"]
+- !private ["So8NSObjectC", "title"]
+- !private ["So8NSObjectC", "update"]
+- !private ["So8NSObjectC", "view"]
+- !private ["So8NSObjectC", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "IndexPath"]
+- !private ["So16NSObjectProtocolP", "MockUITableView"]
+- !private ["So16NSObjectProtocolP", "PopularNewsViewController"]
+- !private ["So16NSObjectProtocolP", "UINib"]
+- !private ["So16NSObjectProtocolP", "UITableView"]
+- !private ["So16NSObjectProtocolP", "UIView"]
+- !private ["So16NSObjectProtocolP", "XCTAssertEqual"]
+- !private ["So16NSObjectProtocolP", "XCTAssertFalse"]
+- !private ["So16NSObjectProtocolP", "XCTAssertNotNil"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "isUserInteractionEnabled"]
+- !private ["So16NSObjectProtocolP", "newsFeed"]
+- !private ["So16NSObjectProtocolP", "register"]
+- !private ["So16NSObjectProtocolP", "reloadDataCalled"]
+- !private ["So16NSObjectProtocolP", "setUp"]
+- !private ["So16NSObjectProtocolP", "sut"]
+- !private ["So16NSObjectProtocolP", "tableView"]
+- !private ["So16NSObjectProtocolP", "tearDown"]
+- !private ["So16NSObjectProtocolP", "title"]
+- !private ["So16NSObjectProtocolP", "update"]
+- !private ["So16NSObjectProtocolP", "view"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- !private ["7NYTimes25PopularNewsViewControllerC", "init"]
+- !private ["7NYTimes25PopularNewsViewControllerC", "newsFeed"]
+- !private ["7NYTimes25PopularNewsViewControllerC", "tableView"]
+- !private ["7NYTimes25PopularNewsViewControllerC", "title"]
+- !private ["7NYTimes25PopularNewsViewControllerC", "update"]
+- !private ["7NYTimes25PopularNewsViewControllerC", "view"]
+- !private ["7NYTimes25PopularNewsViewControllerC", "viewDidLoad"]
+- !private ["12NYTimesTests29PopularNewsViewControllerTestC", "IndexPath"]
+- ["12NYTimesTests29PopularNewsViewControllerTestC", "MockUITableView"]
+- ["12NYTimesTests29PopularNewsViewControllerTestC", "PopularNewsViewController"]
+- !private ["12NYTimesTests29PopularNewsViewControllerTestC", "UINib"]
+- !private ["12NYTimesTests29PopularNewsViewControllerTestC", "UITableView"]
+- !private ["12NYTimesTests29PopularNewsViewControllerTestC", "UIView"]
+- !private ["12NYTimesTests29PopularNewsViewControllerTestC", "XCTAssertEqual"]
+- !private ["12NYTimesTests29PopularNewsViewControllerTestC", "XCTAssertFalse"]
+- !private ["12NYTimesTests29PopularNewsViewControllerTestC", "XCTAssertNotNil"]
+- ["12NYTimesTests29PopularNewsViewControllerTestC", "deinit"]
+- ["12NYTimesTests29PopularNewsViewControllerTestC", "init"]
+- ["12NYTimesTests29PopularNewsViewControllerTestC", "setUp"]
+- ["12NYTimesTests29PopularNewsViewControllerTestC", "sut"]
+- ["12NYTimesTests29PopularNewsViewControllerTestC", "tableView"]
+- ["12NYTimesTests29PopularNewsViewControllerTestC", "tearDown"]
+- ["12NYTimesTests29PopularNewsViewControllerTestC", "testCellForAtIndexPath"]
+- ["12NYTimesTests29PopularNewsViewControllerTestC", "testDidSelectRow"]
+- ["12NYTimesTests29PopularNewsViewControllerTestC", "testHeightForRowAt"]
+- ["12NYTimesTests29PopularNewsViewControllerTestC", "testNumberOfRowsInSection"]
+- ["12NYTimesTests29PopularNewsViewControllerTestC", "testViewDidLoad"]
+- ["12NYTimesTests29PopularNewsViewControllerTestC", "testupdate"]
+- !private ["7NYTimes19PopularNewsViewableP", "init"]
+- !private ["7NYTimes19PopularNewsViewableP", "newsFeed"]
+- !private ["7NYTimes19PopularNewsViewableP", "tableView"]
+- !private ["7NYTimes19PopularNewsViewableP", "title"]
+- !private ["7NYTimes19PopularNewsViewableP", "update"]
+- !private ["7NYTimes19PopularNewsViewableP", "view"]
+- !private ["7NYTimes19PopularNewsViewableP", "viewDidLoad"]
+- !private ["s22RandomAccessCollectionP", "init"]
+- !private ["s22RandomAccessCollectionP", "section"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "section"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "section"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "isUserInteractionEnabled"]
+- !private ["So29UIAccessibilityIdentificationP", "register"]
+- !private ["So29UIAccessibilityIdentificationP", "reloadDataCalled"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "isUserInteractionEnabled"]
+- !private ["So12UIAppearanceP", "register"]
+- !private ["So12UIAppearanceP", "reloadDataCalled"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "isUserInteractionEnabled"]
+- !private ["So21UIAppearanceContainerP", "newsFeed"]
+- !private ["So21UIAppearanceContainerP", "register"]
+- !private ["So21UIAppearanceContainerP", "reloadDataCalled"]
+- !private ["So21UIAppearanceContainerP", "tableView"]
+- !private ["So21UIAppearanceContainerP", "title"]
+- !private ["So21UIAppearanceContainerP", "update"]
+- !private ["So21UIAppearanceContainerP", "view"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "newsFeed"]
+- !private ["So18UIContentContainerP", "tableView"]
+- !private ["So18UIContentContainerP", "title"]
+- !private ["So18UIContentContainerP", "update"]
+- !private ["So18UIContentContainerP", "view"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "isUserInteractionEnabled"]
+- !private ["So17UICoordinateSpaceP", "register"]
+- !private ["So17UICoordinateSpaceP", "reloadDataCalled"]
+- !private ["So23UIDataSourceTranslatingP", "init"]
+- !private ["So23UIDataSourceTranslatingP", "register"]
+- !private ["So23UIDataSourceTranslatingP", "reloadDataCalled"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "isUserInteractionEnabled"]
+- !private ["So13UIDynamicItemP", "register"]
+- !private ["So13UIDynamicItemP", "reloadDataCalled"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "isUserInteractionEnabled"]
+- !private ["So18UIFocusEnvironmentP", "newsFeed"]
+- !private ["So18UIFocusEnvironmentP", "register"]
+- !private ["So18UIFocusEnvironmentP", "reloadDataCalled"]
+- !private ["So18UIFocusEnvironmentP", "tableView"]
+- !private ["So18UIFocusEnvironmentP", "title"]
+- !private ["So18UIFocusEnvironmentP", "update"]
+- !private ["So18UIFocusEnvironmentP", "view"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "isUserInteractionEnabled"]
+- !private ["So11UIFocusItemP", "register"]
+- !private ["So11UIFocusItemP", "reloadDataCalled"]
+- !private ["So5UINibC", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "isUserInteractionEnabled"]
+- !private ["So30UIPasteConfigurationSupportingP", "newsFeed"]
+- !private ["So30UIPasteConfigurationSupportingP", "register"]
+- !private ["So30UIPasteConfigurationSupportingP", "reloadDataCalled"]
+- !private ["So30UIPasteConfigurationSupportingP", "tableView"]
+- !private ["So30UIPasteConfigurationSupportingP", "title"]
+- !private ["So30UIPasteConfigurationSupportingP", "update"]
+- !private ["So30UIPasteConfigurationSupportingP", "view"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "isUserInteractionEnabled"]
+- !private ["So11UIResponderC", "newsFeed"]
+- !private ["So11UIResponderC", "register"]
+- !private ["So11UIResponderC", "reloadDataCalled"]
+- !private ["So11UIResponderC", "tableView"]
+- !private ["So11UIResponderC", "title"]
+- !private ["So11UIResponderC", "update"]
+- !private ["So11UIResponderC", "view"]
+- !private ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "isUserInteractionEnabled"]
+- !private ["So30UIResponderStandardEditActionsP", "newsFeed"]
+- !private ["So30UIResponderStandardEditActionsP", "register"]
+- !private ["So30UIResponderStandardEditActionsP", "reloadDataCalled"]
+- !private ["So30UIResponderStandardEditActionsP", "tableView"]
+- !private ["So30UIResponderStandardEditActionsP", "title"]
+- !private ["So30UIResponderStandardEditActionsP", "update"]
+- !private ["So30UIResponderStandardEditActionsP", "view"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So12UIScrollViewC", "init"]
+- !private ["So12UIScrollViewC", "register"]
+- !private ["So12UIScrollViewC", "reloadDataCalled"]
+- !private ["So20UIScrollViewDelegateP", "init"]
+- !private ["So20UIScrollViewDelegateP", "newsFeed"]
+- !private ["So20UIScrollViewDelegateP", "tableView"]
+- !private ["So20UIScrollViewDelegateP", "title"]
+- !private ["So20UIScrollViewDelegateP", "update"]
+- !private ["So20UIScrollViewDelegateP", "view"]
+- !private ["So20UIScrollViewDelegateP", "viewDidLoad"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "init"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "register"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "reloadDataCalled"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "newsFeed"]
+- !private ["So16UIStateRestoringP", "tableView"]
+- !private ["So16UIStateRestoringP", "title"]
+- !private ["So16UIStateRestoringP", "update"]
+- !private ["So16UIStateRestoringP", "view"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So11UITableViewC", "init"]
+- !private ["So11UITableViewC", "register"]
+- !private ["So11UITableViewC", "reloadDataCalled"]
+- !private ["So21UITableViewDataSourceP", "init"]
+- !private ["So21UITableViewDataSourceP", "newsFeed"]
+- !private ["So21UITableViewDataSourceP", "tableView"]
+- !private ["So21UITableViewDataSourceP", "title"]
+- !private ["So21UITableViewDataSourceP", "update"]
+- !private ["So21UITableViewDataSourceP", "view"]
+- !private ["So21UITableViewDataSourceP", "viewDidLoad"]
+- !private ["So19UITableViewDelegateP", "init"]
+- !private ["So19UITableViewDelegateP", "newsFeed"]
+- !private ["So19UITableViewDelegateP", "tableView"]
+- !private ["So19UITableViewDelegateP", "title"]
+- !private ["So19UITableViewDelegateP", "update"]
+- !private ["So19UITableViewDelegateP", "view"]
+- !private ["So19UITableViewDelegateP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "isUserInteractionEnabled"]
+- !private ["So18UITraitEnvironmentP", "newsFeed"]
+- !private ["So18UITraitEnvironmentP", "register"]
+- !private ["So18UITraitEnvironmentP", "reloadDataCalled"]
+- !private ["So18UITraitEnvironmentP", "tableView"]
+- !private ["So18UITraitEnvironmentP", "title"]
+- !private ["So18UITraitEnvironmentP", "update"]
+- !private ["So18UITraitEnvironmentP", "view"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "isUserInteractionEnabled"]
+- !private ["So6UIViewC", "register"]
+- !private ["So6UIViewC", "reloadDataCalled"]
+- !private ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "newsFeed"]
+- !private ["So16UIViewControllerC", "tableView"]
+- !private ["So16UIViewControllerC", "title"]
+- !private ["So16UIViewControllerC", "update"]
+- !private ["So16UIViewControllerC", "view"]
+- !private ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["So11XCTActivityP", "IndexPath"]
+- !private ["So11XCTActivityP", "MockUITableView"]
+- !private ["So11XCTActivityP", "PopularNewsViewController"]
+- !private ["So11XCTActivityP", "UINib"]
+- !private ["So11XCTActivityP", "UITableView"]
+- !private ["So11XCTActivityP", "UIView"]
+- !private ["So11XCTActivityP", "XCTAssertEqual"]
+- !private ["So11XCTActivityP", "XCTAssertFalse"]
+- !private ["So11XCTActivityP", "XCTAssertNotNil"]
+- ["So11XCTActivityP", ""]
+- !private ["So11XCTActivityP", "init"]
+- !private ["So11XCTActivityP", "setUp"]
+- !private ["So11XCTActivityP", "sut"]
+- !private ["So11XCTActivityP", "tableView"]
+- !private ["So11XCTActivityP", "tearDown"]
+- !private ["So17XCTWaiterDelegateP", "IndexPath"]
+- !private ["So17XCTWaiterDelegateP", "MockUITableView"]
+- !private ["So17XCTWaiterDelegateP", "PopularNewsViewController"]
+- !private ["So17XCTWaiterDelegateP", "UINib"]
+- !private ["So17XCTWaiterDelegateP", "UITableView"]
+- !private ["So17XCTWaiterDelegateP", "UIView"]
+- !private ["So17XCTWaiterDelegateP", "XCTAssertEqual"]
+- !private ["So17XCTWaiterDelegateP", "XCTAssertFalse"]
+- !private ["So17XCTWaiterDelegateP", "XCTAssertNotNil"]
+- ["So17XCTWaiterDelegateP", ""]
+- !private ["So17XCTWaiterDelegateP", "init"]
+- !private ["So17XCTWaiterDelegateP", "setUp"]
+- !private ["So17XCTWaiterDelegateP", "sut"]
+- !private ["So17XCTWaiterDelegateP", "tableView"]
+- !private ["So17XCTWaiterDelegateP", "tearDown"]
+- !private ["So6XCTestC", "IndexPath"]
+- ["So6XCTestC", "MockUITableView"]
+- ["So6XCTestC", "PopularNewsViewController"]
+- !private ["So6XCTestC", "UINib"]
+- !private ["So6XCTestC", "UITableView"]
+- !private ["So6XCTestC", "UIView"]
+- !private ["So6XCTestC", "XCTAssertEqual"]
+- !private ["So6XCTestC", "XCTAssertFalse"]
+- !private ["So6XCTestC", "XCTAssertNotNil"]
+- ["So6XCTestC", "init"]
+- ["So6XCTestC", "setUp"]
+- ["So6XCTestC", "sut"]
+- ["So6XCTestC", "tableView"]
+- ["So6XCTestC", "tearDown"]
+- ["So6XCTestC", "testCellForAtIndexPath"]
+- ["So6XCTestC", "testDidSelectRow"]
+- ["So6XCTestC", "testHeightForRowAt"]
+- ["So6XCTestC", "testNumberOfRowsInSection"]
+- ["So6XCTestC", "testViewDidLoad"]
+- ["So6XCTestC", "testupdate"]
+- !private ["So10XCTestCaseC", "IndexPath"]
+- ["So10XCTestCaseC", "MockUITableView"]
+- ["So10XCTestCaseC", "PopularNewsViewController"]
+- !private ["So10XCTestCaseC", "UINib"]
+- !private ["So10XCTestCaseC", "UITableView"]
+- !private ["So10XCTestCaseC", "UIView"]
+- !private ["So10XCTestCaseC", "XCTAssertEqual"]
+- !private ["So10XCTestCaseC", "XCTAssertFalse"]
+- !private ["So10XCTestCaseC", "XCTAssertNotNil"]
+- ["So10XCTestCaseC", ""]
+- ["So10XCTestCaseC", "init"]
+- ["So10XCTestCaseC", "setUp"]
+- ["So10XCTestCaseC", "sut"]
+- ["So10XCTestCaseC", "tableView"]
+- ["So10XCTestCaseC", "tearDown"]
+- ["So10XCTestCaseC", "testCellForAtIndexPath"]
+- ["So10XCTestCaseC", "testDidSelectRow"]
+- ["So10XCTestCaseC", "testHeightForRowAt"]
+- ["So10XCTestCaseC", "testNumberOfRowsInSection"]
+- ["So10XCTestCaseC", "testViewDidLoad"]
+- ["So10XCTestCaseC", "testupdate"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "isUserInteractionEnabled"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "register"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "reloadDataCalled"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "IndexPath"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MockUITableView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PopularNewsViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UINib"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UITableView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XCTAssertEqual"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XCTAssertFalse"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XCTAssertNotNil"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isUserInteractionEnabled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "newsFeed"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "register"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "reloadDataCalled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setUp"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sut"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tableView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tearDown"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "title"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "update"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "section"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "10Foundation9IndexPathV"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "12NYTimesTests15MockUITableViewC"
+- !private "s17MutableCollectionP"
+- !private "So8NSCodingP"
+- !private "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "7NYTimes25PopularNewsViewControllerC"
+- "12NYTimesTests29PopularNewsViewControllerTestC"
+- !private "7NYTimes19PopularNewsViewableP"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s8SequenceP"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So23UIDataSourceTranslatingP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So5UINibC"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So12UIScrollViewC"
+- !private "So20UIScrollViewDelegateP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- !private "So16UIStateRestoringP"
+- !private "So11UITableViewC"
+- !private "So21UITableViewDataSourceP"
+- !private "So19UITableViewDelegateP"
+- !private "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- !private "So16UIViewControllerC"
+- "So11XCTActivityP"
+- "So17XCTWaiterDelegateP"
+- "So6XCTestC"
+- "So10XCTestCaseC"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/RaghuSandeep/Documents/NYTimes/DerivedData/NYTimes/Build/Products/Debug-iphonesimulator/NYTimes.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/XCTest.swiftmodule"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SVProgressHUD.framework/Headers/SVProgressHUD.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/UIImage+GIF.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/UIImage+WebP.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/UIImage+ForceDecode.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImage.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/FLAnimatedImage.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/UIButton+WebCache.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/UIView+WebCache.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/UIImageView+WebCache.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/FLAnimatedImageView+WebCache.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/MKAnnotationView+WebCache.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/UIImageView+HighlightedWebCache.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDImageCache.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageFrame.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/NSData+ImageContentType.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDImageCacheConfig.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageOperation.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/UIView+WebCacheOperation.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageDownloaderOperation.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageTransition.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/NYTimes/NYTimes-Bridging-Header.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageDownloader.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageGIFCoder.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageImageIOCoder.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageWebPCoder.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageCoder.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageManager.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageCodersManager.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImagePrefetcher.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageCoderHelper.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/UIImage+MultiFormat.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageCompat.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/FLAnimatedImageView.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SVProgressHUD.framework/Modules/module.modulemap"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "633abf45657b819af5519514babd41d6"

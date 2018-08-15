@@ -1,0 +1,47 @@
+Test Suite 'All tests' started at 2018-08-15 23:10:56.699
+Test Suite 'NYTimesTests.xctest' started at 2018-08-15 23:10:56.700
+Test Suite 'AppDelegateTest' started at 2018-08-15 23:10:56.700
+Test Case '-[NYTimesTests.AppDelegateTest testApplicationDidFinishLaunchingWithOptions]' started.
+Test Case '-[NYTimesTests.AppDelegateTest testApplicationDidFinishLaunchingWithOptions]' passed (0.014 seconds).
+Test Suite 'AppDelegateTest' passed at 2018-08-15 23:10:56.716.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.014 (0.015) seconds
+Test Suite 'DetailPopularNewsViewControllerTest' started at 2018-08-15 23:10:56.716
+Test Case '-[NYTimesTests.DetailPopularNewsViewControllerTest testTextViewShouldBeginEditing]' started.
+Test Case '-[NYTimesTests.DetailPopularNewsViewControllerTest testTextViewShouldBeginEditing]' passed (0.011 seconds).
+Test Suite 'DetailPopularNewsViewControllerTest' passed at 2018-08-15 23:10:56.730.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.011 (0.014) seconds
+Test Suite 'PopularNewsApiServiceTest' started at 2018-08-15 23:10:56.731
+Test Case '-[NYTimesTests.PopularNewsApiServiceTest testMostViewed]' started.
+/Users/RaghuSandeep/Documents/NYTimes/NYTimesTests/PopularNewsApiServiceTest.swift:33: error: -[NYTimesTests.PopularNewsApiServiceTest testMostViewed] : Asynchronous wait failed: Exceeded timeout of 10 seconds, with unfulfilled expectations: "testMostViewed".
+Test Case '-[NYTimesTests.PopularNewsApiServiceTest testMostViewed]' failed (10.094 seconds).
+Test Suite 'PopularNewsApiServiceTest' failed at 2018-08-15 23:11:06.825.
+	 Executed 1 test, with 1 failure (0 unexpected) in 10.094 (10.095) seconds
+Test Suite 'PopularNewsModelTest' started at 2018-08-15 23:11:06.826
+Test Case '-[NYTimesTests.PopularNewsModelTest testMostViewed]' started.
+Test Case '-[NYTimesTests.PopularNewsModelTest testMostViewed]' passed (0.001 seconds).
+Test Suite 'PopularNewsModelTest' passed at 2018-08-15 23:11:06.828.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.001 (0.001) seconds
+Test Suite 'PopularNewsPresenterTest' started at 2018-08-15 23:11:06.828
+Test Case '-[NYTimesTests.PopularNewsPresenterTest testMostViewed]' started.
+Test Case '-[NYTimesTests.PopularNewsPresenterTest testMostViewed]' passed (0.001 seconds).
+Test Case '-[NYTimesTests.PopularNewsPresenterTest testSelectedArtical]' started.
+Test Case '-[NYTimesTests.PopularNewsPresenterTest testSelectedArtical]' passed (0.003 seconds).
+Test Suite 'PopularNewsPresenterTest' passed at 2018-08-15 23:11:06.833.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.004 (0.005) seconds
+Test Suite 'PopularNewsViewControllerTest' started at 2018-08-15 23:11:06.834
+Test Case '-[NYTimesTests.PopularNewsViewControllerTest testCellForAtIndexPath]' started.
+Test Case '-[NYTimesTests.PopularNewsViewControllerTest testCellForAtIndexPath]' passed (0.008 seconds).
+Test Case '-[NYTimesTests.PopularNewsViewControllerTest testHeightForRowAt]' started.
+Test Case '-[NYTimesTests.PopularNewsViewControllerTest testHeightForRowAt]' passed (0.002 seconds).
+Test Case '-[NYTimesTests.PopularNewsViewControllerTest testNumberOfRowsInSection]' started.
+Test Case '-[NYTimesTests.PopularNewsViewControllerTest testNumberOfRowsInSection]' passed (0.001 seconds).
+Test Case '-[NYTimesTests.PopularNewsViewControllerTest testupdate]' started.
+Test Case '-[NYTimesTests.PopularNewsViewControllerTest testupdate]' passed (0.001 seconds).
+Test Case '-[NYTimesTests.PopularNewsViewControllerTest testViewDidLoad]' started.
+Test Case '-[NYTimesTests.PopularNewsViewControllerTest testViewDidLoad]' passed (0.002 seconds).
+Test Suite 'PopularNewsViewControllerTest' passed at 2018-08-15 23:11:07.001.
+	 Executed 5 tests, with 0 failures (0 unexpected) in 0.014 (0.167) seconds
+Test Suite 'NYTimesTests.xctest' failed at 2018-08-15 23:11:07.001.
+	 Executed 11 tests, with 1 failure (0 unexpected) in 10.137 (10.302) seconds
+Test Suite 'All tests' failed at 2018-08-15 23:11:07.002.
+	 Executed 11 tests, with 1 failure (0 unexpected) in 10.137 (10.304) seconds

@@ -1,0 +1,11 @@
+Test Suite 'Selected tests' started at 2018-08-14 01:45:24.082
+Test Suite 'NYTimesTests.xctest' started at 2018-08-14 01:45:24.084
+Test Suite 'PopularNewsModelTest' started at 2018-08-14 01:45:24.085
+Test Case '-[NYTimesTests.PopularNewsModelTest testMostViewed]' started.
+Test Case '-[NYTimesTests.PopularNewsModelTest testMostViewed]' passed (1.386 seconds).
+Test Suite 'PopularNewsModelTest' passed at 2018-08-14 01:45:25.472.
+	 Executed 1 test, with 0 failures (0 unexpected) in 1.386 (1.387) seconds
+Test Suite 'NYTimesTests.xctest' passed at 2018-08-14 01:45:25.473.
+	 Executed 1 test, with 0 failures (0 unexpected) in 1.386 (1.389) seconds
+Test Suite 'Selected tests' passed at 2018-08-14 01:45:25.473.
+	 Executed 1 test, with 0 failures (0 unexpected) in 1.386 (1.392) seconds

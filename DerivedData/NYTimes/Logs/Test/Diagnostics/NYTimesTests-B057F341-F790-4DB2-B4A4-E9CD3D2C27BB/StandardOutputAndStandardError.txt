@@ -1,0 +1,4 @@
+Test Suite 'Selected tests' started at 2018-08-13 23:32:01.087
+Test Suite 'NYTimesTests.xctest' started at 2018-08-13 23:32:01.088
+Test Suite 'PopularNewsViewControllerTest' started at 2018-08-13 23:32:01.088
+Test Case '-[NYTimesTests.PopularNewsViewControllerTest testupdate]' started.

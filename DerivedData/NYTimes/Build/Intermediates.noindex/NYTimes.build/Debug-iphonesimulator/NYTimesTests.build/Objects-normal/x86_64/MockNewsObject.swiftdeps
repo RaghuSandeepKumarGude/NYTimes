@@ -1,0 +1,286 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MockNewsObject"
+- "MockMedia"
+provides-nominal:
+- "12NYTimesTests14MockNewsObjectC"
+- "12NYTimesTests9MockMediaC"
+provides-member:
+- ["12NYTimesTests14MockNewsObjectC", ""]
+- ["12NYTimesTests9MockMediaC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "Array"
+- "AssignmentPrecedence"
+- "Decoder"
+- "Media"
+- "MockMedia"
+- "MockNewsObject"
+- "News"
+- !private "StringLiteralType"
+depends-member:
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s7CVarArgP", "MockMedia"]
+- !private ["s7CVarArgP", "PublishedDate"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "byline"]
+- !private ["s7CVarArgP", "identifier"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "media"]
+- !private ["s7CVarArgP", "title"]
+- !private ["s7CVarArgP", "url"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "MockMedia"]
+- !private ["s28CustomDebugStringConvertibleP", "PublishedDate"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "byline"]
+- !private ["s28CustomDebugStringConvertibleP", "identifier"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "media"]
+- !private ["s28CustomDebugStringConvertibleP", "title"]
+- !private ["s28CustomDebugStringConvertibleP", "url"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "MockMedia"]
+- !private ["s23CustomStringConvertibleP", "PublishedDate"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "byline"]
+- !private ["s23CustomStringConvertibleP", "identifier"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "media"]
+- !private ["s23CustomStringConvertibleP", "title"]
+- !private ["s23CustomStringConvertibleP", "url"]
+- !private ["s9DecodableP", "MockMedia"]
+- !private ["s9DecodableP", "PublishedDate"]
+- ["s9DecodableP", ""]
+- !private ["s9DecodableP", "approvedForSyndication"]
+- !private ["s9DecodableP", "byline"]
+- !private ["s9DecodableP", "caption"]
+- !private ["s9DecodableP", "copyRight"]
+- !private ["s9DecodableP", "identifier"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "media"]
+- !private ["s9DecodableP", "subType"]
+- !private ["s9DecodableP", "title"]
+- !private ["s9DecodableP", "type"]
+- !private ["s9DecodableP", "url"]
+- !private ["s9EncodableP", "MockMedia"]
+- !private ["s9EncodableP", "PublishedDate"]
+- ["s9EncodableP", ""]
+- !private ["s9EncodableP", "approvedForSyndication"]
+- !private ["s9EncodableP", "byline"]
+- !private ["s9EncodableP", "caption"]
+- !private ["s9EncodableP", "copyRight"]
+- !private ["s9EncodableP", "identifier"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "media"]
+- !private ["s9EncodableP", "subType"]
+- !private ["s9EncodableP", "title"]
+- !private ["s9EncodableP", "type"]
+- !private ["s9EncodableP", "url"]
+- !private ["s9EquatableP", "MockMedia"]
+- !private ["s9EquatableP", "PublishedDate"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "byline"]
+- !private ["s9EquatableP", "identifier"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "media"]
+- !private ["s9EquatableP", "title"]
+- !private ["s9EquatableP", "url"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "MockMedia"]
+- !private ["s8HashableP", "PublishedDate"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "byline"]
+- !private ["s8HashableP", "identifier"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "media"]
+- !private ["s8HashableP", "title"]
+- !private ["s8HashableP", "url"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- ["7NYTimes5MediaC", "Decoder"]
+- ["7NYTimes5MediaC", ""]
+- !private ["7NYTimes5MediaC", "approvedForSyndication"]
+- !private ["7NYTimes5MediaC", "caption"]
+- !private ["7NYTimes5MediaC", "copyRight"]
+- ["7NYTimes5MediaC", "init"]
+- !private ["7NYTimes5MediaC", "subType"]
+- !private ["7NYTimes5MediaC", "type"]
+- !private ["s10MirrorPathP", "init"]
+- ["12NYTimesTests9MockMediaC", "Decoder"]
+- !private ["12NYTimesTests9MockMediaC", "approvedForSyndication"]
+- !private ["12NYTimesTests9MockMediaC", "caption"]
+- !private ["12NYTimesTests9MockMediaC", "copyRight"]
+- ["12NYTimesTests9MockMediaC", "deinit"]
+- ["12NYTimesTests9MockMediaC", "init"]
+- !private ["12NYTimesTests9MockMediaC", "subType"]
+- !private ["12NYTimesTests9MockMediaC", "type"]
+- ["12NYTimesTests14MockNewsObjectC", "Decoder"]
+- !private ["12NYTimesTests14MockNewsObjectC", "MockMedia"]
+- !private ["12NYTimesTests14MockNewsObjectC", "PublishedDate"]
+- !private ["12NYTimesTests14MockNewsObjectC", "byline"]
+- ["12NYTimesTests14MockNewsObjectC", "deinit"]
+- !private ["12NYTimesTests14MockNewsObjectC", "identifier"]
+- ["12NYTimesTests14MockNewsObjectC", "init"]
+- !private ["12NYTimesTests14MockNewsObjectC", "media"]
+- !private ["12NYTimesTests14MockNewsObjectC", "title"]
+- !private ["12NYTimesTests14MockNewsObjectC", "url"]
+- ["So8NSObjectC", "Decoder"]
+- !private ["So8NSObjectC", "MockMedia"]
+- !private ["So8NSObjectC", "PublishedDate"]
+- !private ["So8NSObjectC", "byline"]
+- !private ["So8NSObjectC", "identifier"]
+- !private ["So8NSObjectC", "media"]
+- !private ["So8NSObjectC", "title"]
+- !private ["So8NSObjectC", "url"]
+- !private ["So16NSObjectProtocolP", "MockMedia"]
+- !private ["So16NSObjectProtocolP", "PublishedDate"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "byline"]
+- !private ["So16NSObjectProtocolP", "identifier"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "media"]
+- !private ["So16NSObjectProtocolP", "title"]
+- !private ["So16NSObjectProtocolP", "url"]
+- ["7NYTimes4NewsC", "Decoder"]
+- !private ["7NYTimes4NewsC", "MockMedia"]
+- !private ["7NYTimes4NewsC", "PublishedDate"]
+- ["7NYTimes4NewsC", ""]
+- !private ["7NYTimes4NewsC", "byline"]
+- !private ["7NYTimes4NewsC", "identifier"]
+- ["7NYTimes4NewsC", "init"]
+- !private ["7NYTimes4NewsC", "media"]
+- !private ["7NYTimes4NewsC", "title"]
+- !private ["7NYTimes4NewsC", "url"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s8SequenceP", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MockMedia"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PublishedDate"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "byline"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "identifier"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "media"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "title"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "url"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- "7NYTimes5MediaC"
+- !private "s10MirrorPathP"
+- "12NYTimesTests9MockMediaC"
+- "12NYTimesTests14MockNewsObjectC"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "7NYTimes4NewsC"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/RaghuSandeep/Documents/NYTimes/DerivedData/NYTimes/Build/Products/Debug-iphonesimulator/NYTimes.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/XCTest.swiftmodule"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SVProgressHUD.framework/Headers/SVProgressHUD.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/UIImage+GIF.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/UIImage+WebP.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/UIImage+ForceDecode.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImage.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/FLAnimatedImage.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/UIButton+WebCache.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/UIView+WebCache.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/UIImageView+WebCache.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/FLAnimatedImageView+WebCache.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/MKAnnotationView+WebCache.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/UIImageView+HighlightedWebCache.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDImageCache.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageFrame.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/NSData+ImageContentType.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDImageCacheConfig.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageOperation.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/UIView+WebCacheOperation.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageDownloaderOperation.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageTransition.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/NYTimes/NYTimes-Bridging-Header.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageDownloader.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageGIFCoder.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageImageIOCoder.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageWebPCoder.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageCoder.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageManager.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageCodersManager.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImagePrefetcher.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageCoderHelper.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/UIImage+MultiFormat.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageCompat.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/FLAnimatedImageView.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SVProgressHUD.framework/Modules/module.modulemap"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "a2d3697ba697632f36d7c4cf027a2310"

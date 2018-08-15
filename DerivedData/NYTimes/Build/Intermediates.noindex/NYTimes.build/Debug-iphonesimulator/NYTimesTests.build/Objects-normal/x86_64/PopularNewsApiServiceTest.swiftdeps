@@ -1,0 +1,333 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PopularNewsApiServiceTest"
+provides-nominal:
+- "12NYTimesTests25PopularNewsApiServiceTestC"
+provides-member:
+- ["12NYTimesTests25PopularNewsApiServiceTestC", ""]
+provides-dynamic-lookup:
+- "mockSession"
+- "setUp"
+- "tearDown"
+- "testMostViewed"
+depends-top-level:
+- !private "Array"
+- "AssignmentPrecedence"
+- "MockSessionHelper"
+- "PopularNewsApiService"
+- "PopularNewsApiServiceTest"
+- !private "StringLiteralType"
+- !private "XCTAssertTrue"
+- "XCTestCase"
+depends-member:
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s7CVarArgP", "MockSessionHelper"]
+- !private ["s7CVarArgP", "PopularNewsApiService"]
+- !private ["s7CVarArgP", "XCTAssertTrue"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "dataTaskWithUrlCalled"]
+- !private ["s7CVarArgP", "expectation"]
+- !private ["s7CVarArgP", "fulfill"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "mockSession"]
+- !private ["s7CVarArgP", "setUp"]
+- !private ["s7CVarArgP", "sut"]
+- !private ["s7CVarArgP", "tearDown"]
+- !private ["s7CVarArgP", "wait"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "MockSessionHelper"]
+- !private ["s28CustomDebugStringConvertibleP", "PopularNewsApiService"]
+- !private ["s28CustomDebugStringConvertibleP", "XCTAssertTrue"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "dataTaskWithUrlCalled"]
+- !private ["s28CustomDebugStringConvertibleP", "expectation"]
+- !private ["s28CustomDebugStringConvertibleP", "fulfill"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "mockSession"]
+- !private ["s28CustomDebugStringConvertibleP", "setUp"]
+- !private ["s28CustomDebugStringConvertibleP", "sut"]
+- !private ["s28CustomDebugStringConvertibleP", "tearDown"]
+- !private ["s28CustomDebugStringConvertibleP", "wait"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "MockSessionHelper"]
+- !private ["s23CustomStringConvertibleP", "PopularNewsApiService"]
+- !private ["s23CustomStringConvertibleP", "XCTAssertTrue"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "dataTaskWithUrlCalled"]
+- !private ["s23CustomStringConvertibleP", "expectation"]
+- !private ["s23CustomStringConvertibleP", "fulfill"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "mockSession"]
+- !private ["s23CustomStringConvertibleP", "setUp"]
+- !private ["s23CustomStringConvertibleP", "sut"]
+- !private ["s23CustomStringConvertibleP", "tearDown"]
+- !private ["s23CustomStringConvertibleP", "wait"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "MockSessionHelper"]
+- !private ["s9EquatableP", "PopularNewsApiService"]
+- !private ["s9EquatableP", "XCTAssertTrue"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "dataTaskWithUrlCalled"]
+- !private ["s9EquatableP", "expectation"]
+- !private ["s9EquatableP", "fulfill"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "mockSession"]
+- !private ["s9EquatableP", "setUp"]
+- !private ["s9EquatableP", "sut"]
+- !private ["s9EquatableP", "tearDown"]
+- !private ["s9EquatableP", "wait"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "MockSessionHelper"]
+- !private ["s8HashableP", "PopularNewsApiService"]
+- !private ["s8HashableP", "XCTAssertTrue"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "dataTaskWithUrlCalled"]
+- !private ["s8HashableP", "expectation"]
+- !private ["s8HashableP", "fulfill"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "mockSession"]
+- !private ["s8HashableP", "setUp"]
+- !private ["s8HashableP", "sut"]
+- !private ["s8HashableP", "tearDown"]
+- !private ["s8HashableP", "wait"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["12NYTimesTests17MockSessionHelperV0c4DataD0C", "dataTaskWithUrlCalled"]
+- !private ["12NYTimesTests17MockSessionHelperV0c4DataD0C", "init"]
+- ["12NYTimesTests17MockSessionHelperV", "MockDataSession"]
+- ["So8NSObjectC", "MockSessionHelper"]
+- ["So8NSObjectC", "PopularNewsApiService"]
+- !private ["So8NSObjectC", "XCTAssertTrue"]
+- !private ["So8NSObjectC", "dataTaskWithUrlCalled"]
+- !private ["So8NSObjectC", "expectation"]
+- !private ["So8NSObjectC", "fulfill"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "mockSession"]
+- ["So8NSObjectC", "setUp"]
+- ["So8NSObjectC", "sut"]
+- ["So8NSObjectC", "tearDown"]
+- ["So8NSObjectC", "testMostViewed"]
+- !private ["So8NSObjectC", "wait"]
+- !private ["So16NSObjectProtocolP", "MockSessionHelper"]
+- !private ["So16NSObjectProtocolP", "PopularNewsApiService"]
+- !private ["So16NSObjectProtocolP", "XCTAssertTrue"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "dataTaskWithUrlCalled"]
+- !private ["So16NSObjectProtocolP", "expectation"]
+- !private ["So16NSObjectProtocolP", "fulfill"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "mockSession"]
+- !private ["So16NSObjectProtocolP", "setUp"]
+- !private ["So16NSObjectProtocolP", "sut"]
+- !private ["So16NSObjectProtocolP", "tearDown"]
+- !private ["So16NSObjectProtocolP", "wait"]
+- !private ["7NYTimes22PopularNewsApiProtocolP", "init"]
+- !private ["7NYTimes22PopularNewsApiProtocolP", "mostViewed"]
+- !private ["7NYTimes21PopularNewsApiServiceC", "init"]
+- !private ["7NYTimes21PopularNewsApiServiceC", "mostViewed"]
+- ["12NYTimesTests25PopularNewsApiServiceTestC", "MockSessionHelper"]
+- ["12NYTimesTests25PopularNewsApiServiceTestC", "PopularNewsApiService"]
+- !private ["12NYTimesTests25PopularNewsApiServiceTestC", "XCTAssertTrue"]
+- ["12NYTimesTests25PopularNewsApiServiceTestC", "deinit"]
+- !private ["12NYTimesTests25PopularNewsApiServiceTestC", "expectation"]
+- ["12NYTimesTests25PopularNewsApiServiceTestC", "init"]
+- ["12NYTimesTests25PopularNewsApiServiceTestC", "mockSession"]
+- ["12NYTimesTests25PopularNewsApiServiceTestC", "setUp"]
+- ["12NYTimesTests25PopularNewsApiServiceTestC", "sut"]
+- ["12NYTimesTests25PopularNewsApiServiceTestC", "tearDown"]
+- ["12NYTimesTests25PopularNewsApiServiceTestC", "testMostViewed"]
+- !private ["12NYTimesTests25PopularNewsApiServiceTestC", "wait"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s8SequenceP", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So10URLSessionC", "dataTaskWithUrlCalled"]
+- !private ["So11XCTActivityP", "MockSessionHelper"]
+- !private ["So11XCTActivityP", "PopularNewsApiService"]
+- !private ["So11XCTActivityP", "XCTAssertTrue"]
+- ["So11XCTActivityP", ""]
+- !private ["So11XCTActivityP", "expectation"]
+- !private ["So11XCTActivityP", "init"]
+- !private ["So11XCTActivityP", "mockSession"]
+- !private ["So11XCTActivityP", "setUp"]
+- !private ["So11XCTActivityP", "sut"]
+- !private ["So11XCTActivityP", "tearDown"]
+- !private ["So11XCTActivityP", "wait"]
+- !private ["So17XCTWaiterDelegateP", "MockSessionHelper"]
+- !private ["So17XCTWaiterDelegateP", "PopularNewsApiService"]
+- !private ["So17XCTWaiterDelegateP", "XCTAssertTrue"]
+- ["So17XCTWaiterDelegateP", ""]
+- !private ["So17XCTWaiterDelegateP", "expectation"]
+- !private ["So17XCTWaiterDelegateP", "init"]
+- !private ["So17XCTWaiterDelegateP", "mockSession"]
+- !private ["So17XCTWaiterDelegateP", "setUp"]
+- !private ["So17XCTWaiterDelegateP", "sut"]
+- !private ["So17XCTWaiterDelegateP", "tearDown"]
+- !private ["So17XCTWaiterDelegateP", "wait"]
+- ["So6XCTestC", "MockSessionHelper"]
+- ["So6XCTestC", "PopularNewsApiService"]
+- !private ["So6XCTestC", "XCTAssertTrue"]
+- !private ["So6XCTestC", "expectation"]
+- ["So6XCTestC", "init"]
+- ["So6XCTestC", "mockSession"]
+- ["So6XCTestC", "setUp"]
+- ["So6XCTestC", "sut"]
+- ["So6XCTestC", "tearDown"]
+- ["So6XCTestC", "testMostViewed"]
+- !private ["So6XCTestC", "wait"]
+- ["So10XCTestCaseC", "MockSessionHelper"]
+- ["So10XCTestCaseC", "PopularNewsApiService"]
+- !private ["So10XCTestCaseC", "XCTAssertTrue"]
+- ["So10XCTestCaseC", ""]
+- !private ["So10XCTestCaseC", "expectation"]
+- ["So10XCTestCaseC", "init"]
+- ["So10XCTestCaseC", "mockSession"]
+- ["So10XCTestCaseC", "setUp"]
+- ["So10XCTestCaseC", "sut"]
+- ["So10XCTestCaseC", "tearDown"]
+- ["So10XCTestCaseC", "testMostViewed"]
+- !private ["So10XCTestCaseC", "wait"]
+- !private ["So17XCTestExpectationC", "fulfill"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MockSessionHelper"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PopularNewsApiService"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XCTAssertTrue"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataTaskWithUrlCalled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "expectation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fulfill"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "mockSession"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setUp"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sut"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tearDown"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "wait"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "12NYTimesTests17MockSessionHelperV0c4DataD0C"
+- "12NYTimesTests17MockSessionHelperV"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "7NYTimes22PopularNewsApiProtocolP"
+- !private "7NYTimes21PopularNewsApiServiceC"
+- "12NYTimesTests25PopularNewsApiServiceTestC"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So10URLSessionC"
+- "So11XCTActivityP"
+- "So17XCTWaiterDelegateP"
+- "So6XCTestC"
+- "So10XCTestCaseC"
+- !private "So17XCTestExpectationC"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/RaghuSandeep/Documents/NYTimes/DerivedData/NYTimes/Build/Products/Debug-iphonesimulator/NYTimes.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/XCTest.swiftmodule"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SVProgressHUD.framework/Headers/SVProgressHUD.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/UIImage+GIF.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/UIImage+WebP.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/UIImage+ForceDecode.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImage.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/FLAnimatedImage.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/UIButton+WebCache.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/UIView+WebCache.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/UIImageView+WebCache.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/FLAnimatedImageView+WebCache.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/MKAnnotationView+WebCache.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/UIImageView+HighlightedWebCache.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDImageCache.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageFrame.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/NSData+ImageContentType.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDImageCacheConfig.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageOperation.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/UIView+WebCacheOperation.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageDownloaderOperation.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageTransition.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/NYTimes/NYTimes-Bridging-Header.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageDownloader.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageGIFCoder.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageImageIOCoder.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageWebPCoder.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageCoder.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageManager.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageCodersManager.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImagePrefetcher.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageCoderHelper.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/UIImage+MultiFormat.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageCompat.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/FLAnimatedImageView.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SVProgressHUD.framework/Modules/module.modulemap"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "90c5363340b8a4f32514ba8d744a5cd0"

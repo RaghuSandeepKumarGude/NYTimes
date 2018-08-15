@@ -1,0 +1,82 @@
+18:36:38.903 Xcode[50404:13834230] Beginning test session NYTimesTests-CB844891-BAED-4B5C-8672-2A2B1AE70F3C at 2018-08-13 18:36:38.903 with Xcode 9E501 on target <DVTiPhoneSimulator: 0x7f96b7261420> {
+		SimDevice: iPhone X (F62C37DB-AAF4-4E32-9880-D2048C689C5B, iOS 11.3, Booted)
+} (11.3 (15E217))
+18:36:38.903 Xcode[50404:13834230] Launching with Xcode.DebuggerFoundation.Launcher.LLDB
+18:36:38.904 Xcode[50404:13834230] Test standard output and standard error is at /var/folders/qt/s3mb8zcj7j7d7nfzd3fnvk4m0000gr/T/com.apple.dt.XCTest/IDETestRunSession-CA83EEF7-1AA2-4FE8-BD8C-C6094434AEBE/NYTimesTests-6EB5DFCC-6D9B-4E10-B7FA-17A05B63B40C/StandardOutputAndStandardError.txt
+18:36:38.904 Xcode[50404:13834230] Simulator F62C37DB-AAF4-4E32-9880-D2048C689C5B was claimed by TestSessionClaim_IDETestRunSession-CA83EEF7-1AA2-4FE8-BD8C-C6094434AEBE
+18:36:41.093 Xcode[50404:13834230] Launch session started.
+18:36:41.101 Xcode[50404:13834230] Setting up test runner session
+18:36:41.101 Xcode[50404:15200578] Sim iPhone X: Unregistering for sim device notification with token 54
+18:36:41.101 Xcode[50404:15200578] Calling -[SimDevice getenv:error:] for TESTMANAGERD_SIM_SOCK
+18:36:41.102 Xcode[50404:15200545] Checking to see if pid 42603 is valid: kill(pid, 0) = 0 (YES, it's still running)
+18:36:41.103 Xcode[50404:15200578] Sim iPhone X has testmanagerd socket at /private/tmp/com.apple.launchd.2QNSBHkact/com.apple.testmanagerd.unix-domain.socket
+18:36:41.103 Xcode[50404:15200578] Validating test connection socket path (/private/tmp/com.apple.launchd.2QNSBHkact/com.apple.testmanagerd.unix-domain.socket)
+18:36:41.103 Xcode[50404:15200578] Constructing transport for test connection socket
+18:36:41.103 Xcode[50404:15200578] Connected socket 166 to testmanagerd for Sim iPhone X
+18:36:41.103 Xcode[50404:15200594] Received connection for test runner session
+18:36:41.103 Xcode[50404:15200594] Listening for proxy connection request from the test bundle
+18:36:41.104 Xcode[50404:15200594] Initiating session with identifier: CB844891-BAED-4B5C-8672-2A2B1AE70F3C
+18:36:41.117 Xcode[50404:13834230] Test runner session acquired connection.
+18:36:41.117 Xcode[50404:13834230] Waiting for test process to launch.
+18:36:41.506 Xcode[50404:15166746] Got reply to session initiation request with identifier CB844891-BAED-4B5C-8672-2A2B1AE70F3C (result:error): 25: (null)
+18:36:41.635 Xcode[50404:13834230] Received Ready from iOSSimulator
+18:36:41.635 Xcode[50404:13834230] Sending notification: NSConcreteNotification 0x7f96afea70f0 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "F62C37DB-AAF4-4E32-9880-D2048C689C5B";
+}}
+18:36:41.636 Xcode[50404:15200545] Simulator F62C37DB-AAF4-4E32-9880-D2048C689C5B was claimed by LaunchSessionClaim_0x7f96b9b5da50
+18:36:41.641 Xcode[50404:15200601] Checking to see if pid 42603 is valid: kill(pid, 0) = 0 (YES, it's still running)
+18:36:41.641 Xcode[50404:13834230] Adding console adaptor <IDEConsoleAdaptor: 0x7f9670c72510 'target' stdin: <IDEMasterPtyFileHandle: 0x7f968f0afc00 MasterFH: <NSConcreteFileHandle: 0x7f968f4c15d0> 163 SlaveFH: <NSConcreteFileHandle: 0x7f9670c41f70> 168> 163 stdout: <IDEMasterPtyFileHandle: 0x7f968f0afc00 MasterFH: <NSConcreteFileHandle: 0x7f968f4c15d0> 163 SlaveFH: <NSConcreteFileHandle: 0x7f9670c41f70> 168> 163 stderr: (null) 0> for test session CB844891-BAED-4B5C-8672-2A2B1AE70F3C.
+18:36:41.852 Xcode[50404:13834230] Received Ready from iOSSimulator
+18:36:41.852 Xcode[50404:13834230] Sending notification: NSConcreteNotification 0x7f9670c4c960 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "F62C37DB-AAF4-4E32-9880-D2048C689C5B";
+}}
+18:36:41.852 Xcode[50404:15200601] Simulator F62C37DB-AAF4-4E32-9880-D2048C689C5B was claimed by LaunchSessionClaim_0x7f96b9b5da50
+18:36:41.853 Xcode[50404:15200601] F62C37DB-AAF4-4E32-9880-D2048C689C5B: Registered for sim device notification, got token 55
+18:36:41.853 Xcode[50404:15166746] F62C37DB-AAF4-4E32-9880-D2048C689C5B: Unregistering for sim device notification with token 55
+18:36:41.854 Xcode[50404:15166746] F62C37DB-AAF4-4E32-9880-D2048C689C5B: Installing app at path: /Users/RaghuSandeep/Documents/NYTimes/DerivedData/NYTimes/Build/Products/Debug-iphonesimulator/NYTimes.app and options: (null)
+18:36:42.399 Xcode[50404:15166746] F62C37DB-AAF4-4E32-9880-D2048C689C5B: Installed app at path: /Users/RaghuSandeep/Documents/NYTimes/DerivedData/NYTimes/Build/Products/Debug-iphonesimulator/NYTimes.app and options: (null)
+18:36:42.400 Xcode[50404:15166746] F62C37DB-AAF4-4E32-9880-D2048C689C5B: Launching app with identifier: com.NYTimes and options: {
+    "activate_suspended" = 0;
+    arguments =     (
+        "-NSTreatUnknownArgumentsAsOpen",
+        NO,
+        "-ApplePersistenceIgnoreState",
+        YES
+    );
+    environment =     {
+        "DYLD_FRAMEWORK_PATH" = "/Users/RaghuSandeep/Documents/NYTimes/DerivedData/NYTimes/Build/Products/Debug-iphonesimulator:/Users/RaghuSandeep/Documents/NYTimes/DerivedData/NYTimes/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/Developer/Library/PrivateFrameworks:/Users/RaghuSandeep/Documents/NYTimes/DerivedData/NYTimes/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/Developer/Library/PrivateFrameworks";
+        "DYLD_INSERT_LIBRARIES" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/Developer/Library/PrivateFrameworks/DTDDISupport.framework/libViewDebuggerSupport.dylib:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/IDEBundleInjection.framework/IDEBundleInjection:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/libMainThreadChecker.dylib:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/IDEBundleInjection.framework/IDEBundleInjection:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/libMainThreadChecker.dylib";
+        "DYLD_LIBRARY_PATH" = "/Users/RaghuSandeep/Documents/NYTimes/DerivedData/NYTimes/Build/Products/Debug-iphonesimulator:/Users/RaghuSandeep/Documents/NYTimes/DerivedData/NYTimes/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/Developer/Library/PrivateFrameworks:/Users/RaghuSandeep/Documents/NYTimes/DerivedData/NYTimes/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/Developer/Library/PrivateFrameworks";
+        "LLVM_PROFILE_FILE" = "/var/folders/qt/s3mb8zcj7j7d7nfzd3fnvk4m0000gr/T/com.NYTimes/CA0EC74E-FC13-4A4B-B068-FC2AC1FA92B6-50404-00006E63C2DA3BD6/1EC27DD4-C32E-4DA9-87DB-8ED79CB40BC8-%p.profraw%15x";
+        "MTC_CRASH_ON_REPORT" = 1;
+        NSApplicationQuitWithoutSuddenTermination = YES;
+        NSUnbufferedIO = YES;
+        "OS_ACTIVITY_DT_MODE" = YES;
+        "SQLITE_ENABLE_THREAD_ASSERTIONS" = 1;
+        XCInjectBundleInto = "/Users/RaghuSandeep/Documents/NYTimes/DerivedData/NYTimes/Build/Products/Debug-iphonesimulator/NYTimes.app/NYTimes";
+        "XCODE_DBG_XPC_EXCLUSIONS" = "com.apple.dt.xctestSymbolicator";
+        XCTestConfigurationFilePath = "/var/folders/qt/s3mb8zcj7j7d7nfzd3fnvk4m0000gr/T/com.apple.dt.XCTest/IDETestRunSession-CA83EEF7-1AA2-4FE8-BD8C-C6094434AEBE/NYTimesTests-6EB5DFCC-6D9B-4E10-B7FA-17A05B63B40C/LaunchSessions/CB844891-BAED-4B5C-8672-2A2B1AE70F3C/remote-container/tmp/NYTimesTests-CB844891-BAED-4B5C-8672-2A2B1AE70F3C.xctestconfiguration";
+        "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Users/RaghuSandeep/Documents/NYTimes/DerivedData/NYTimes/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_FRAMEWORK_PATH" = "/Users/RaghuSandeep/Documents/NYTimes/DerivedData/NYTimes/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_LIBRARY_PATH" = "/Users/RaghuSandeep/Documents/NYTimes/DerivedData/NYTimes/Build/Products/Debug-iphonesimulator";
+        "__XPC_LLVM_PROFILE_FILE" = "/var/folders/qt/s3mb8zcj7j7d7nfzd3fnvk4m0000gr/T/com.NYTimes/CA0EC74E-FC13-4A4B-B068-FC2AC1FA92B6-50404-00006E63C2DA3BD6/1EC27DD4-C32E-4DA9-87DB-8ED79CB40BC8-%p.profraw%15x";
+    };
+    stderr = "/dev/ttys009";
+    stdout = "/dev/ttys009";
+    "wait_for_debugger" = 1;
+}
+18:36:44.533 Xcode[50404:15200601] F62C37DB-AAF4-4E32-9880-D2048C689C5B: Launched app with identifier: com.NYTimes (pid = 44442)
+18:36:44.533 Xcode[50404:15200601] Tracking pid 44442 for simulator <DVTiPhoneSimulator: 0x7f96b7261420> {
+		SimDevice: iPhone X (F62C37DB-AAF4-4E32-9880-D2048C689C5B, iOS 11.3, Booted)
+}
+18:36:44.533 Xcode[50404:15200601] Checking to see if pid 42603 is valid: kill(pid, 0) = 0 (YES, it's still running)
+18:36:44.534 Xcode[50404:15200601] Checking to see if pid 44442 is valid: kill(pid, 0) = 0 (YES, it's still running)
+18:36:44.534 Xcode[50404:15200601] Setting up DVTTaskNotifyOnProcDeath for pid 44442
+18:36:44.534 Xcode[50404:13834230] Test process runnable PID is 44442.
+18:36:45.820 Xcode[50404:13834230] Waiting for test process to check in..., will wait up to 120s
+18:36:46.784 Xcode[50404:13834230] Clearing timeout timer while paused in the debugger. Timeout conditions may not be detected during this session.
+18:36:49.856 Xcode[50404:13834230] Clearing timeout timer while paused in the debugger. Timeout conditions may not be detected during this session.
+18:36:51.293 Xcode[50404:13834230] Clearing timeout timer while paused in the debugger. Timeout conditions may not be detected during this session.
+18:36:52.487 Xcode[50404:13834230] Clearing timeout timer while paused in the debugger. Timeout conditions may not be detected during this session.
+18:37:33.197 Xcode[50404:13834230] Test operation failure: Test operation was canceled.
+18:37:33.198 Xcode[50404:13834230] _finishWithError:Error Domain=IDETestOperationsObserverErrorDomain Code=14 "Test operation was canceled." UserInfo={NSLocalizedDescription=Test operation was canceled.}

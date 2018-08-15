@@ -1,0 +1,488 @@
+01:59:46.282 Xcode[50404:13834230] Beginning test session NYTimesTests-5553A0BD-925F-494B-B896-C2582D72A512 at 2018-08-14 01:59:46.281 with Xcode 9E501 on target <DVTiPhoneSimulator: 0x7f96b7261420> {
+		SimDevice: iPhone X (F62C37DB-AAF4-4E32-9880-D2048C689C5B, iOS 11.3, Booted)
+} (11.3 (15E217))
+01:59:46.282 Xcode[50404:13834230] Launching with Xcode.DebuggerFoundation.Launcher.LLDB
+01:59:46.282 Xcode[50404:13834230] Test standard output and standard error is at /var/folders/qt/s3mb8zcj7j7d7nfzd3fnvk4m0000gr/T/com.apple.dt.XCTest/IDETestRunSession-BF30C0D6-5057-4094-9BFB-D2CEA2AFB456/NYTimesTests-BEA0E559-EE88-49C8-BB57-3F676591C672/StandardOutputAndStandardError.txt
+01:59:46.283 Xcode[50404:13834230] Simulator F62C37DB-AAF4-4E32-9880-D2048C689C5B was claimed by TestSessionClaim_IDETestRunSession-BF30C0D6-5057-4094-9BFB-D2CEA2AFB456
+01:59:46.840 Xcode[50404:13834230] Launch session started.
+01:59:46.879 Xcode[50404:13834230] Setting up test runner session
+01:59:46.880 Xcode[50404:17096581] Sim iPhone X: Unregistering for sim device notification with token 118
+01:59:46.880 Xcode[50404:17096581] Calling -[SimDevice getenv:error:] for TESTMANAGERD_SIM_SOCK
+01:59:46.880 Xcode[50404:13834230] Received Ready from iOSSimulator
+01:59:46.880 Xcode[50404:13834230] Sending notification: NSConcreteNotification 0x7f96969ab9f0 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "F62C37DB-AAF4-4E32-9880-D2048C689C5B";
+}}
+01:59:46.881 Xcode[50404:17096581] Sim iPhone X has testmanagerd socket at /private/tmp/com.apple.launchd.2QNSBHkact/com.apple.testmanagerd.unix-domain.socket
+01:59:46.881 Xcode[50404:17096581] Validating test connection socket path (/private/tmp/com.apple.launchd.2QNSBHkact/com.apple.testmanagerd.unix-domain.socket)
+01:59:46.881 Xcode[50404:17096585] Simulator F62C37DB-AAF4-4E32-9880-D2048C689C5B was claimed by LaunchSessionClaim_0x7f96ab969c60
+01:59:46.881 Xcode[50404:17096581] Constructing transport for test connection socket
+01:59:46.881 Xcode[50404:17096581] Connected socket 179 to testmanagerd for Sim iPhone X
+01:59:46.881 Xcode[50404:17094567] Received connection for test runner session
+01:59:46.881 Xcode[50404:17094567] Listening for proxy connection request from the test bundle
+01:59:46.881 Xcode[50404:17094567] Initiating session with identifier: 5553A0BD-925F-494B-B896-C2582D72A512
+01:59:46.932 Xcode[50404:13834230] Adding console adaptor <IDEConsoleAdaptor: 0x7f96aba04450 'target' stdin: <IDEMasterPtyFileHandle: 0x7f96a6d5d8a0 MasterFH: <NSConcreteFileHandle: 0x7f96aec87390> 182 SlaveFH: <NSConcreteFileHandle: 0x7f96a0ed5ae0> 183> 182 stdout: <IDEMasterPtyFileHandle: 0x7f96a6d5d8a0 MasterFH: <NSConcreteFileHandle: 0x7f96aec87390> 182 SlaveFH: <NSConcreteFileHandle: 0x7f96a0ed5ae0> 183> 182 stderr: (null) 0> for test session 5553A0BD-925F-494B-B896-C2582D72A512.
+01:59:46.949 Xcode[50404:13834230] Received Ready from iOSSimulator
+01:59:46.949 Xcode[50404:13834230] Sending notification: NSConcreteNotification 0x7f96bdae6570 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "F62C37DB-AAF4-4E32-9880-D2048C689C5B";
+}}
+01:59:46.949 Xcode[50404:17096602] Simulator F62C37DB-AAF4-4E32-9880-D2048C689C5B was claimed by LaunchSessionClaim_0x7f96ab969c60
+01:59:46.949 Xcode[50404:17096602] F62C37DB-AAF4-4E32-9880-D2048C689C5B: Registered for sim device notification, got token 119
+01:59:46.949 Xcode[50404:17096600] F62C37DB-AAF4-4E32-9880-D2048C689C5B: Unregistering for sim device notification with token 119
+01:59:46.950 Xcode[50404:13834230] Test runner session acquired connection.
+01:59:46.950 Xcode[50404:13834230] Waiting for test process to launch.
+01:59:46.950 Xcode[50404:17096600] F62C37DB-AAF4-4E32-9880-D2048C689C5B: Installing app at path: /Users/RaghuSandeep/Documents/NYTimes/DerivedData/NYTimes/Build/Products/Debug-iphonesimulator/NYTimes.app and options: (null)
+01:59:46.981 Xcode[50404:17096599] Got reply to session initiation request with identifier 5553A0BD-925F-494B-B896-C2582D72A512 (result:error): 25: (null)
+01:59:47.561 Xcode[50404:17096600] F62C37DB-AAF4-4E32-9880-D2048C689C5B: Installed app at path: /Users/RaghuSandeep/Documents/NYTimes/DerivedData/NYTimes/Build/Products/Debug-iphonesimulator/NYTimes.app and options: (null)
+01:59:47.562 Xcode[50404:17096600] F62C37DB-AAF4-4E32-9880-D2048C689C5B: Launching app with identifier: com.NYTimes and options: {
+    "activate_suspended" = 0;
+    arguments =     (
+        "-NSTreatUnknownArgumentsAsOpen",
+        NO,
+        "-ApplePersistenceIgnoreState",
+        YES
+    );
+    environment =     {
+        "DYLD_FRAMEWORK_PATH" = "/Users/RaghuSandeep/Documents/NYTimes/DerivedData/NYTimes/Build/Products/Debug-iphonesimulator:/Users/RaghuSandeep/Documents/NYTimes/DerivedData/NYTimes/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/Developer/Library/PrivateFrameworks:/Users/RaghuSandeep/Documents/NYTimes/DerivedData/NYTimes/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/Developer/Library/PrivateFrameworks";
+        "DYLD_INSERT_LIBRARIES" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/Developer/Library/PrivateFrameworks/DTDDISupport.framework/libViewDebuggerSupport.dylib:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/IDEBundleInjection.framework/IDEBundleInjection:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/libMainThreadChecker.dylib:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/IDEBundleInjection.framework/IDEBundleInjection:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/libMainThreadChecker.dylib";
+        "DYLD_LIBRARY_PATH" = "/Users/RaghuSandeep/Documents/NYTimes/DerivedData/NYTimes/Build/Products/Debug-iphonesimulator:/Users/RaghuSandeep/Documents/NYTimes/DerivedData/NYTimes/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/Developer/Library/PrivateFrameworks:/Users/RaghuSandeep/Documents/NYTimes/DerivedData/NYTimes/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/Developer/Library/PrivateFrameworks";
+        "LLVM_PROFILE_FILE" = "/var/folders/qt/s3mb8zcj7j7d7nfzd3fnvk4m0000gr/T/com.NYTimes/DE101B6C-C010-4F14-8018-B7818778B0D9-50404-00007F475FFA2E6E/80D3F4F5-3D9C-4763-BA78-77E961BE8E09-%p.profraw%15x";
+        "MTC_CRASH_ON_REPORT" = 1;
+        NSApplicationQuitWithoutSuddenTermination = YES;
+        NSUnbufferedIO = YES;
+        "OS_ACTIVITY_DT_MODE" = YES;
+        "SQLITE_ENABLE_THREAD_ASSERTIONS" = 1;
+        XCInjectBundleInto = "/Users/RaghuSandeep/Documents/NYTimes/DerivedData/NYTimes/Build/Products/Debug-iphonesimulator/NYTimes.app/NYTimes";
+        "XCODE_DBG_XPC_EXCLUSIONS" = "com.apple.dt.xctestSymbolicator";
+        XCTestConfigurationFilePath = "/var/folders/qt/s3mb8zcj7j7d7nfzd3fnvk4m0000gr/T/com.apple.dt.XCTest/IDETestRunSession-BF30C0D6-5057-4094-9BFB-D2CEA2AFB456/NYTimesTests-BEA0E559-EE88-49C8-BB57-3F676591C672/LaunchSessions/5553A0BD-925F-494B-B896-C2582D72A512/remote-container/tmp/NYTimesTests-5553A0BD-925F-494B-B896-C2582D72A512.xctestconfiguration";
+        "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Users/RaghuSandeep/Documents/NYTimes/DerivedData/NYTimes/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_FRAMEWORK_PATH" = "/Users/RaghuSandeep/Documents/NYTimes/DerivedData/NYTimes/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_LIBRARY_PATH" = "/Users/RaghuSandeep/Documents/NYTimes/DerivedData/NYTimes/Build/Products/Debug-iphonesimulator";
+        "__XPC_LLVM_PROFILE_FILE" = "/var/folders/qt/s3mb8zcj7j7d7nfzd3fnvk4m0000gr/T/com.NYTimes/DE101B6C-C010-4F14-8018-B7818778B0D9-50404-00007F475FFA2E6E/80D3F4F5-3D9C-4763-BA78-77E961BE8E09-%p.profraw%15x";
+    };
+    stderr = "/dev/ttys005";
+    stdout = "/dev/ttys005";
+    "wait_for_debugger" = 1;
+}
+01:59:49.870 Xcode[50404:17095605] F62C37DB-AAF4-4E32-9880-D2048C689C5B: Launched app with identifier: com.NYTimes (pid = 2885)
+01:59:49.870 Xcode[50404:17095605] Tracking pid 2885 for simulator <DVTiPhoneSimulator: 0x7f96b7261420> {
+		SimDevice: iPhone X (F62C37DB-AAF4-4E32-9880-D2048C689C5B, iOS 11.3, Booted)
+}
+01:59:49.870 Xcode[50404:17095605] Checking to see if pid 2885 is valid: kill(pid, 0) = 0 (YES, it's still running)
+01:59:49.870 Xcode[50404:17095605] Setting up DVTTaskNotifyOnProcDeath for pid 2885
+01:59:49.871 Xcode[50404:13834230] Test process runnable PID is 2885.
+01:59:50.567 Xcode[50404:13834230] Waiting for test process to check in..., will wait up to 120s
+01:59:51.579 Xcode[50404:13834230] Clearing timeout timer while paused in the debugger. Timeout conditions may not be detected during this session.
+01:59:54.901 Xcode[50404:17096602] Handling proxy channel request from test runner
+01:59:54.901 Xcode[50404:17096602] Test runner is ready, running protocol 25, requires at least version 8. Control framework is running 25 and requires at least 8
+01:59:54.901 Xcode[50404:13834230] Test runner session successfully initiated.
+01:59:54.901 Xcode[50404:13834230] Creating the daemon control session.
+01:59:54.901 Xcode[50404:13834230] Whitelisting test process ID 2885
+01:59:54.901 Xcode[50404:17096602] Sim iPhone X: Unregistering for sim device notification with token 120
+01:59:54.901 Xcode[50404:13834230] Got authorization request for pid 2885
+01:59:54.901 Xcode[50404:17096602] Calling -[SimDevice getenv:error:] for TESTMANAGERD_SIM_SOCK
+01:59:54.902 Xcode[50404:17096602] Sim iPhone X has testmanagerd socket at /private/tmp/com.apple.launchd.2QNSBHkact/com.apple.testmanagerd.unix-domain.socket
+01:59:54.902 Xcode[50404:17096602] Validating test connection socket path (/private/tmp/com.apple.launchd.2QNSBHkact/com.apple.testmanagerd.unix-domain.socket)
+01:59:54.902 Xcode[50404:17096602] Constructing transport for test connection socket
+01:59:54.902 Xcode[50404:17096602] Connected socket 188 to testmanagerd for Sim iPhone X
+01:59:54.903 Xcode[50404:17096584] Requesting authorization for pid 2885
+01:59:54.905 Xcode[50404:17096584] Got reply to authorization request for pid 2885 (result:error): 25: (null)
+01:59:54.905 Xcode[50404:13834230] Got whitelisting response from test daemon. Success: 1
+01:59:54.905 Xcode[50404:13834230] Registering/updating daemon-based crash report observer for process names (
+    XCTRunner,
+    NYTimes,
+    xctest
+), report directories: (
+    "/Users/RaghuSandeep/Library/Logs/DiagnosticReports",
+    "/Library/Logs/DiagnosticReports"
+).
+01:59:40.581 testmanagerd[95781:17095507] XCIDESession is responsible for cleaning up its socket
+01:59:40.581 testmanagerd[95781:17094739] -[XCTDaemon closeIDESession:]_block_invoke <XCIDESession: 0x7fc48090dbb0> (socket 6) created Tuesday, August 14, 2018 at 1:59:37 AM India Standard Time
+01:59:40.581 testmanagerd[95781:17094739] Tearing down <XCIDESession: 0x7fc48090dbb0> (socket 6) created Tuesday, August 14, 2018 at 1:59:37 AM India Standard Time.
+01:59:40.951 testmanagerd[95781:17094739] Control session closed, will disconnect from matching testing client.
+01:59:40.952 testmanagerd[95781:17094739] Session summary: 0 test sessions, 0 sessions with identifiers, 0 unidentified sessions, does not have control sessions
+01:59:46.881 testmanagerd[95781:17095506] IDE connected over socket 5 (-[XCTestManagerIDEServer listenForControlConnectionsOverNamedSocket]_block_invoke)
+01:59:46.881 testmanagerd[95781:17095506] Created session with socket 5
+01:59:46.882 testmanagerd[95781:17095506] Adding <XCIDESession: 0x7fc480806610> (socket 5) created Tuesday, August 14, 2018 at 1:59:46 AM India Standard Time to the set of unidentified IDE sessions
+01:59:46.883 testmanagerd[95781:17095509] Handled a proxy request from the IDE with session <XCIDESession: 0x7fc480806610> (socket 5) created Tuesday, August 14, 2018 at 1:59:46 AM India Standard Time proxy <_DTXProxy: 0x7fc480909c10>
+01:59:46.884 testmanagerd[95781:16740406] -[XCIDESession _IDE_initiateSessionWithIdentifier:forClient:atPath:protocolVersion:]_block_invoke 5553A0BD-925F-494B-B896-C2582D72A512 1 5 from client C4809F4F-610D-403F-BDBB-1E96493AAAC1-50404-000060C2D1055F8A (/Applications/Xcode.app)
+01:59:46.981 testmanagerd[95781:16740406] -[XCIDESession _IDE_initiateSessionWithIdentifier:forClient:atPath:protocolVersion:]_block_invoke 5553A0BD-925F-494B-B896-C2582D72A512 Replied with protocol version 25
+01:59:46.981 testmanagerd[95781:17095509] -[XCTDaemon setIDESession:forIdentifier:]_block_invoke <XCIDESession: 0x7fc480806610> (socket 5) created Tuesday, August 14, 2018 at 1:59:46 AM India Standard Time for client C4809F4F-610D-403F-BDBB-1E96493AAAC1-50404-000060C2D1055F8A waiting to pair with test session 5553A0BD-925F-494B-B896-C2582D72A512 -> 5553A0BD-925F-494B-B896-C2582D72A512
+01:59:54.843 testmanagerd[95781:17096605] Received new test session connection from process with PID 2885
+01:59:54.844 testmanagerd[95781:17096605] Looking up app info for pid 2885
+01:59:54.845 testmanagerd[95781:17096605] Got app info for pid 2885: {
+    BKSApplicationStateAppIsFrontmost = 1;
+    BKSApplicationStateExtensionKey = 0;
+    SBApplicationStateDisplayIDKey = "com.NYTimes";
+    SBApplicationStateKey = 8;
+    SBApplicationStateProcessIDKey = 2885;
+    SBApplicationStateRunningReasonsKey =     (
+                {
+            SBApplicationStateRunningReasonAssertionIdentifierKey = "Deliver Message";
+            SBApplicationStateRunningReasonAssertionReasonKey = 10001;
+        },
+                {
+            SBApplicationStateRunningReasonAssertionIdentifierKey = Resume;
+            SBApplicationStateRunningReasonAssertionReasonKey = 10000;
+        }
+    );
+    SBMostElevatedStateForProcessID = 8;
+}
+01:59:54.845 testmanagerd[95781:17096605] Got request for process assertion for pid 2885.
+01:59:54.845 testmanagerd[95781:17096605] Created process assertion for pid 2885: <BKSProcessAssertion: 0x7fc480a10180>, waiting for response from assertiond.
+01:59:54.845 testmanagerd[95781:17096605] Starting to monitor com.NYTimes
+01:59:54.847 testmanagerd[95781:17097815] Got reply for process assertion request, success: YES
+01:59:54.847 testmanagerd[95781:17096605] Got application state update: com.NYTimes (2885) -> 8
+01:59:54.848 testmanagerd[95781:17097815] Got reply for process assertion request, success: YES
+01:59:54.848 testmanagerd[95781:17097814] <XCTestSession: 0x7fc47ee0a380> -[XCTestSession applicationWithBundleID:didUpdatePID:andState:] com.NYTimes 2885 8
+01:59:54.896 testmanagerd[95781:17096605] Test session 5553A0BD-925F-494B-B896-C2582D72A512 requested transport for IDE (-[XCTestSession _XCT_requestSerializedTransportWrapperForIDESessionWithIdentifier:reply:])
+01:59:54.896 testmanagerd[95781:17097814] Test session 5553A0BD-925F-494B-B896-C2582D72A512 requested serialized transport (-[XCTDaemon requestSerializedTransportForSessionIdentifier:reply:]_block_invoke)
+01:59:54.897 testmanagerd[95781:17097814] Initiating serialized transport handoff from IDE connection to test host.
+01:59:54.897 testmanagerd[95781:17097814] -[XCIDESession closeConnectionAndHandOffTransportWithCompletionHandler:] sending barrier
+01:59:54.897 testmanagerd[95781:17097814] Barrier flushed. Cancelling connection. Socket will not be closed
+01:59:54.897 testmanagerd[95781:17097814] DTXSocketTransport for socket 5 disconnected, owner is <XCIDESession: 0x7fc480806610> (socket 5) created Tuesday, August 14, 2018 at 1:59:46 AM India Standard Time for client C4809F4F-610D-403F-BDBB-1E96493AAAC1-50404-000060C2D1055F8A waiting to pair with test session 5553A0BD-925F-494B-B896-C2582D72A512
+01:59:54.897 testmanagerd[95781:17097816] -[XCTDaemon closeIDESession:]_block_invoke <XCIDESession: 0x7fc480806610> (socket 5) created Tuesday, August 14, 2018 at 1:59:46 AM India Standard Time for client C4809F4F-610D-403F-BDBB-1E96493AAAC1-50404-000060C2D1055F8A waiting to pair with test session 5553A0BD-925F-494B-B896-C2582D72A512
+01:59:54.898 testmanagerd[95781:17097816] Tearing down <XCIDESession: 0x7fc480806610> (socket 5) created Tuesday, August 14, 2018 at 1:59:46 AM India Standard Time for client C4809F4F-610D-403F-BDBB-1E96493AAAC1-50404-000060C2D1055F8A waiting to pair with test session 5553A0BD-925F-494B-B896-C2582D72A512.
+01:59:54.898 testmanagerd[95781:17097816] Session summary: 1 test sessions, 0 sessions with identifiers, 0 unidentified sessions, does not have control sessions
+01:59:55.097 Xcode[50404:13834230] Telling test runner to start executing tests.
+01:59:54.902 testmanagerd[95781:17097816] IDE connected over socket 6 (-[XCTestManagerIDEServer listenForControlConnectionsOverNamedSocket]_block_invoke)
+01:59:54.902 testmanagerd[95781:17097816] Created session with socket 6
+01:59:54.903 testmanagerd[95781:17097815] Adding <XCIDESession: 0x7fc480b09af0> (socket 6) created Tuesday, August 14, 2018 at 1:59:54 AM India Standard Time to the set of unidentified IDE sessions
+01:59:54.903 testmanagerd[95781:17097816] Handled a proxy request from the IDE with session <XCIDESession: 0x7fc480b09af0> (socket 6) created Tuesday, August 14, 2018 at 1:59:54 AM India Standard Time proxy <_DTXProxy: 0x7fc47ef08f40>
+01:59:54.904 testmanagerd[95781:17097816] -[XCIDESession _IDE_initiateControlSessionForTestProcessID:protocolVersion:] 2885 25
+01:59:54.904 testmanagerd[95781:16740406] Adding control session <XCIDESession: 0x7fc480b09af0> (socket 6) created Tuesday, August 14, 2018 at 1:59:54 AM India Standard Time with protocol version 25
+01:59:54.906 testmanagerd[95781:16740406] Received request to collect crash reports in directories '/Users/RaghuSandeep/Library/Logs/DiagnosticReports', '/Library/Logs/DiagnosticReports' for processes with names 'XCTRunner', 'NYTimes', 'xctest'
+01:59:54.906 testmanagerd[95781:16740406] Initializing crash report observer for /Users/RaghuSandeep/Library/Logs/DiagnosticReports
+01:59:54.906 testmanagerd[95781:16740406] Getting files in /Users/RaghuSandeep/Library/Logs/DiagnosticReports
+01:59:54.931 testmanagerd[95781:16740406] Found 1684 files in /Users/RaghuSandeep/Library/Logs/DiagnosticReports
+01:59:54.931 testmanagerd[95781:16740406] Started monitoring /Users/RaghuSandeep/Library/Logs/DiagnosticReports
+01:59:55.045 testmanagerd[95781:16740406] Initializing crash report observer for /Library/Logs/DiagnosticReports
+01:59:55.046 testmanagerd[95781:16740406] Getting files in /Library/Logs/DiagnosticReports
+01:59:55.049 testmanagerd[95781:16740406] Found 203 files in /Library/Logs/DiagnosticReports
+01:59:55.050 testmanagerd[95781:16740406] Started monitoring /Library/Logs/DiagnosticReports
+01:59:54.839 NYTimes[2885:17097239] Linked XCTest.framework from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/XCTest, built with Xcode 0930(9E499), modified on Wednesday, May 2, 2018 at 8:06:59 AM India Standard Time
+XCTest.framework bundle version: 14099
+01:59:54.840 NYTimes[2885:17097239] System uptime: 9:32:30
+01:59:54.840 NYTimes[2885:17097239] Process arguments: (
+    "/Users/RaghuSandeep/Library/Developer/CoreSimulator/Devices/F62C37DB-AAF4-4E32-9880-D2048C689C5B/data/Containers/Bundle/Application/D25BF39D-47CD-4613-BE76-CEFCE8C97B9E/NYTimes.app/NYTimes",
+    "-NSTreatUnknownArgumentsAsOpen",
+    NO,
+    "-ApplePersistenceIgnoreState",
+    YES
+)
+01:59:54.840 NYTimes[2885:17097239] Process environment: {
+    "CFFIXED_USER_HOME" = "/Users/RaghuSandeep/Library/Developer/CoreSimulator/Devices/F62C37DB-AAF4-4E32-9880-D2048C689C5B/data/Containers/Data/Application/77CCF12C-22BA-48FF-B106-023FE5680EFE";
+    CLASSIC = 0;
+    "CUPS_SERVER" = "/private/tmp/com.apple.launchd.btVVM8yFwF/Listeners";
+    "DYLD_FALLBACK_FRAMEWORK_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/Frameworks";
+    "DYLD_FALLBACK_LIBRARY_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib";
+    "DYLD_FRAMEWORK_PATH" = "/Users/RaghuSandeep/Documents/NYTimes/DerivedData/NYTimes/Build/Products/Debug-iphonesimulator:/Users/RaghuSandeep/Documents/NYTimes/DerivedData/NYTimes/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/Developer/Library/PrivateFrameworks:/Users/RaghuSandeep/Documents/NYTimes/DerivedData/NYTimes/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/Developer/Library/PrivateFrameworks";
+    "DYLD_LIBRARY_PATH" = "/Users/RaghuSandeep/Documents/NYTimes/DerivedData/NYTimes/Build/Products/Debug-iphonesimulator:/Users/RaghuSandeep/Documents/NYTimes/DerivedData/NYTimes/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/Developer/Library/PrivateFrameworks:/Users/RaghuSandeep/Documents/NYTimes/DerivedData/NYTimes/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/Developer/Library/PrivateFrameworks";
+    "DYLD_ROOT_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot";
+    HOME = "/Users/RaghuSandeep/Library/Developer/CoreSimulator/Devices/F62C37DB-AAF4-4E32-9880-D2048C689C5B/data/Containers/Data/Application/77CCF12C-22BA-48FF-B106-023FE5680EFE";
+    "IOS_SIMULATOR_SYSLOG_SOCKET" = "/private/tmp/com.apple.CoreSimulator.SimDevice.F62C37DB-AAF4-4E32-9880-D2048C689C5B/syslogsock";
+    "IPHONE_SHARED_RESOURCES_DIRECTORY" = "/Users/RaghuSandeep/Library/Developer/CoreSimulator/Devices/F62C37DB-AAF4-4E32-9880-D2048C689C5B/data";
+    "IPHONE_SIMULATOR_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot";
+    "IPHONE_TVOUT_EXTENDED_PROPERTIES" = "/Users/RaghuSandeep/Library/Developer/CoreSimulator/Devices/F62C37DB-AAF4-4E32-9880-D2048C689C5B/data/Library/Application Support/Simulator/extended_display.plist";
+    "LLVM_PROFILE_FILE" = "/var/folders/qt/s3mb8zcj7j7d7nfzd3fnvk4m0000gr/T/com.NYTimes/DE101B6C-C010-4F14-8018-B7818778B0D9-50404-00007F475FFA2E6E/80D3F4F5-3D9C-4763-BA78-77E961BE8E09-%p.profraw%15x";
+    "MTC_CRASH_ON_REPORT" = 1;
+    NSApplicationQuitWithoutSuddenTermination = YES;
+    NSUnbufferedIO = YES;
+    "OS_ACTIVITY_DT_MODE" = YES;
+    PATH = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/sbin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/sbin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/local/bin";
+    "RWI_LISTEN_SOCKET" = "/private/tmp/com.apple.launchd.Dy6PFTxXGm/com.apple.webinspectord_sim.socket";
+    "SIMULATOR_AUDIO_DEVICES_PLIST_PATH" = "/Users/RaghuSandeep/Library/Developer/CoreSimulator/Devices/F62C37DB-AAF4-4E32-9880-D2048C689C5B/data/var/run/com.apple.coresimulator.audio.plist";
+    "SIMULATOR_AUDIO_SETTINGS_PATH" = "/Users/RaghuSandeep/Library/Developer/CoreSimulator/Devices/F62C37DB-AAF4-4E32-9880-D2048C689C5B/data/var/run/simulatoraudio/audiosettings.plist";
+    "SIMULATOR_BOOT_TIME" = 1534157844;
+    "SIMULATOR_CAPABILITIES" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/DeviceTypes/iPhone X.simdevicetype/Contents/Resources/capabilities.plist";
+    "SIMULATOR_DEVICE_NAME" = "iPhone X";
+    "SIMULATOR_EXTENDED_DISPLAY_PROPERTIES" = "/Users/RaghuSandeep/Library/Developer/CoreSimulator/Devices/F62C37DB-AAF4-4E32-9880-D2048C689C5B/data/Library/Application Support/Simulator/extended_display.plist";
+    "SIMULATOR_HID_SYSTEM_MANAGER" = "/Library/Developer/PrivateFrameworks/CoreSimulator.framework/Resources/Platforms/iphoneos/Library/Frameworks/SimulatorHID.framework";
+    "SIMULATOR_HOST_HOME" = "/Users/RaghuSandeep";
+    "SIMULATOR_LEGACY_ASSET_SUFFIX" = iphone;
+    "SIMULATOR_LOG_ROOT" = "/Users/RaghuSandeep/Library/Logs/CoreSimulator/F62C37DB-AAF4-4E32-9880-D2048C689C5B";
+    "SIMULATOR_MAINSCREEN_HEIGHT" = 2436;
+    "SIMULATOR_MAINSCREEN_PITCH" = "458.000000";
+    "SIMULATOR_MAINSCREEN_SCALE" = "3.000000";
+    "SIMULATOR_MAINSCREEN_WIDTH" = 1125;
+    "SIMULATOR_MEMORY_WARNINGS" = "/Users/RaghuSandeep/Library/Developer/CoreSimulator/Devices/F62C37DB-AAF4-4E32-9880-D2048C689C5B/data/var/run/memory_warning_simulation";
+    "SIMULATOR_MODEL_IDENTIFIER" = "iPhone10,3";
+    "SIMULATOR_PRODUCT_CLASS" = D22;
+    "SIMULATOR_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot";
+    "SIMULATOR_RUNTIME_BUILD_VERSION" = 15E217;
+    "SIMULATOR_RUNTIME_VERSION" = "11.3";
+    "SIMULATOR_SHARED_RESOURCES_DIRECTORY" = "/Users/RaghuSandeep/Library/Developer/CoreSimulator/Devices/F62C37DB-AAF4-4E32-9880-D2048C689C5B/data";
+    "SIMULATOR_UDID" = "F62C37DB-AAF4-4E32-9880-D2048C689C5B";
+    "SIMULATOR_VERSION_INFO" = "CoreSimulator 559.1.2 - Device: iPhone X - Runtime: iOS 11.3 (15E217) - DeviceType: iPhone X";
+    "SQLITE_ENABLE_THREAD_ASSERTIONS" = 1;
+    "TESTMANAGERD_SIM_SOCK" = "/private/tmp/com.apple.launchd.2QNSBHkact/com.apple.testmanagerd.unix-domain.socket";
+    TMPDIR = "/Users/RaghuSandeep/Library/Developer/CoreSimulator/Devices/F62C37DB-AAF4-4E32-9880-D2048C689C5B/data/Containers/Data/Application/77CCF12C-22BA-48FF-B106-023FE5680EFE/tmp";
+    XCInjectBundleInto = "/Users/RaghuSandeep/Documents/NYTimes/DerivedData/NYTimes/Build/Products/Debug-iphonesimulator/NYTimes.app/NYTimes";
+    "XCODE_DBG_XPC_EXCLUSIONS" = "com.apple.dt.xctestSymbolicator";
+    XCTestConfigurationFilePath = "/var/folders/qt/s3mb8zcj7j7d7nfzd3fnvk4m0000gr/T/com.apple.dt.XCTest/IDETestRunSession-BF30C0D6-5057-4094-9BFB-D2CEA2AFB456/NYTimesTests-BEA0E559-EE88-49C8-BB57-3F676591C672/LaunchSessions/5553A0BD-925F-494B-B896-C2582D72A512/remote-container/tmp/NYTimesTests-5553A0BD-925F-494B-B896-C2582D72A512.xctestconfiguration";
+    "XPC_FLAGS" = 0x0;
+    "XPC_SERVICE_NAME" = "UIKitApplication:com.NYTimes[0xff25][9795]";
+    "XPC_SIMULATOR_LAUNCHD_NAME" = "com.apple.CoreSimulator.SimDevice.F62C37DB-AAF4-4E32-9880-D2048C689C5B";
+    "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Users/RaghuSandeep/Documents/NYTimes/DerivedData/NYTimes/Build/Products/Debug-iphonesimulator";
+    "__XPC_DYLD_FRAMEWORK_PATH" = "/Users/RaghuSandeep/Documents/NYTimes/DerivedData/NYTimes/Build/Products/Debug-iphonesimulator";
+    "__XPC_DYLD_LIBRARY_PATH" = "/Users/RaghuSandeep/Documents/NYTimes/DerivedData/NYTimes/Build/Products/Debug-iphonesimulator";
+    "__XPC_LLVM_PROFILE_FILE" = "/var/folders/qt/s3mb8zcj7j7d7nfzd3fnvk4m0000gr/T/com.NYTimes/DE101B6C-C010-4F14-8018-B7818778B0D9-50404-00007F475FFA2E6E/80D3F4F5-3D9C-4763-BA78-77E961BE8E09-%p.profraw%15x";
+}
+01:59:54.841 NYTimes[2885:17097239] App Sandbox active: NO
+01:59:54.841 NYTimes[2885:17097239] Loading test bundle at: file:///Users/RaghuSandeep/Documents/NYTimes/DerivedData/NYTimes/Build/Products/Debug-iphonesimulator/NYTimes.app/PlugIns/NYTimesTests.xctest/
+01:59:54.841 NYTimes[2885:17097239] Finished loading test bundle
+01:59:54.841 NYTimes[2885:17097239] Readying IDE session
+01:59:54.842 NYTimes[2885:17097239] Creating future for 'Exchange protocol versions with daemon' with timeout 15.00
+01:59:54.843 NYTimes[2885:17097239] <XCTWaiter: 0x60c000016a70, state: XCTWaiterStateInProgress> entering wait loop for 15.00s with expectations: (
+    "Exchange protocol versions with daemon"
+)
+01:59:54.845 NYTimes[2885:17097297] <XCTWaiter: 0x60c000016a70, state: XCTWaiterStateSucceeded>: cancelWaiting
+01:59:54.895 NYTimes[2885:17097239] <XCTWaiter: 0x60c000016a70, state: XCTWaiterStateSucceeded> done waiting
+01:59:54.896 NYTimes[2885:17097239] <XCTWaiter: 0x60c000016a70, state: XCTWaiterStateSucceeded> cleaning up Exchange protocol versions with daemon
+01:59:54.896 NYTimes[2885:17097239] Got daemon protocol version 22
+01:59:54.896 NYTimes[2885:17097239] Requesting IDE connection transport
+01:59:54.896 NYTimes[2885:17097239] <XCTWaiter: 0x600000015030, state: XCTWaiterStateInProgress> entering wait loop for 60.00s with expectations: (
+    "Transport for IDE session acquired"
+)
+01:59:54.897 NYTimes[2885:17097297] Creating transport with received transport data
+01:59:54.898 NYTimes[2885:17097294] <XCTWaiter: 0x600000015030, state: XCTWaiterStateSucceeded>: cancelWaiting
+01:59:54.898 NYTimes[2885:17097239] <XCTWaiter: 0x600000015030, state: XCTWaiterStateSucceeded> done waiting
+01:59:54.898 NYTimes[2885:17097239] <XCTWaiter: 0x600000015030, state: XCTWaiterStateSucceeded> cleaning up Transport for IDE session acquired
+01:59:54.899 NYTimes[2885:17097239] Creating connection with transport <DTXFileDescriptorTransport: 0x60c0000ec380>
+01:59:54.900 NYTimes[2885:17097239] Creating the proxy channel with connection <DTXConnection 0x6000001eee00 : x1>
+01:59:54.900 NYTimes[2885:17097239] Creating future for 'IDE session ready for test plan' with timeout 60.00
+01:59:54.900 NYTimes[2885:17097239] Messaging IDE proxy - _XCT_testBundleReadyWithProtocolVersion:25 minimumVersion:8
+01:59:54.901 NYTimes[2885:17097239] <XCTWaiter: 0x60000001f420, state: XCTWaiterStateInProgress> entering wait loop for 60.00s with expectations: (
+    "IDE session ready for test plan"
+)
+01:59:54.901 NYTimes[2885:17097298] _XCT_testBundleReadyWithProtocolVersion:minimumVersion: reply received
+01:59:55.098 NYTimes[2885:17097294] _IDE_startExecutingTestPlanWithProtocolVersion:25
+01:59:55.099 NYTimes[2885:17097298] <XCTWaiter: 0x60000001f420, state: XCTWaiterStateSucceeded>: cancelWaiting
+01:59:55.100 NYTimes[2885:17097239] <XCTWaiter: 0x60000001f420, state: XCTWaiterStateSucceeded> done waiting
+01:59:55.100 NYTimes[2885:17097239] <XCTWaiter: 0x60000001f420, state: XCTWaiterStateSucceeded> cleaning up IDE session ready for test plan
+01:59:55.140 Xcode[50404:13834230] Starting test plan, clearing initialization timeout timer.
+01:59:55.105 NYTimes[2885:17097239] Loading test suite...
+01:59:55.173 NYTimes[2885:17097239] Finished loading test suite, took 0.067s
+01:59:55.173 NYTimes[2885:17097239] -[XCTRunnerIDESession testBundleWillStart:]
+01:59:55.182 Xcode[50404:13834230] <IDETestOperationCoordinator: 0x7f96ab862700>: parseConsoleOutputFromOriginalOutput: called, 58 bytes written out to StandardOutputAndStandardError
+Test Suite 'All tests' started at 2018-08-14 01:59:55.173
+Test Suite 'NYTimesTests.xctest' started at 2018-08-14 01:59:55.174
+Test Suite 'AppDelegateTest' started at 2018-08-14 01:59:55.174
+01:59:55.184 Xcode[50404:13834230] <IDETestOperationCoordinator: 0x7f96ab862700>: parseConsoleOutputFromOriginalOutput: called, 230 bytes written out to StandardOutputAndStandardError
+01:59:55.173 NYTimes[2885:17097239] Running suite...
+01:59:55.173 NYTimes[2885:17097239] -[XCTRunnerIDESession testSuiteWillStart:]
+01:59:55.185 Xcode[50404:13834230] _XCT_testSuite:All tests didStartAt:2018-08-13 20:29:55 +0000
+01:59:55.186 Xcode[50404:17096602] (LOG ARBITER) Rotating message buffer with 1 messages.
+01:59:55.205 Xcode[50404:17096602] (LOG ARBITER) Dumping buffered message data; 1 messages.
+01:59:55.266 Xcode[50404:17097822] (LOG ARBITER) Dumping buffered message data; 0 messages.
+01:59:58.186 Xcode[50404:17097821] (LOG ARBITER) Rotating message buffer with 52 messages.
+02:00:01.262 Xcode[50404:17096600] (LOG ARBITER) Rotating message buffer with 5 messages.
+02:00:04.999 Xcode[50404:17096585] (LOG ARBITER) Rotating message buffer with 5 messages.
+01:59:55.186 Xcode[50404:13834230] _XCT_testSuite:NYTimesTests.xctest didStartAt:2018-08-13 20:29:55 +0000
+01:59:55.186 Xcode[50404:13834230] _XCT_testSuite:AppDelegateTest didStartAt:2018-08-13 20:29:55 +0000
+01:59:55.175 NYTimes[2885:17097239] -[XCTRunnerIDESession testSuiteWillStart:]
+01:59:55.175 NYTimes[2885:17097239] -[XCTRunnerIDESession testCaseWillStart:] NYTimesTests.AppDelegateTest testApplicationDidFinishLaunchingWithOptions
+01:59:55.186 Xcode[50404:13834230] _XCT_testCaseDidStartForTestClass:NYTimesTests.AppDelegateTest method:testApplicationDidFinishLaunchingWithOptions
+Test Case '-[NYTimesTests.AppDelegateTest testApplicationDidFinishLaunchingWithOptions]' started.
+01:59:55.204 Xcode[50404:13834230] <IDETestOperationCoordinator: 0x7f96ab862700>: parseConsoleOutputFromOriginalOutput: called, 113 bytes written out to StandardOutputAndStandardError
+01:59:55.203 NYTimes[2885:17097239] -[XCTRunnerIDESession testCaseDidFinish:]
+01:59:55.205 Xcode[50404:13834230] _XCT_testCaseDidFinishForTestClass:NYTimesTests.AppDelegateTest method:testApplicationDidFinishLaunchingWithOptions withStatus:passed duration:0.02798402309417725
+01:59:55.203 NYTimes[2885:17097239] -[XCTRunnerIDESession testSuiteDidFinish:]
+01:59:55.205 Xcode[50404:13834230] _XCT_testSuite:AppDelegateTest didFinishAt:2018-08-13 20:29:55 +0000 runCount:1 withFailures:0 unexpected:0 testDuration:0.02798402309417725 totalDuration:0.02887392044067383
+01:59:55.205 Xcode[50404:13834230] _XCT_testSuite:DetailPopularNewsViewControllerTest didStartAt:2018-08-13 20:29:55 +0000
+01:59:55.204 NYTimes[2885:17097239] -[XCTRunnerIDESession testSuiteWillStart:]
+01:59:55.204 NYTimes[2885:17097239] -[XCTRunnerIDESession testCaseWillStart:] NYTimesTests.DetailPopularNewsViewControllerTest testTextViewShouldBeginEditing
+Test Case '-[NYTimesTests.AppDelegateTest testApplicationDidFinishLaunchingWithOptions]' passed (0.028 seconds).
+Test Suite 'AppDelegateTest' passed at 2018-08-14 01:59:55.203.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.028 (0.029) seconds
+Test Suite 'DetailPopularNewsViewControllerTest' started at 2018-08-14 01:59:55.204
+01:59:55.208 Xcode[50404:13834230] <IDETestOperationCoordinator: 0x7f96ab862700>: parseConsoleOutputFromOriginalOutput: called, 327 bytes written out to StandardOutputAndStandardError
+01:59:55.209 Xcode[50404:13834230] _XCT_testCaseDidStartForTestClass:NYTimesTests.DetailPopularNewsViewControllerTest method:testTextViewShouldBeginEditing
+Test Case '-[NYTimesTests.DetailPopularNewsViewControllerTest testTextViewShouldBeginEditing]' started.
+01:59:55.264 Xcode[50404:13834230] <IDETestOperationCoordinator: 0x7f96ab862700>: parseConsoleOutputFromOriginalOutput: called, 119 bytes written out to StandardOutputAndStandardError
+01:59:55.266 Xcode[50404:13834230] _XCT_testCaseDidFinishForTestClass:NYTimesTests.DetailPopularNewsViewControllerTest method:testTextViewShouldBeginEditing withStatus:passed duration:0.05836403369903564
+01:59:55.263 NYTimes[2885:17097239] -[XCTRunnerIDESession testCaseDidFinish:]
+01:59:55.264 NYTimes[2885:17097239] -[XCTRunnerIDESession testSuiteDidFinish:]
+Test Case '-[NYTimesTests.DetailPopularNewsViewControllerTest testTextViewShouldBeginEditing]' passed (0.058 seconds).
+Test Suite 'DetailPopularNewsViewControllerTest' passed at 2018-08-14 01:59:55.263.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.058 (0.060) seconds
+01:59:55.269 Xcode[50404:13834230] <IDETestOperationCoordinator: 0x7f96ab862700>: parseConsoleOutputFromOriginalOutput: called, 233 bytes written out to StandardOutputAndStandardError
+Test Suite 'PopularNewsApiServiceTest' started at 2018-08-14 01:59:55.265
+01:59:55.269 Xcode[50404:13834230] <IDETestOperationCoordinator: 0x7f96ab862700>: parseConsoleOutputFromOriginalOutput: called, 78 bytes written out to StandardOutputAndStandardError
+01:59:55.270 Xcode[50404:13834230] _XCT_testSuite:DetailPopularNewsViewControllerTest didFinishAt:2018-08-13 20:29:55 +0000 runCount:1 withFailures:0 unexpected:0 testDuration:0.05836403369903564 totalDuration:0.05962896347045898
+01:59:55.265 NYTimes[2885:17097239] -[XCTRunnerIDESession testSuiteWillStart:]
+01:59:55.270 Xcode[50404:13834230] _XCT_testSuite:PopularNewsApiServiceTest didStartAt:2018-08-13 20:29:55 +0000
+01:59:55.265 NYTimes[2885:17097239] -[XCTRunnerIDESession testCaseWillStart:] NYTimesTests.PopularNewsApiServiceTest testMostViewed
+01:59:55.270 Xcode[50404:13834230] _XCT_testCaseDidStartForTestClass:NYTimesTests.PopularNewsApiServiceTest method:testMostViewed
+01:59:55.269 NYTimes[2885:17097239] <XCTWaiter: 0x60000001fae0, state: XCTWaiterStateInProgress> entering wait loop for 10.00s with expectations: (
+    testMostViewed
+)
+01:59:55.300 testmanagerd[95781:17097816] Getting files in /Users/RaghuSandeep/Library/Logs/DiagnosticReports
+Test Case '-[NYTimesTests.PopularNewsApiServiceTest testMostViewed]' started.
+01:59:55.370 Xcode[50404:13834230] <IDETestOperationCoordinator: 0x7f96ab862700>: parseConsoleOutputFromOriginalOutput: called, 0 bytes written out to StandardOutputAndStandardError
+01:59:55.484 testmanagerd[95781:17097816] Found 1685 files in /Users/RaghuSandeep/Library/Logs/DiagnosticReports
+01:59:55.485 testmanagerd[95781:17097816] Not reporting suggestd_2018-08-14-015955_Sandeeps-Mac-Book.crash, doesn't match list of processes {XCTRunner, NYTimes, xctest}
+01:59:55.486 testmanagerd[95781:17096605] Getting files in /Users/RaghuSandeep/Library/Logs/DiagnosticReports
+01:59:55.492 testmanagerd[95781:17096605] Found 1686 files in /Users/RaghuSandeep/Library/Logs/DiagnosticReports
+01:59:55.493 testmanagerd[95781:17096605] Not reporting suggestd_2018-08-14-015955-1_Sandeeps-Mac-Book.crash, doesn't match list of processes {XCTRunner, NYTimes, xctest}
+01:59:55.532 testmanagerd[95781:17096605] Getting files in /Users/RaghuSandeep/Library/Logs/DiagnosticReports
+01:59:55.540 testmanagerd[95781:17096605] Found 1685 files in /Users/RaghuSandeep/Library/Logs/DiagnosticReports
+01:59:55.560 testmanagerd[95781:17096605] Getting files in /Users/RaghuSandeep/Library/Logs/DiagnosticReports
+01:59:55.648 testmanagerd[95781:17096605] Found 1684 files in /Users/RaghuSandeep/Library/Logs/DiagnosticReports
+01:59:57.147 testmanagerd[95781:17096605] Getting files in /Users/RaghuSandeep/Library/Logs/DiagnosticReports
+01:59:57.153 testmanagerd[95781:17096605] Found 1685 files in /Users/RaghuSandeep/Library/Logs/DiagnosticReports
+01:59:57.153 testmanagerd[95781:17096605] Not reporting suggestd_2018-08-14-015957_Sandeeps-Mac-Book.crash, doesn't match list of processes {XCTRunner, NYTimes, xctest}
+01:59:57.355 testmanagerd[95781:17096605] Getting files in /Users/RaghuSandeep/Library/Logs/DiagnosticReports
+01:59:57.549 testmanagerd[95781:17096605] Found 1684 files in /Users/RaghuSandeep/Library/Logs/DiagnosticReports
+01:59:59.898 testmanagerd[95781:17097815] Getting files in /Users/RaghuSandeep/Library/Logs/DiagnosticReports
+01:59:59.902 testmanagerd[95781:17097815] Found 1685 files in /Users/RaghuSandeep/Library/Logs/DiagnosticReports
+01:59:59.903 testmanagerd[95781:17097815] Not reporting suggestd_2018-08-14-015959_Sandeeps-Mac-Book.crash, doesn't match list of processes {XCTRunner, NYTimes, xctest}
+02:00:00.060 testmanagerd[95781:17097815] Getting files in /Users/RaghuSandeep/Library/Logs/DiagnosticReports
+02:00:00.081 testmanagerd[95781:17097815] Found 1684 files in /Users/RaghuSandeep/Library/Logs/DiagnosticReports
+02:00:04.553 testmanagerd[95781:17097815] Getting files in /Users/RaghuSandeep/Library/Logs/DiagnosticReports
+02:00:04.560 testmanagerd[95781:17097815] Found 1685 files in /Users/RaghuSandeep/Library/Logs/DiagnosticReports
+02:00:04.560 testmanagerd[95781:17097815] Not reporting suggestd_2018-08-14-020004_Sandeeps-Mac-Book.crash, doesn't match list of processes {XCTRunner, NYTimes, xctest}
+02:00:04.789 testmanagerd[95781:17097815] Getting files in /Users/RaghuSandeep/Library/Logs/DiagnosticReports
+02:00:04.797 testmanagerd[95781:17097815] Found 1684 files in /Users/RaghuSandeep/Library/Logs/DiagnosticReports
+02:00:05.271 NYTimes[2885:17097239] <XCTWaiter: 0x60000001fae0, state: XCTWaiterStateInProgress> done waiting
+02:00:05.271 NYTimes[2885:17097239] <XCTWaiter: 0x60000001fae0, state: XCTWaiterStateFailed> reporting timed out failure with testMostViewed
+02:00:05.271 NYTimes[2885:17097239] <XCTWaiter: 0x60000001fae0, state: XCTWaiterStateFailed> cleaning up testMostViewed
+02:00:05.317 Xcode[50404:13834230] <IDETestOperationCoordinator: 0x7f96ab862700>: parseConsoleOutputFromOriginalOutput: called, 260 bytes written out to StandardOutputAndStandardError
+02:00:05.316 NYTimes[2885:17097239] -[XCTRunnerIDESession testCase:didFailWithDescription:inFile:atLine:]
+02:00:05.318 Xcode[50404:13834230] _XCT_testCaseDidFailForTestClass:NYTimesTests.PopularNewsApiServiceTest method:testMostViewed withMessage:Asynchronous wait failed: Exceeded timeout of 10 seconds, with unfulfilled expectations: "testMostViewed". file:/Users/RaghuSandeep/Documents/NYTimes/NYTimesTests/PopularNewsApiServiceTest.swift line:33
+/Users/RaghuSandeep/Documents/NYTimes/NYTimesTests/PopularNewsApiServiceTest.swift:33: error: -[NYTimesTests.PopularNewsApiServiceTest testMostViewed] : Asynchronous wait failed: Exceeded timeout of 10 seconds, with unfulfilled expectations: "testMostViewed".
+02:00:05.318 Xcode[50404:13834230] <IDETestOperationCoordinator: 0x7f96ab862700>: parseConsoleOutputFromOriginalOutput: called, 94 bytes written out to StandardOutputAndStandardError
+02:00:05.317 NYTimes[2885:17097239] -[PopularNewsApiServiceTest testMostViewed] started activity <XCActivityRecord: 0x6080002933d0> 2018-08-13 20:30:05 +0000: Assertion Failure: PopularNewsApiServiceTest.swift:33: Asynchronous wait failed: Exceeded timeout of 10 seconds, with unfulfilled expectations: "testMostViewed".
+Test Case '-[NYTimesTests.PopularNewsApiServiceTest testMostViewed]' failed (10.053 seconds).
+02:00:05.319 Xcode[50404:13834230] <IDETestOperationCoordinator: 0x7f96ab862700>: parseConsoleOutputFromOriginalOutput: called, 150 bytes written out to StandardOutputAndStandardError
+02:00:05.319 Xcode[50404:13834230] -[NYTimesTests.PopularNewsApiServiceTest testMostViewed] will start activity AB9EF392-D1AD-42CD-B021-FBD3CEA838EB:'Assertion Failure: PopularNewsApiServiceTest.swift:33: Asynchronous wait failed: Exceeded timeout of 10 seconds, with unfulfilled expectations: "testMostViewed".'
+02:00:05.317 NYTimes[2885:17097239] -[PopularNewsApiServiceTest testMostViewed] finished activity <XCActivityRecord: 0x6080002933d0> 2018-08-13 20:30:05 +0000: Assertion Failure: PopularNewsApiServiceTest.swift:33: Asynchronous wait failed: Exceeded timeout of 10 seconds, with unfulfilled expectations: "testMostViewed". (0.000470042s)
+02:00:05.320 Xcode[50404:13834230] -[NYTimesTests.PopularNewsApiServiceTest testMostViewed] did finish activity AB9EF392-D1AD-42CD-B021-FBD3CEA838EB:'Assertion Failure: PopularNewsApiServiceTest.swift:33: Asynchronous wait failed: Exceeded timeout of 10 seconds, with unfulfilled expectations: "testMostViewed".'
+02:00:05.318 NYTimes[2885:17097239] -[XCTRunnerIDESession testCaseDidFinish:]
+02:00:05.320 Xcode[50404:13834230] _XCT_testCaseDidFinishForTestClass:NYTimesTests.PopularNewsApiServiceTest method:testMostViewed withStatus:failed duration:10.05261898040771
+02:00:05.569 Xcode[50404:17096600] (LOG ARBITER) Dumping buffered message data; 0 messages.
+02:00:05.570 Xcode[50404:17096584] (LOG ARBITER) Dumping buffered message data; 0 messages.
+02:00:05.573 Xcode[50404:17096600] (LOG ARBITER) Dumping buffered message data; 0 messages.
+02:00:05.573 Xcode[50404:17096600] (LOG ARBITER) Dumping buffered message data; 0 messages.
+02:00:05.573 Xcode[50404:17096585] (LOG ARBITER) Dumping buffered message data; 0 messages.
+02:00:05.573 Xcode[50404:17096585] (LOG ARBITER) Dumping buffered message data; 0 messages.
+02:00:05.573 Xcode[50404:17096585] (LOG ARBITER) Dumping buffered message data; 0 messages.
+Test Suite 'PopularNewsApiServiceTest' failed at 2018-08-14 02:00:05.318.
+	 Executed 1 test, with 1 failure (0 unexpected) in 10.053 (10.054) seconds
+02:00:05.525 Xcode[50404:13834230] <IDETestOperationCoordinator: 0x7f96ab862700>: parseConsoleOutputFromOriginalOutput: called, 69 bytes written out to StandardOutputAndStandardError
+Test Suite 'PopularNewsModelTest' started at 2018-08-14 02:00:05.319
+Test Case '-[NYTimesTests.PopularNewsModelTest testMostViewed]' started.
+Test Case '-[NYTimesTests.PopularNewsModelTest testMostViewed]' passed (0.001 seconds).
+Test Suite 'PopularNewsModelTest' passed at 2018-08-14 02:00:05.320.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.001 (0.001) seconds
+Test Suite 'PopularNewsPresenterTest' started at 2018-08-14 02:00:05.321
+Test Case '-[NYTimesTests.PopularNewsPresenterTest testMostViewed]' started.
+Test Case '-[NYTimesTests.PopularNewsPresenterTest testMostViewed]' passed (0.000 seconds).
+Test Suite 'PopularNewsPresenterTest' passed at 2018-08-14 02:00:05.322.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.000 (0.001) seconds
+Test Suite 'PopularNewsViewControllerTest' started at 2018-08-14 02:00:05.322
+02:00:05.528 Xcode[50404:13834230] <IDETestOperationCoordinator: 0x7f96ab862700>: parseConsoleOutputFromOriginalOutput: called, 863 bytes written out to StandardOutputAndStandardError
+Test Case '-[NYTimesTests.PopularNewsViewControllerTest testCellForAtIndexPath]' started.
+02:00:05.569 Xcode[50404:13834230] <IDETestOperationCoordinator: 0x7f96ab862700>: parseConsoleOutputFromOriginalOutput: called, 105 bytes written out to StandardOutputAndStandardError
+02:00:05.318 NYTimes[2885:17097239] -[XCTRunnerIDESession testSuiteDidFinish:]
+02:00:05.569 Xcode[50404:13834230] _XCT_testSuite:PopularNewsApiServiceTest didFinishAt:2018-08-13 20:30:05 +0000 runCount:1 withFailures:1 unexpected:0 testDuration:10.05261898040771 totalDuration:10.05380308628082
+02:00:05.319 NYTimes[2885:17097239] Activity statistics for PopularNewsApiServiceTest:
+02:00:05.319 NYTimes[2885:17097239] 0.00s : Other
+02:00:05.319 NYTimes[2885:17097239] Total time in activities: 0.00s
+02:00:05.319 NYTimes[2885:17097239] -[XCTRunnerIDESession testSuiteWillStart:]
+02:00:05.569 Xcode[50404:13834230] _XCT_testSuite:PopularNewsModelTest didStartAt:2018-08-13 20:30:05 +0000
+02:00:05.569 Xcode[50404:13834230] _XCT_testCaseDidStartForTestClass:NYTimesTests.PopularNewsModelTest method:testMostViewed
+02:00:05.319 NYTimes[2885:17097239] -[XCTRunnerIDESession testCaseWillStart:] NYTimesTests.PopularNewsModelTest testMostViewed
+02:00:05.320 NYTimes[2885:17097239] -[XCTRunnerIDESession testCaseDidFinish:]
+02:00:05.569 Xcode[50404:13834230] _XCT_testCaseDidFinishForTestClass:NYTimesTests.PopularNewsModelTest method:testMostViewed withStatus:passed duration:0.0005710124969482422
+02:00:05.320 NYTimes[2885:17097239] -[XCTRunnerIDESession testSuiteDidFinish:]
+02:00:05.569 Xcode[50404:13834230] _XCT_testSuite:PopularNewsModelTest didFinishAt:2018-08-13 20:30:05 +0000 runCount:1 withFailures:0 unexpected:0 testDuration:0.0005710124969482422 totalDuration:0.001296043395996094
+02:00:05.569 Xcode[50404:13834230] _XCT_testSuite:PopularNewsPresenterTest didStartAt:2018-08-13 20:30:05 +0000
+02:00:05.321 NYTimes[2885:17097239] -[XCTRunnerIDESession testSuiteWillStart:]
+02:00:05.569 Xcode[50404:13834230] _XCT_testCaseDidStartForTestClass:NYTimesTests.PopularNewsPresenterTest method:testMostViewed
+02:00:05.321 NYTimes[2885:17097239] -[XCTRunnerIDESession testCaseWillStart:] NYTimesTests.PopularNewsPresenterTest testMostViewed
+02:00:05.321 NYTimes[2885:17097239] -[XCTRunnerIDESession testCaseDidFinish:]
+02:00:05.569 Xcode[50404:13834230] _XCT_testCaseDidFinishForTestClass:NYTimesTests.PopularNewsPresenterTest method:testMostViewed withStatus:passed duration:0.000453948974609375
+02:00:05.322 NYTimes[2885:17097239] -[XCTRunnerIDESession testSuiteDidFinish:]
+02:00:05.570 Xcode[50404:13834230] _XCT_testSuite:PopularNewsPresenterTest didFinishAt:2018-08-13 20:30:05 +0000 runCount:1 withFailures:0 unexpected:0 testDuration:0.000453948974609375 totalDuration:0.0009809732437133789
+02:00:05.570 Xcode[50404:13834230] _XCT_testSuite:PopularNewsViewControllerTest didStartAt:2018-08-13 20:30:05 +0000
+02:00:05.322 NYTimes[2885:17097239] -[XCTRunnerIDESession testSuiteWillStart:]
+02:00:05.322 NYTimes[2885:17097239] -[XCTRunnerIDESession testCaseWillStart:] NYTimesTests.PopularNewsViewControllerTest testCellForAtIndexPath
+02:00:05.570 Xcode[50404:13834230] _XCT_testCaseDidStartForTestClass:NYTimesTests.PopularNewsViewControllerTest method:testCellForAtIndexPath
+02:00:05.537 NYTimes[2885:17097239] -[XCTRunnerIDESession testCaseDidFinish:]
+02:00:05.573 Xcode[50404:13834230] _XCT_testCaseDidFinishForTestClass:NYTimesTests.PopularNewsViewControllerTest method:testCellForAtIndexPath withStatus:passed duration:0.214184045791626
+02:00:05.573 Xcode[50404:13834230] _XCT_testCaseDidStartForTestClass:NYTimesTests.PopularNewsViewControllerTest method:testHeightForRowAt
+02:00:05.537 NYTimes[2885:17097239] -[XCTRunnerIDESession testCaseWillStart:] NYTimesTests.PopularNewsViewControllerTest testHeightForRowAt
+02:00:05.541 NYTimes[2885:17097239] -[XCTRunnerIDESession testCaseDidFinish:]
+02:00:05.573 Xcode[50404:13834230] _XCT_testCaseDidFinishForTestClass:NYTimesTests.PopularNewsViewControllerTest method:testHeightForRowAt withStatus:passed duration:0.003636956214904785
+02:00:05.573 Xcode[50404:13834230] _XCT_testCaseDidStartForTestClass:NYTimesTests.PopularNewsViewControllerTest method:testNumberOfRowsInSection
+02:00:05.541 NYTimes[2885:17097239] -[XCTRunnerIDESession testCaseWillStart:] NYTimesTests.PopularNewsViewControllerTest testNumberOfRowsInSection
+02:00:05.543 NYTimes[2885:17097239] -[XCTRunnerIDESession testCaseDidFinish:]
+02:00:05.573 Xcode[50404:13834230] _XCT_testCaseDidFinishForTestClass:NYTimesTests.PopularNewsViewControllerTest method:testNumberOfRowsInSection withStatus:passed duration:0.001518964767456055
+02:00:05.543 NYTimes[2885:17097239] -[XCTRunnerIDESession testCaseWillStart:] NYTimesTests.PopularNewsViewControllerTest testupdate
+02:00:05.573 Xcode[50404:13834230] _XCT_testCaseDidStartForTestClass:NYTimesTests.PopularNewsViewControllerTest method:testupdate
+02:00:05.544 NYTimes[2885:17097239] -[XCTRunnerIDESession testCaseDidFinish:]
+02:00:05.573 Xcode[50404:13834230] _XCT_testCaseDidFinishForTestClass:NYTimesTests.PopularNewsViewControllerTest method:testupdate withStatus:passed duration:0.001137971878051758
+02:00:05.545 NYTimes[2885:17097239] -[XCTRunnerIDESession testCaseWillStart:] NYTimesTests.PopularNewsViewControllerTest testViewDidLoad
+02:00:05.573 Xcode[50404:13834230] _XCT_testCaseDidStartForTestClass:NYTimesTests.PopularNewsViewControllerTest method:testViewDidLoad
+02:00:05.548 NYTimes[2885:17097239] -[XCTRunnerIDESession testCaseDidFinish:]
+02:00:05.573 Xcode[50404:13834230] _XCT_testCaseDidFinishForTestClass:NYTimesTests.PopularNewsViewControllerTest method:testViewDidLoad withStatus:passed duration:0.003203988075256348
+Test Case '-[NYTimesTests.PopularNewsViewControllerTest testCellForAtIndexPath]' passed (0.214 seconds).
+Test Case '-[NYTimesTests.PopularNewsViewControllerTest testHeightForRowAt]' started.
+Test Case '-[NYTimesTests.PopularNewsViewControllerTest testHeightForRowAt]' passed (0.004 seconds).
+Test Case '-[NYTimesTests.PopularNewsViewControllerTest testNumberOfRowsInSection]' started.
+Test Case '-[NYTimesTests.PopularNewsViewControllerTest testNumberOfRowsInSection]' passed (0.002 seconds).
+Test Case '-[NYTimesTests.PopularNewsViewControllerTest testupdate]' started.
+Test Case '-[NYTimesTests.PopularNewsViewControllerTest testupdate]' passed (0.001 seconds).
+Test Case '-[NYTimesTests.PopularNewsViewControllerTest testViewDidLoad]' started.
+Test Case '-[NYTimesTests.PopularNewsViewControllerTest testViewDidLoad]' passed (0.003 seconds).
+02:00:05.579 Xcode[50404:13834230] <IDETestOperationCoordinator: 0x7f96ab862700>: parseConsoleOutputFromOriginalOutput: called, 818 bytes written out to StandardOutputAndStandardError
+Test Suite 'PopularNewsViewControllerTest' passed at 2018-08-14 02:00:05.549.
+	 Executed 5 tests, with 0 failures (0 unexpected) in 0.224 (0.227) seconds
+Test Suite 'NYTimesTests.xctest' failed at 2018-08-14 02:00:05.570.
+	 Executed 10 tests, with 1 failure (0 unexpected) in 10.364 (10.395) seconds
+02:00:05.580 Xcode[50404:13834230] <IDETestOperationCoordinator: 0x7f96ab862700>: parseConsoleOutputFromOriginalOutput: called, 358 bytes written out to StandardOutputAndStandardError
+02:00:05.569 NYTimes[2885:17097239] -[XCTRunnerIDESession testSuiteDidFinish:]
+02:00:05.583 Xcode[50404:13834230] _XCT_testSuite:PopularNewsViewControllerTest didFinishAt:2018-08-13 20:30:05 +0000 runCount:5 withFailures:0 unexpected:0 testDuration:0.2236819267272949 totalDuration:0.2266480922698975
+02:00:05.570 NYTimes[2885:17097239] -[XCTRunnerIDESession testSuiteDidFinish:]
+02:00:05.583 Xcode[50404:13834230] _XCT_testSuite:NYTimesTests.xctest didFinishAt:2018-08-13 20:30:05 +0000 runCount:10 withFailures:1 unexpected:0 testDuration:10.36367392539978 totalDuration:10.39547002315521
+02:00:05.570 NYTimes[2885:17097239] Activity statistics for NYTimesTests.xctest:
+02:00:05.570 NYTimes[2885:17097239] 0.00s : Other
+02:00:05.570 NYTimes[2885:17097239] Total time in activities: 0.00s
+02:00:05.571 NYTimes[2885:17097239] -[XCTRunnerIDESession testSuiteDidFinish:]
+02:00:05.583 Xcode[50404:13834230] _XCT_testSuite:All tests didFinishAt:2018-08-13 20:30:05 +0000 runCount:10 withFailures:1 unexpected:0 testDuration:10.36367392539978 totalDuration:10.39741396903992
+02:00:05.571 NYTimes[2885:17097239] Activity statistics for All tests:
+02:00:05.571 NYTimes[2885:17097239] 0.00s : Other
+02:00:05.571 NYTimes[2885:17097239] Total time in activities: 0.00s
+02:00:05.571 NYTimes[2885:17097239] Finished running suite.
+02:00:05.583 Xcode[50404:13834230] -[XCTTestRunnerSession _XCT_didFinishExecutingTestPlan]_block_invoke
+02:00:05.571 NYTimes[2885:17097239] -[XCTRunnerIDESession testBundleDidFinish:], Flushing connection to IDE...
+02:00:05.571 NYTimes[2885:17097239] Calling completion.
+02:00:05.572 NYTimes[2885:17097239] <XCTWaiter: 0x608000016f70, state: XCTWaiterStateInProgress> entering wait loop for 15.00s with expectations: (
+    "IDE confirmed the end of session"
+)
+02:00:05.604 Xcode[50404:17097821] Closing socket 179 to testmanagerd for Sim iPhone X
+02:00:05.612 Xcode[50404:13834230] Test process exited with exit code 1
+02:00:05.627 Xcode[50404:13834230] Claim LaunchSessionClaim_0x7f96ab969c60 on simulator F62C37DB-AAF4-4E32-9880-D2048C689C5B was relinquished
+02:00:05.627 Xcode[50404:13834230] Claim LaunchSessionClaim_0x7f96ab969c60 on simulator F62C37DB-AAF4-4E32-9880-D2048C689C5B was relinquished
+02:00:05.583 NYTimes[2885:17097294] <XCTWaiter: 0x608000016f70, state: XCTWaiterStateSucceeded>: cancelWaiting
+02:00:05.584 NYTimes[2885:17097239] <XCTWaiter: 0x608000016f70, state: XCTWaiterStateSucceeded> done waiting
+02:00:05.584 NYTimes[2885:17097239] <XCTWaiter: 0x608000016f70, state: XCTWaiterStateSucceeded> cleaning up IDE confirmed the end of session
+02:00:05.592 testmanagerd[95781:17097815] Test process connection invalidated or interrupted, closing test session <XCTestSession: 0x7fc47ee0a380>.
+02:00:05.592 testmanagerd[95781:17097815] Closed <XCTestSession: 0x7fc47ee0a380>, removing from (
+    "<XCTestSession: 0x7fc47ee0a380>"
+)
+02:00:05.592 testmanagerd[95781:17097815] Tearing down <XCTestSession: 0x7fc47ee0a380>.
+02:00:05.592 testmanagerd[95781:17097815] XCTestSession is responsible for cleaning up its socket from an XCIDESession
+02:00:05.593 testmanagerd[95781:17097815] Tearing down <XCTDApplicationMonitor: 0x7fc47ee014f0>.
+02:00:05.593 testmanagerd[95781:17097815] Tearing down <XCTDProcessAssertionManager: 0x7fc47ee0c3b0>.
+02:00:05.593 testmanagerd[95781:17097815] Session summary: 0 test sessions, 0 sessions with identifiers, 0 unidentified sessions, has control sessions
+02:00:05.594 testmanagerd[95781:17097815] Control sessions: (
+    "<XCIDESession: 0x7fc480b09af0> (socket 6) created Tuesday, August 14, 2018 at 1:59:54 AM India Standard Time"
+)
+02:00:05.629 Xcode[50404:13834230] Got death notice for pid 2885, removing from SimulatorSessionMap
+Test Suite 'All tests' failed at 2018-08-14 02:00:05.570.
+	 Executed 10 tests, with 1 failure (0 unexpected) in 10.364 (10.397) seconds
+02:00:05.692 Xcode[50404:13834230] <IDETestOperationCoordinator: 0x7f96ab862700>: parseConsoleOutputFromOriginalOutput: called, 0 bytes written out to StandardOutputAndStandardError
+02:00:05.868 Xcode[50404:13834230] <IDETestOperationCoordinator: 0x7f96ab862700> finished receiving data from <IDEConsoleAdaptor: 0x7f96aba04450 'target' stdin: (null) 0 stdout: (null) 0 stderr: (null) 0>
+02:00:05.868 Xcode[50404:13834230] <IDETestOperationCoordinator: 0x7f96ab862700>: _considerFlushingDelegateBlockQueue - nothing to flush
+02:00:05.868 Xcode[50404:13834230] _finishWithError:(null)

@@ -1,0 +1,48 @@
+Test Suite 'All tests' started at 2018-08-14 11:10:25.900
+Test Suite 'NYTimesTests.xctest' started at 2018-08-14 11:10:25.901
+Test Suite 'AppDelegateTest' started at 2018-08-14 11:10:25.901
+Test Case '-[NYTimesTests.AppDelegateTest testApplicationDidFinishLaunchingWithOptions]' started.
+/Users/RaghuSandeep/Documents/NYTimes/NYTimesTests/AppDelegateTest.swift:35: error: -[NYTimesTests.AppDelegateTest testApplicationDidFinishLaunchingWithOptions] : XCTAssertNotNil failed - 
+Test Case '-[NYTimesTests.AppDelegateTest testApplicationDidFinishLaunchingWithOptions]' failed (0.026 seconds).
+Test Suite 'AppDelegateTest' failed at 2018-08-14 11:10:25.927.
+	 Executed 1 test, with 1 failure (0 unexpected) in 0.026 (0.026) seconds
+Test Suite 'DetailPopularNewsViewControllerTest' started at 2018-08-14 11:10:25.928
+Test Case '-[NYTimesTests.DetailPopularNewsViewControllerTest testTextViewShouldBeginEditing]' started.
+Test Case '-[NYTimesTests.DetailPopularNewsViewControllerTest testTextViewShouldBeginEditing]' passed (0.041 seconds).
+Test Suite 'DetailPopularNewsViewControllerTest' passed at 2018-08-14 11:10:25.969.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.041 (0.041) seconds
+Test Suite 'PopularNewsApiServiceTest' started at 2018-08-14 11:10:25.970
+Test Case '-[NYTimesTests.PopularNewsApiServiceTest testMostViewed]' started.
+/Users/RaghuSandeep/Documents/NYTimes/NYTimesTests/PopularNewsApiServiceTest.swift:33: error: -[NYTimesTests.PopularNewsApiServiceTest testMostViewed] : Asynchronous wait failed: Exceeded timeout of 10 seconds, with unfulfilled expectations: "testMostViewed".
+Test Case '-[NYTimesTests.PopularNewsApiServiceTest testMostViewed]' failed (10.151 seconds).
+Test Suite 'PopularNewsApiServiceTest' failed at 2018-08-14 11:10:36.122.
+	 Executed 1 test, with 1 failure (0 unexpected) in 10.151 (10.152) seconds
+Test Suite 'PopularNewsModelTest' started at 2018-08-14 11:10:36.123
+Test Case '-[NYTimesTests.PopularNewsModelTest testMostViewed]' started.
+Test Case '-[NYTimesTests.PopularNewsModelTest testMostViewed]' passed (0.001 seconds).
+Test Suite 'PopularNewsModelTest' passed at 2018-08-14 11:10:36.124.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.001 (0.001) seconds
+Test Suite 'PopularNewsPresenterTest' started at 2018-08-14 11:10:36.124
+Test Case '-[NYTimesTests.PopularNewsPresenterTest testMostViewed]' started.
+Test Case '-[NYTimesTests.PopularNewsPresenterTest testMostViewed]' passed (0.001 seconds).
+Test Case '-[NYTimesTests.PopularNewsPresenterTest testSelectedArtical]' started.
+Test Case '-[NYTimesTests.PopularNewsPresenterTest testSelectedArtical]' passed (0.009 seconds).
+Test Suite 'PopularNewsPresenterTest' passed at 2018-08-14 11:10:36.135.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.009 (0.011) seconds
+Test Suite 'PopularNewsViewControllerTest' started at 2018-08-14 11:10:36.147
+Test Case '-[NYTimesTests.PopularNewsViewControllerTest testCellForAtIndexPath]' started.
+Test Case '-[NYTimesTests.PopularNewsViewControllerTest testCellForAtIndexPath]' passed (0.056 seconds).
+Test Case '-[NYTimesTests.PopularNewsViewControllerTest testHeightForRowAt]' started.
+Test Case '-[NYTimesTests.PopularNewsViewControllerTest testHeightForRowAt]' passed (0.002 seconds).
+Test Case '-[NYTimesTests.PopularNewsViewControllerTest testNumberOfRowsInSection]' started.
+Test Case '-[NYTimesTests.PopularNewsViewControllerTest testNumberOfRowsInSection]' passed (0.002 seconds).
+Test Case '-[NYTimesTests.PopularNewsViewControllerTest testupdate]' started.
+Test Case '-[NYTimesTests.PopularNewsViewControllerTest testupdate]' passed (0.001 seconds).
+Test Case '-[NYTimesTests.PopularNewsViewControllerTest testViewDidLoad]' started.
+Test Case '-[NYTimesTests.PopularNewsViewControllerTest testViewDidLoad]' passed (0.002 seconds).
+Test Suite 'PopularNewsViewControllerTest' passed at 2018-08-14 11:10:36.213.
+	 Executed 5 tests, with 0 failures (0 unexpected) in 0.064 (0.066) seconds
+Test Suite 'NYTimesTests.xctest' failed at 2018-08-14 11:10:36.213.
+	 Executed 11 tests, with 2 failures (0 unexpected) in 10.291 (10.313) seconds
+Test Suite 'All tests' failed at 2018-08-14 11:10:36.214.
+	 Executed 11 tests, with 2 failures (0 unexpected) in 10.291 (10.314) seconds

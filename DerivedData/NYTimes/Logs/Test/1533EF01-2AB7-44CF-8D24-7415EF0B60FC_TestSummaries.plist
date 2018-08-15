@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FormatVersion</key>
+	<string>1.2</string>
+	<key>RunDestination</key>
+	<dict>
+		<key>LocalComputer</key>
+		<dict>
+			<key>BusSpeedInMHz</key>
+			<integer>100</integer>
+			<key>CPUCount</key>
+			<integer>1</integer>
+			<key>CPUKind</key>
+			<string>Intel Core i7</string>
+			<key>CPUSpeedInMHz</key>
+			<integer>2000</integer>
+			<key>Identifier</key>
+			<string>CF28945D-05BB-5385-A523-DC89D1F7CACA</string>
+			<key>IsConcreteDevice</key>
+			<true/>
+			<key>LogicalCPUCoresPerPackage</key>
+			<integer>8</integer>
+			<key>ModelCode</key>
+			<string>MacBookPro11,2</string>
+			<key>ModelName</key>
+			<string>MacBook Pro</string>
+			<key>ModelUTI</key>
+			<string>com.apple.macbookpro-15-retina-display</string>
+			<key>Name</key>
+			<string>My Mac</string>
+			<key>NativeArchitecture</key>
+			<string>x86_64h</string>
+			<key>OperatingSystemVersion</key>
+			<string>10.14</string>
+			<key>OperatingSystemVersionWithBuildNumber</key>
+			<string>10.14 (18A347e)</string>
+			<key>PhysicalCPUCoresPerPackage</key>
+			<integer>4</integer>
+			<key>Platform</key>
+			<dict>
+				<key>Identifier</key>
+				<string>com.apple.platform.macosx</string>
+				<key>Name</key>
+				<string>macOS</string>
+			</dict>
+			<key>RAMSizeInMegabytes</key>
+			<integer>8192</integer>
+		</dict>
+		<key>Name</key>
+		<string>iPhone X</string>
+		<key>TargetArchitecture</key>
+		<string>x86_64</string>
+		<key>TargetDevice</key>
+		<dict>
+			<key>Identifier</key>
+			<string>F62C37DB-AAF4-4E32-9880-D2048C689C5B</string>
+			<key>IsConcreteDevice</key>
+			<true/>
+			<key>ModelCode</key>
+			<string>iPhone10,3</string>
+			<key>ModelName</key>
+			<string>iPhone X</string>
+			<key>ModelUTI</key>
+			<string>com.apple.iphone-x-1</string>
+			<key>Name</key>
+			<string>iPhone X</string>
+			<key>NativeArchitecture</key>
+			<string>x86_64</string>
+			<key>OperatingSystemVersion</key>
+			<string>11.3</string>
+			<key>OperatingSystemVersionWithBuildNumber</key>
+			<string>11.3 (15E217)</string>
+			<key>Platform</key>
+			<dict>
+				<key>Identifier</key>
+				<string>com.apple.platform.iphonesimulator</string>
+				<key>Name</key>
+				<string>iOS Simulator</string>
+			</dict>
+		</dict>
+		<key>TargetSDK</key>
+		<dict>
+			<key>Identifier</key>
+			<string>iphonesimulator11.3</string>
+			<key>IsInternal</key>
+			<false/>
+			<key>Name</key>
+			<string>Simulator - iOS 11.3</string>
+			<key>OperatingSystemVersion</key>
+			<string>11.3</string>
+		</dict>
+	</dict>
+	<key>TestableSummaries</key>
+	<array>
+		<dict>
+			<key>DiagnosticsDirectory</key>
+			<string>NYTimesTests-188870B4-5B0E-4E98-AEE7-CBD5BEE57EB2</string>
+			<key>ProjectPath</key>
+			<string>NYTimes.xcodeproj</string>
+			<key>TargetName</key>
+			<string>NYTimesTests</string>
+			<key>TestName</key>
+			<string>NYTimesTests</string>
+			<key>TestObjectClass</key>
+			<string>IDESchemeActionTestableSummary</string>
+			<key>Tests</key>
+			<array>
+				<dict>
+					<key>Duration</key>
+					<real>20.054161071777344</real>
+					<key>Subtests</key>
+					<array>
+						<dict>
+							<key>Duration</key>
+							<real>20.052103996276855</real>
+							<key>Subtests</key>
+							<array>
+								<dict>
+									<key>Duration</key>
+									<real>20.05069899559021</real>
+									<key>Subtests</key>
+									<array>
+										<dict>
+											<key>ActivitySummaries</key>
+											<array>
+												<dict>
+													<key>ActivityType</key>
+													<string>com.apple.dt.xctest.activity-type.testAssertionFailure</string>
+													<key>FinishTimeInterval</key>
+													<real>556048858.91932201</real>
+													<key>StartTimeInterval</key>
+													<real>556048858.91882706</real>
+													<key>Title</key>
+													<string>Assertion Failure: PopularNewsApiServiceTest.swift:33: Asynchronous wait failed: Exceeded timeout of 20 seconds, with unfulfilled expectations: "testMostViewed".</string>
+													<key>UUID</key>
+													<string>4E18EFE8-FFDE-4E70-BA44-F7FE22CECCEB</string>
+												</dict>
+											</array>
+											<key>Duration</key>
+											<real>20.049909114837646</real>
+											<key>FailureSummaries</key>
+											<array>
+												<dict>
+													<key>FileName</key>
+													<string>/Users/RaghuSandeep/Documents/NYTimes/NYTimesTests/PopularNewsApiServiceTest.swift</string>
+													<key>LineNumber</key>
+													<integer>33</integer>
+													<key>Message</key>
+													<string>Asynchronous wait failed: Exceeded timeout of 20 seconds, with unfulfilled expectations: "testMostViewed".</string>
+													<key>PerformanceFailure</key>
+													<false/>
+												</dict>
+											</array>
+											<key>TestIdentifier</key>
+											<string>PopularNewsApiServiceTest/testMostViewed()</string>
+											<key>TestName</key>
+											<string>testMostViewed()</string>
+											<key>TestObjectClass</key>
+											<string>IDESchemeActionTestSummary</string>
+											<key>TestStatus</key>
+											<string>Failure</string>
+											<key>TestSummaryGUID</key>
+											<string>C3EBCAC5-14FF-4DE6-98DA-ACA4E3A5B9C9</string>
+										</dict>
+									</array>
+									<key>TestIdentifier</key>
+									<string>PopularNewsApiServiceTest</string>
+									<key>TestName</key>
+									<string>PopularNewsApiServiceTest</string>
+									<key>TestObjectClass</key>
+									<string>IDESchemeActionTestSummaryGroup</string>
+								</dict>
+							</array>
+							<key>TestIdentifier</key>
+							<string>NYTimesTests.xctest</string>
+							<key>TestName</key>
+							<string>NYTimesTests.xctest</string>
+							<key>TestObjectClass</key>
+							<string>IDESchemeActionTestSummaryGroup</string>
+						</dict>
+					</array>
+					<key>TestIdentifier</key>
+					<string>Selected tests</string>
+					<key>TestName</key>
+					<string>Selected tests</string>
+					<key>TestObjectClass</key>
+					<string>IDESchemeActionTestSummaryGroup</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

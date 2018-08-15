@@ -1,0 +1,11 @@
+Test Suite 'Selected tests' started at 2018-08-16 00:13:42.047
+Test Suite 'NYTimesTests.xctest' started at 2018-08-16 00:13:42.048
+Test Suite 'DetailPopularNewsViewControllerTest' started at 2018-08-16 00:13:42.049
+Test Case '-[NYTimesTests.DetailPopularNewsViewControllerTest testViewDidLoad]' started.
+Test Case '-[NYTimesTests.DetailPopularNewsViewControllerTest testViewDidLoad]' passed (0.005 seconds).
+Test Suite 'DetailPopularNewsViewControllerTest' passed at 2018-08-16 00:13:42.055.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.005 (0.006) seconds
+Test Suite 'NYTimesTests.xctest' passed at 2018-08-16 00:13:42.055.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.005 (0.007) seconds
+Test Suite 'Selected tests' passed at 2018-08-16 00:13:42.056.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.005 (0.009) seconds

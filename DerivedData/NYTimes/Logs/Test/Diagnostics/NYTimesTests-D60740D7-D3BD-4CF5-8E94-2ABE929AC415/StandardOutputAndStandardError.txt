@@ -1,0 +1,12 @@
+Test Suite 'Selected tests' started at 2018-08-13 23:33:11.640
+Test Suite 'NYTimesTests.xctest' started at 2018-08-13 23:33:11.640
+Test Suite 'PopularNewsViewControllerTest' started at 2018-08-13 23:33:11.641
+Test Case '-[NYTimesTests.PopularNewsViewControllerTest testupdate]' started.
+/Users/RaghuSandeep/Documents/NYTimes/NYTimesTests/PopularNewsViewControllerTest.swift:41: error: -[NYTimesTests.PopularNewsViewControllerTest testupdate] : XCTAssertFalse failed - 
+Test Case '-[NYTimesTests.PopularNewsViewControllerTest testupdate]' failed (34.878 seconds).
+Test Suite 'PopularNewsViewControllerTest' failed at 2018-08-13 23:33:46.519.
+	 Executed 1 test, with 1 failure (0 unexpected) in 34.878 (34.879) seconds
+Test Suite 'NYTimesTests.xctest' failed at 2018-08-13 23:33:46.520.
+	 Executed 1 test, with 1 failure (0 unexpected) in 34.878 (34.880) seconds
+Test Suite 'Selected tests' failed at 2018-08-13 23:33:46.521.
+	 Executed 1 test, with 1 failure (0 unexpected) in 34.878 (34.881) seconds

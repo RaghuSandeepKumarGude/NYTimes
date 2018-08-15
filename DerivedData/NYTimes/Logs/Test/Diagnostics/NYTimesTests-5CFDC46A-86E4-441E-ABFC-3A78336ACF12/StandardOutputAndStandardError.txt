@@ -1,0 +1,48 @@
+Test Suite 'All tests' started at 2018-08-16 00:14:27.801
+Test Suite 'NYTimesTests.xctest' started at 2018-08-16 00:14:27.802
+Test Suite 'AppDelegateTest' started at 2018-08-16 00:14:27.802
+Test Case '-[NYTimesTests.AppDelegateTest testApplicationDidFinishLaunchingWithOptions]' started.
+Test Case '-[NYTimesTests.AppDelegateTest testApplicationDidFinishLaunchingWithOptions]' passed (0.017 seconds).
+Test Suite 'AppDelegateTest' passed at 2018-08-16 00:14:27.820.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.017 (0.018) seconds
+Test Suite 'DetailPopularNewsViewControllerTest' started at 2018-08-16 00:14:27.821
+Test Case '-[NYTimesTests.DetailPopularNewsViewControllerTest testTextViewShouldBeginEditing]' started.
+Test Case '-[NYTimesTests.DetailPopularNewsViewControllerTest testTextViewShouldBeginEditing]' passed (0.009 seconds).
+Test Case '-[NYTimesTests.DetailPopularNewsViewControllerTest testViewDidLoad]' started.
+Test Case '-[NYTimesTests.DetailPopularNewsViewControllerTest testViewDidLoad]' passed (0.004 seconds).
+Test Suite 'DetailPopularNewsViewControllerTest' passed at 2018-08-16 00:14:27.836.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.014 (0.015) seconds
+Test Suite 'PopularNewsApiServiceTest' started at 2018-08-16 00:14:27.837
+Test Case '-[NYTimesTests.PopularNewsApiServiceTest testMostViewed]' started.
+Test Case '-[NYTimesTests.PopularNewsApiServiceTest testMostViewed]' passed (0.002 seconds).
+Test Suite 'PopularNewsApiServiceTest' passed at 2018-08-16 00:14:27.839.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.002 (0.003) seconds
+Test Suite 'PopularNewsModelTest' started at 2018-08-16 00:14:27.840
+Test Case '-[NYTimesTests.PopularNewsModelTest testMostViewed]' started.
+Test Case '-[NYTimesTests.PopularNewsModelTest testMostViewed]' passed (0.001 seconds).
+Test Suite 'PopularNewsModelTest' passed at 2018-08-16 00:14:27.842.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.001 (0.002) seconds
+Test Suite 'PopularNewsPresenterTest' started at 2018-08-16 00:14:27.842
+Test Case '-[NYTimesTests.PopularNewsPresenterTest testMostViewed]' started.
+Test Case '-[NYTimesTests.PopularNewsPresenterTest testMostViewed]' passed (0.001 seconds).
+Test Case '-[NYTimesTests.PopularNewsPresenterTest testSelectedArtical]' started.
+Test Case '-[NYTimesTests.PopularNewsPresenterTest testSelectedArtical]' passed (0.002 seconds).
+Test Suite 'PopularNewsPresenterTest' passed at 2018-08-16 00:14:27.847.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.003 (0.005) seconds
+Test Suite 'PopularNewsViewControllerTest' started at 2018-08-16 00:14:27.848
+Test Case '-[NYTimesTests.PopularNewsViewControllerTest testCellForAtIndexPath]' started.
+Test Case '-[NYTimesTests.PopularNewsViewControllerTest testCellForAtIndexPath]' passed (0.019 seconds).
+Test Case '-[NYTimesTests.PopularNewsViewControllerTest testHeightForRowAt]' started.
+Test Case '-[NYTimesTests.PopularNewsViewControllerTest testHeightForRowAt]' passed (0.002 seconds).
+Test Case '-[NYTimesTests.PopularNewsViewControllerTest testNumberOfRowsInSection]' started.
+Test Case '-[NYTimesTests.PopularNewsViewControllerTest testNumberOfRowsInSection]' passed (0.002 seconds).
+Test Case '-[NYTimesTests.PopularNewsViewControllerTest testupdate]' started.
+Test Case '-[NYTimesTests.PopularNewsViewControllerTest testupdate]' passed (0.001 seconds).
+Test Case '-[NYTimesTests.PopularNewsViewControllerTest testViewDidLoad]' started.
+Test Case '-[NYTimesTests.PopularNewsViewControllerTest testViewDidLoad]' passed (0.002 seconds).
+Test Suite 'PopularNewsViewControllerTest' passed at 2018-08-16 00:14:27.877.
+	 Executed 5 tests, with 0 failures (0 unexpected) in 0.025 (0.029) seconds
+Test Suite 'NYTimesTests.xctest' passed at 2018-08-16 00:14:27.878.
+	 Executed 12 tests, with 0 failures (0 unexpected) in 0.062 (0.076) seconds
+Test Suite 'All tests' passed at 2018-08-16 00:14:27.879.
+	 Executed 12 tests, with 0 failures (0 unexpected) in 0.062 (0.078) seconds

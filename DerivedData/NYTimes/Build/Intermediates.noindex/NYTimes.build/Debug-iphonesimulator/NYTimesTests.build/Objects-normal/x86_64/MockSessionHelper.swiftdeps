@@ -1,0 +1,327 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MockSessionHelper"
+provides-nominal:
+- "12NYTimesTests17MockSessionHelperV"
+- "12NYTimesTests17MockSessionHelperV0c4DataD0C"
+- "12NYTimesTests17MockSessionHelperV0C8DataTaskC"
+provides-member:
+- ["12NYTimesTests17MockSessionHelperV", ""]
+- ["12NYTimesTests17MockSessionHelperV0c4DataD0C", ""]
+- ["12NYTimesTests17MockSessionHelperV0C8DataTaskC", ""]
+provides-dynamic-lookup:
+- "dataTask"
+- "resume"
+depends-top-level:
+- "AssignmentPrecedence"
+- "BooleanLiteralType"
+- "Data"
+- "Error"
+- "MockSessionHelper"
+- "NSError"
+- !private "StringLiteralType"
+- "URL"
+- "URLResponse"
+- "URLSession"
+- "URLSessionDataTask"
+- "Void"
+depends-member:
+- !private ["s7CVarArgP", "MockDataTask"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "block"]
+- !private ["s7CVarArgP", "data"]
+- !private ["s7CVarArgP", "dataTaskWithUrlCalled"]
+- !private ["s7CVarArgP", "error"]
+- !private ["s7CVarArgP", "handler"]
+- !private ["s7CVarArgP", "httpError"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "requestUrl"]
+- !private ["s7CVarArgP", "response"]
+- !private ["s7CVarArgP", "urlResponse"]
+- !private ["s28CustomDebugStringConvertibleP", "MockDataTask"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "block"]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
+- !private ["s28CustomDebugStringConvertibleP", "dataTaskWithUrlCalled"]
+- !private ["s28CustomDebugStringConvertibleP", "error"]
+- !private ["s28CustomDebugStringConvertibleP", "handler"]
+- !private ["s28CustomDebugStringConvertibleP", "httpError"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "requestUrl"]
+- !private ["s28CustomDebugStringConvertibleP", "response"]
+- !private ["s28CustomDebugStringConvertibleP", "urlResponse"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "MockDataTask"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "block"]
+- !private ["s23CustomStringConvertibleP", "data"]
+- !private ["s23CustomStringConvertibleP", "dataTaskWithUrlCalled"]
+- !private ["s23CustomStringConvertibleP", "error"]
+- !private ["s23CustomStringConvertibleP", "handler"]
+- !private ["s23CustomStringConvertibleP", "httpError"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "requestUrl"]
+- !private ["s23CustomStringConvertibleP", "response"]
+- !private ["s23CustomStringConvertibleP", "urlResponse"]
+- !private ["s9EquatableP", "MockDataTask"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "block"]
+- !private ["s9EquatableP", "data"]
+- !private ["s9EquatableP", "dataTaskWithUrlCalled"]
+- !private ["s9EquatableP", "error"]
+- !private ["s9EquatableP", "handler"]
+- !private ["s9EquatableP", "httpError"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "requestUrl"]
+- !private ["s9EquatableP", "response"]
+- !private ["s9EquatableP", "urlResponse"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "MockDataTask"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "block"]
+- !private ["s8HashableP", "data"]
+- !private ["s8HashableP", "dataTaskWithUrlCalled"]
+- !private ["s8HashableP", "error"]
+- !private ["s8HashableP", "handler"]
+- !private ["s8HashableP", "httpError"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "requestUrl"]
+- !private ["s8HashableP", "response"]
+- !private ["s8HashableP", "urlResponse"]
+- ["12NYTimesTests17MockSessionHelperV0c4DataD0C", "CompletionHandler"]
+- ["12NYTimesTests17MockSessionHelperV0c4DataD0C", "Data"]
+- ["12NYTimesTests17MockSessionHelperV0c4DataD0C", "Error"]
+- !private ["12NYTimesTests17MockSessionHelperV0c4DataD0C", "MockDataTask"]
+- ["12NYTimesTests17MockSessionHelperV0c4DataD0C", "NSError"]
+- ["12NYTimesTests17MockSessionHelperV0c4DataD0C", "URL"]
+- ["12NYTimesTests17MockSessionHelperV0c4DataD0C", "URLResponse"]
+- ["12NYTimesTests17MockSessionHelperV0c4DataD0C", "URLSessionDataTask"]
+- ["12NYTimesTests17MockSessionHelperV0c4DataD0C", "Void"]
+- ["12NYTimesTests17MockSessionHelperV0c4DataD0C", "data"]
+- ["12NYTimesTests17MockSessionHelperV0c4DataD0C", "dataTask"]
+- ["12NYTimesTests17MockSessionHelperV0c4DataD0C", "dataTaskWithUrlCalled"]
+- ["12NYTimesTests17MockSessionHelperV0c4DataD0C", "deinit"]
+- ["12NYTimesTests17MockSessionHelperV0c4DataD0C", "error"]
+- ["12NYTimesTests17MockSessionHelperV0c4DataD0C", "handler"]
+- ["12NYTimesTests17MockSessionHelperV0c4DataD0C", "init"]
+- ["12NYTimesTests17MockSessionHelperV0c4DataD0C", "requestUrl"]
+- ["12NYTimesTests17MockSessionHelperV0c4DataD0C", "response"]
+- ["12NYTimesTests17MockSessionHelperV0C8DataTaskC", "CompletionHandler"]
+- ["12NYTimesTests17MockSessionHelperV0C8DataTaskC", "Data"]
+- ["12NYTimesTests17MockSessionHelperV0C8DataTaskC", "NSError"]
+- ["12NYTimesTests17MockSessionHelperV0C8DataTaskC", "URLResponse"]
+- ["12NYTimesTests17MockSessionHelperV0C8DataTaskC", "block"]
+- ["12NYTimesTests17MockSessionHelperV0C8DataTaskC", "data"]
+- ["12NYTimesTests17MockSessionHelperV0C8DataTaskC", "deinit"]
+- ["12NYTimesTests17MockSessionHelperV0C8DataTaskC", "httpError"]
+- ["12NYTimesTests17MockSessionHelperV0C8DataTaskC", "init"]
+- ["12NYTimesTests17MockSessionHelperV0C8DataTaskC", "resume"]
+- ["12NYTimesTests17MockSessionHelperV0C8DataTaskC", "urlResponse"]
+- ["12NYTimesTests17MockSessionHelperV", "CompletionHandler"]
+- ["12NYTimesTests17MockSessionHelperV", "Data"]
+- ["12NYTimesTests17MockSessionHelperV", "Error"]
+- ["12NYTimesTests17MockSessionHelperV", "MockDataSession"]
+- ["12NYTimesTests17MockSessionHelperV", "MockDataTask"]
+- ["12NYTimesTests17MockSessionHelperV", "NSError"]
+- ["12NYTimesTests17MockSessionHelperV", "URL"]
+- ["12NYTimesTests17MockSessionHelperV", "URLResponse"]
+- ["12NYTimesTests17MockSessionHelperV", "URLSession"]
+- ["12NYTimesTests17MockSessionHelperV", "URLSessionDataTask"]
+- ["12NYTimesTests17MockSessionHelperV", "Void"]
+- ["12NYTimesTests17MockSessionHelperV", "init"]
+- ["So9NSCopyingP", ""]
+- !private ["So9NSCopyingP", "block"]
+- !private ["So9NSCopyingP", "data"]
+- !private ["So9NSCopyingP", "httpError"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "urlResponse"]
+- ["So8NSObjectC", "CompletionHandler"]
+- ["So8NSObjectC", "Data"]
+- ["So8NSObjectC", "Error"]
+- !private ["So8NSObjectC", "MockDataTask"]
+- ["So8NSObjectC", "NSError"]
+- ["So8NSObjectC", "URL"]
+- ["So8NSObjectC", "URLResponse"]
+- ["So8NSObjectC", "URLSessionDataTask"]
+- ["So8NSObjectC", "Void"]
+- ["So8NSObjectC", "block"]
+- ["So8NSObjectC", "data"]
+- ["So8NSObjectC", "dataTask"]
+- ["So8NSObjectC", "dataTaskWithUrlCalled"]
+- ["So8NSObjectC", "error"]
+- ["So8NSObjectC", "handler"]
+- ["So8NSObjectC", "httpError"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "requestUrl"]
+- ["So8NSObjectC", "response"]
+- ["So8NSObjectC", "resume"]
+- ["So8NSObjectC", "urlResponse"]
+- !private ["So16NSObjectProtocolP", "MockDataTask"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "block"]
+- !private ["So16NSObjectProtocolP", "data"]
+- !private ["So16NSObjectProtocolP", "dataTaskWithUrlCalled"]
+- !private ["So16NSObjectProtocolP", "error"]
+- !private ["So16NSObjectProtocolP", "handler"]
+- !private ["So16NSObjectProtocolP", "httpError"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "requestUrl"]
+- !private ["So16NSObjectProtocolP", "response"]
+- !private ["So16NSObjectProtocolP", "urlResponse"]
+- ["So17ProgressReportingP", ""]
+- !private ["So17ProgressReportingP", "block"]
+- !private ["So17ProgressReportingP", "data"]
+- !private ["So17ProgressReportingP", "httpError"]
+- !private ["So17ProgressReportingP", "init"]
+- !private ["So17ProgressReportingP", "urlResponse"]
+- !private ["s12StaticStringV", "init"]
+- ["So10URLSessionC", "CompletionHandler"]
+- ["So10URLSessionC", "Data"]
+- ["So10URLSessionC", "Error"]
+- !private ["So10URLSessionC", "MockDataTask"]
+- ["So10URLSessionC", "NSError"]
+- ["So10URLSessionC", "URL"]
+- ["So10URLSessionC", "URLResponse"]
+- ["So10URLSessionC", "URLSessionDataTask"]
+- ["So10URLSessionC", "Void"]
+- ["So10URLSessionC", ""]
+- ["So10URLSessionC", "data"]
+- ["So10URLSessionC", "dataTask"]
+- ["So10URLSessionC", "dataTaskWithUrlCalled"]
+- ["So10URLSessionC", "error"]
+- ["So10URLSessionC", "handler"]
+- ["So10URLSessionC", "init"]
+- ["So10URLSessionC", "requestUrl"]
+- ["So10URLSessionC", "response"]
+- ["So18URLSessionDataTaskC", "CompletionHandler"]
+- ["So18URLSessionDataTaskC", "Data"]
+- ["So18URLSessionDataTaskC", "NSError"]
+- ["So18URLSessionDataTaskC", "URLResponse"]
+- ["So18URLSessionDataTaskC", ""]
+- ["So18URLSessionDataTaskC", "block"]
+- ["So18URLSessionDataTaskC", "data"]
+- ["So18URLSessionDataTaskC", "httpError"]
+- ["So18URLSessionDataTaskC", "init"]
+- ["So18URLSessionDataTaskC", "resume"]
+- ["So18URLSessionDataTaskC", "urlResponse"]
+- ["So14URLSessionTaskC", "CompletionHandler"]
+- ["So14URLSessionTaskC", "Data"]
+- ["So14URLSessionTaskC", "NSError"]
+- ["So14URLSessionTaskC", "URLResponse"]
+- ["So14URLSessionTaskC", "block"]
+- ["So14URLSessionTaskC", "data"]
+- ["So14URLSessionTaskC", "httpError"]
+- ["So14URLSessionTaskC", "init"]
+- ["So14URLSessionTaskC", "resume"]
+- ["So14URLSessionTaskC", "urlResponse"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MockDataTask"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "block"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "data"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataTaskWithUrlCalled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "error"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "handler"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "httpError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "requestUrl"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "response"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "urlResponse"]
+depends-nominal:
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9EquatableP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- "12NYTimesTests17MockSessionHelperV0c4DataD0C"
+- "12NYTimesTests17MockSessionHelperV0C8DataTaskC"
+- "12NYTimesTests17MockSessionHelperV"
+- "So9NSCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So17ProgressReportingP"
+- !private "s12StaticStringV"
+- "So10URLSessionC"
+- "So18URLSessionDataTaskC"
+- "So14URLSessionTaskC"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/RaghuSandeep/Documents/NYTimes/DerivedData/NYTimes/Build/Products/Debug-iphonesimulator/NYTimes.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/XCTest.swiftmodule"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SVProgressHUD.framework/Headers/SVProgressHUD.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/UIImage+GIF.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/UIImage+WebP.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/UIImage+ForceDecode.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImage.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/FLAnimatedImage.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/UIButton+WebCache.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/UIView+WebCache.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/UIImageView+WebCache.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/FLAnimatedImageView+WebCache.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/MKAnnotationView+WebCache.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/UIImageView+HighlightedWebCache.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDImageCache.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageFrame.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/NSData+ImageContentType.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDImageCacheConfig.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageOperation.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/UIView+WebCacheOperation.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageDownloaderOperation.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageTransition.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/NYTimes/NYTimes-Bridging-Header.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageDownloader.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageGIFCoder.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageImageIOCoder.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageWebPCoder.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageCoder.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageManager.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageCodersManager.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImagePrefetcher.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageCoderHelper.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/UIImage+MultiFormat.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageCompat.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Headers/FLAnimatedImageView.h"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SVProgressHUD.framework/Modules/module.modulemap"
+- "/Users/RaghuSandeep/Documents/NYTimes/Carthage/Build/iOS/SDWebImage.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "e3088969df31c5cb07486096d1e0d332"

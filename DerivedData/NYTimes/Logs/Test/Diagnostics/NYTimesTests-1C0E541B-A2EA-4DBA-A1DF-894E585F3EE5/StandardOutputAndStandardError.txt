@@ -1,0 +1,17 @@
+Test Suite 'Selected tests' started at 2018-08-16 00:24:42.177
+Test Suite 'NYTimesTests.xctest' started at 2018-08-16 00:24:42.178
+Test Suite 'DetailPopularNewsViewControllerTest' started at 2018-08-16 00:24:42.179
+Test Case '-[NYTimesTests.DetailPopularNewsViewControllerTest testViewDidLoad]' started.
+2018-08-16 00:24:42.190859+0530 NYTimes[91780:25121018] [LayoutConstraints] The view hierarchy is not prepared for the constraint: <NSLayoutConstraint:0x60c000090720 UILabel:0x7facc5100e50.leading == UIVisualEffectView:0x7facc51183a0.leading   (inactive)>
+	When added to a view, the constraint's items must be descendants of that view (or the view itself). This will crash if the constraint needs to be resolved before the view hierarchy is assembled. Break on -[UIView(UIConstraintBasedLayout) _viewHierarchyUnpreparedForConstraint:] to debug.
+2018-08-16 00:24:42.191157+0530 NYTimes[91780:25121018] [LayoutConstraints] The view hierarchy is not prepared for the constraint: <NSLayoutConstraint:0x60c000090770 UIVisualEffectView:0x7facc51183a0.bottom == UILabel:0x7facc5100e50.bottom   (inactive)>
+	When added to a view, the constraint's items must be descendants of that view (or the view itself). This will crash if the constraint needs to be resolved before the view hierarchy is assembled. Break on -[UIView(UIConstraintBasedLayout) _viewHierarchyUnpreparedForConstraint:] to debug.
+2018-08-16 00:24:42.191385+0530 NYTimes[91780:25121018] [LayoutConstraints] The view hierarchy is not prepared for the constraint: <NSLayoutConstraint:0x60c0000907c0 UIVisualEffectView:0x7facc51183a0.trailing == UILabel:0x7facc5100e50.trailing   (inactive)>
+	When added to a view, the constraint's items must be descendants of that view (or the view itself). This will crash if the constraint needs to be resolved before the view hierarchy is assembled. Break on -[UIView(UIConstraintBasedLayout) _viewHierarchyUnpreparedForConstraint:] to debug.
+Test Case '-[NYTimesTests.DetailPopularNewsViewControllerTest testViewDidLoad]' passed (0.029 seconds).
+Test Suite 'DetailPopularNewsViewControllerTest' passed at 2018-08-16 00:24:42.209.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.029 (0.030) seconds
+Test Suite 'NYTimesTests.xctest' passed at 2018-08-16 00:24:42.209.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.029 (0.031) seconds
+Test Suite 'Selected tests' passed at 2018-08-16 00:24:42.210.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.029 (0.033) seconds

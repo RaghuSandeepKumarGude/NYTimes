@@ -1,0 +1,13 @@
+Test Suite 'Selected tests' started at 2018-08-13 23:30:16.115
+Test Suite 'NYTimesTests.xctest' started at 2018-08-13 23:30:16.117
+Test Suite 'PopularNewsViewControllerTest' started at 2018-08-13 23:30:16.117
+Test Case '-[NYTimesTests.PopularNewsViewControllerTest testupdate]' started.
+/Users/RaghuSandeep/Documents/NYTimes/NYTimesTests/PopularNewsViewControllerTest.swift:41: error: -[NYTimesTests.PopularNewsViewControllerTest testupdate] : XCTAssertFalse failed - 
+/Users/RaghuSandeep/Documents/NYTimes/NYTimesTests/PopularNewsViewControllerTest.swift:42: error: -[NYTimesTests.PopularNewsViewControllerTest testupdate] : XCTAssertEqual failed: ("0") is not equal to ("1") - 
+Test Case '-[NYTimesTests.PopularNewsViewControllerTest testupdate]' failed (0.016 seconds).
+Test Suite 'PopularNewsViewControllerTest' failed at 2018-08-13 23:30:16.134.
+	 Executed 1 test, with 2 failures (0 unexpected) in 0.016 (0.017) seconds
+Test Suite 'NYTimesTests.xctest' failed at 2018-08-13 23:30:16.135.
+	 Executed 1 test, with 2 failures (0 unexpected) in 0.016 (0.018) seconds
+Test Suite 'Selected tests' failed at 2018-08-13 23:30:16.136.
+	 Executed 1 test, with 2 failures (0 unexpected) in 0.016 (0.021) seconds

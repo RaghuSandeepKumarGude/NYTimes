@@ -1,0 +1,15 @@
+2018-08-14 01:29:25.910087+0530 NYTimes[97434:16827999] TIC TCP Conn Failed [1:0x60000017d580]: 1:50 Err(50)
+2018-08-14 01:29:25.911676+0530 NYTimes[97434:16827999] Task <A093E605-0DB3-49AF-9673-EA3A7C6AD9B3>.<1> HTTP load failed (error code: -1009 [1:50])
+2018-08-14 01:29:25.911929+0530 NYTimes[97434:16827998] Task <A093E605-0DB3-49AF-9673-EA3A7C6AD9B3>.<1> finished with error - code: -1009
+Test Suite 'Selected tests' started at 2018-08-14 01:29:26.245
+Test Suite 'NYTimesTests.xctest' started at 2018-08-14 01:29:26.248
+Test Suite 'PopularNewsApiServiceTest' started at 2018-08-14 01:29:26.249
+Test Case '-[NYTimesTests.PopularNewsApiServiceTest testMostViewed]' started.
+/Users/RaghuSandeep/Documents/NYTimes/NYTimesTests/PopularNewsApiServiceTest.swift:33: error: -[NYTimesTests.PopularNewsApiServiceTest testMostViewed] : Asynchronous wait failed: Exceeded timeout of 10 seconds, with unfulfilled expectations: "testMostViewed".
+Test Case '-[NYTimesTests.PopularNewsApiServiceTest testMostViewed]' failed (10.054 seconds).
+Test Suite 'PopularNewsApiServiceTest' failed at 2018-08-14 01:29:36.304.
+	 Executed 1 test, with 1 failure (0 unexpected) in 10.054 (10.055) seconds
+Test Suite 'NYTimesTests.xctest' failed at 2018-08-14 01:29:36.304.
+	 Executed 1 test, with 1 failure (0 unexpected) in 10.054 (10.057) seconds
+Test Suite 'Selected tests' failed at 2018-08-14 01:29:36.305.
+	 Executed 1 test, with 1 failure (0 unexpected) in 10.054 (10.060) seconds

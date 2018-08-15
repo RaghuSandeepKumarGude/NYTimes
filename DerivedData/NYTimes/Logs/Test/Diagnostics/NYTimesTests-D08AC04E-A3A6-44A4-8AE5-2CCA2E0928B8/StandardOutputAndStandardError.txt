@@ -1,0 +1,12 @@
+Test Suite 'Selected tests' started at 2018-08-15 23:31:51.066
+Test Suite 'NYTimesTests.xctest' started at 2018-08-15 23:31:51.067
+Test Suite 'PopularNewsApiServiceTest' started at 2018-08-15 23:31:51.068
+Test Case '-[NYTimesTests.PopularNewsApiServiceTest testMostViewed]' started.
+/Users/RaghuSandeep/Documents/NYTimes/NYTimesTests/PopularNewsApiServiceTest.swift:33: error: -[NYTimesTests.PopularNewsApiServiceTest testMostViewed] : Asynchronous wait failed: Exceeded timeout of 20 seconds, with unfulfilled expectations: "testMostViewed".
+Test Case '-[NYTimesTests.PopularNewsApiServiceTest testMostViewed]' failed (44.288 seconds).
+Test Suite 'PopularNewsApiServiceTest' failed at 2018-08-15 23:32:35.356.
+	 Executed 1 test, with 1 failure (0 unexpected) in 44.288 (44.288) seconds
+Test Suite 'NYTimesTests.xctest' failed at 2018-08-15 23:32:35.357.
+	 Executed 1 test, with 1 failure (0 unexpected) in 44.288 (44.290) seconds
+Test Suite 'Selected tests' failed at 2018-08-15 23:32:35.358.
+	 Executed 1 test, with 1 failure (0 unexpected) in 44.288 (44.292) seconds
