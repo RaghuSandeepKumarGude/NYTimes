@@ -14,4 +14,3 @@ internal protocol PopularNewsViewable {
     func update(with feed: [News]?)
     func showErrorAlert()
 }
-

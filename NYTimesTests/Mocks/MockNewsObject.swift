@@ -9,36 +9,24 @@
 import Foundation
 @testable import NYTimes
 
-class MockNewsObject: News {
-    required init(from decoder: Decoder) throws {
-        try super.init(from: decoder)
-        self.identifier = 1
-        self.url = "https://www.nytimes.com"
-        self.title = "NY Times"
-        self.byline = "most popular articals"
-        self.PublishedDate = "1-1-2018"
-        self.media = nil
-    }
-}
+struct MockObjects {
+    func mockNewsModel() throws -> News? {
+        var newsData: Data?
+        var feed: News?
 
-class MockMedia: Media {
-    required init(from decoder: Decoder) throws {
-        try super.init(from: decoder)
-        self.type = "artical"
-        self.subType = "popular"
-        self.caption = "NYTimes"
-        self.copyRight = "recived"
-        self.approvedForSyndication = 2
-        self.mediaMetadata = nil
-    }
-}
+        guard let bundlePath = Bundle.main.path(forResource: "sample_response", ofType: "json") else {
+            return nil
+        }
+        do {
+            newsData = try String(contentsOfFile: bundlePath, encoding: .utf8).data(using: .utf8)
+        }
 
-class MockMediaMetaData: MediaMetadata {
-    required init(from decoder: Decoder) throws {
-        try super.init(from: decoder)
-        self.url = "http://www.nyTimes.com"
-        self.format = "png"
-        self.height = 320
-        self.height = 320
+        do {
+            let decoder = JSONDecoder()
+            feed = try decoder.decode(News.self, from: newsData!)
+        } catch let error {
+            print(error.localizedDescription)
+        }
+        return feed
     }
 }

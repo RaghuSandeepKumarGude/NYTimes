@@ -21,8 +21,7 @@ class MediaMetadata: Codable {
         case width
     }
 
-    func encode(to encoder: Encoder) throws
-    {
+    func encode(to encoder: Encoder) throws {
         var container = encoder.container(keyedBy: CodingKeys.self)
         try container.encode(url, forKey: .url)
         try container.encode(format, forKey: .format)
@@ -30,8 +29,7 @@ class MediaMetadata: Codable {
         try container.encode(width, forKey: .width)
     }
 
-    required init(from decoder: Decoder) throws
-    {
+    required init(from decoder: Decoder) throws {
         let values = try decoder.container(keyedBy: CodingKeys.self)
         url = try values.decode(String?.self, forKey: .url)
         format = try values.decode(String?.self, forKey: .format)

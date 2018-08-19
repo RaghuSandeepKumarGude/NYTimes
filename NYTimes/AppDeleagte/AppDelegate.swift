@@ -12,7 +12,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     public var window: UIWindow?
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication,
+                     didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         let navigation = UINavigationController(rootViewController: rootViewController())
         self.window?.rootViewController = navigation
         self.window?.makeKeyAndVisible()
@@ -32,7 +33,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     // MARK: Set up
     private func rootViewController() -> UIViewController {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        guard let newsViewController = storyboard.instantiateViewController(withIdentifier: "PopularNewsViewController") as? PopularNewsViewController else {
+        let identifier = "PopularNewsViewController"
+        let viewController = storyboard.instantiateViewController(withIdentifier: identifier)
+        guard let newsViewController = viewController as? PopularNewsViewController else {
             fatalError("Can't instantiate PopularNewsViewController")
         }
         let apiService = PopularNewsApiService()
@@ -42,4 +45,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return newsViewController
     }
 }
-

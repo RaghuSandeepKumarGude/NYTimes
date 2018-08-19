@@ -8,15 +8,12 @@
 
 import Foundation
 
-
 class PopularNewsModal: PopularNewsModalProtocol {
     var feedService: PopularNewsApiProtocol
-
     var news: [News]?
-    
     var presenter: PopularNewsPresentable?
 
-     init(feedService: PopularNewsApiProtocol) {
+    init(feedService: PopularNewsApiProtocol) {
         self.feedService = feedService
     }
 

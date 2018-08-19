@@ -25,8 +25,7 @@ class Media: Codable {
         case mediaMetadata = "media-metadata"
     }
 
-    func encode(to encoder: Encoder) throws
-    {
+    func encode(to encoder: Encoder) throws {
         var container = encoder.container(keyedBy: CodingKeys.self)
         try container.encode(type, forKey: .type)
         try container.encode(subType, forKey: .subType)
@@ -36,8 +35,7 @@ class Media: Codable {
         try container.encode(mediaMetadata, forKey: .mediaMetadata)
     }
 
-    required init(from decoder: Decoder) throws
-    {
+    required init(from decoder: Decoder) throws {
         let values = try decoder.container(keyedBy: CodingKeys.self)
         type = try values.decode(String?.self, forKey: .type)
         subType = try values.decode(String?.self, forKey: .subType)

@@ -68,9 +68,11 @@ extension PopularNewsViewController: UITableViewDataSource {
         cell?.header.text = newsFeed?[indexPath.row].title
         cell?.subHeader.text =  newsFeed?[indexPath.row].byline
 
-        cell?.date.text = newsFeed?[indexPath.row].PublishedDate
+        cell?.date.text = newsFeed?[indexPath.row].publishedDate
 
-        if let metaData = newsFeed?[indexPath.row].media?.first?.mediaMetadata?.first(where: {$0.format == "Standard Thumbnail"}), let imageUrl =  metaData.url {
+        if let metaData = newsFeed?[indexPath.row].media?.first?.mediaMetadata?.first(where: {
+            $0.format == "Standard Thumbnail"
+        }), let imageUrl =  metaData.url {
             cell?.thumbnailImage.sd_setImage(with: URL(string: imageUrl), completed: nil)
         }
         cell?.thumbnailImage.layer.cornerRadius = 30.0
@@ -92,5 +94,3 @@ extension PopularNewsViewController: UITableViewDelegate {
         return 130.0
     }
 }
-
-

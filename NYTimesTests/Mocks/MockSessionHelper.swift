@@ -30,7 +30,9 @@ struct MockSessionHelper {
         }
 
         override func dataTask(with url: URL,
-                               completionHandler: @escaping (Data?, URLResponse?, Error?) -> Void) -> URLSessionDataTask {
+                               completionHandler: @escaping (Data?,
+            URLResponse?,
+            Error?) -> Void) -> URLSessionDataTask {
             handler = completionHandler
             requestUrl = url
             dataTaskWithUrlCalled = true
@@ -62,4 +64,3 @@ struct MockSessionHelper {
         }
     }
 }
-

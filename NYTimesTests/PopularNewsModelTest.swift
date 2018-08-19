@@ -19,15 +19,15 @@ class PopularNewsModelTest: XCTestCase {
         mockModel = MockPopularNewsApi()
         sut = PopularNewsModal(feedService: mockModel)
     }
-    
+
     override func tearDown() {
         sut = nil
         super.tearDown()
     }
 
     func testMostViewed() {
-        sut.mostViewed { (news, error) in
+        sut.mostViewed { (_, _) in
             XCTAssertTrue(self.mockModel.mostViewed)
         }
-    }    
+    }
 }

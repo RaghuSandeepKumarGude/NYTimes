@@ -9,7 +9,6 @@
 import Foundation
 import UIKit
 
-
 class PopularNewsViewContollerCell: UITableViewCell {
     @IBOutlet weak var thumbnailImage: UIImageView!
     @IBOutlet weak var header: UILabel!

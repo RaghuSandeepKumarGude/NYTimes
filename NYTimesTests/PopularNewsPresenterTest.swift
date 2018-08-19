@@ -9,7 +9,6 @@
 import XCTest
 @testable import NYTimes
 
-
 class PopularNewsPresenterTest: XCTestCase {
     var sut: PopularNewsPresenter!
     var mockView: MockPopularNewsView!

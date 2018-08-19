@@ -1,4 +1,0 @@
-Test Suite 'Selected tests' started at 2018-08-13 18:39:12.946
-Test Suite 'NYTimesTests.xctest' started at 2018-08-13 18:39:12.947
-Test Suite 'PopularNewsPresenterTest' started at 2018-08-13 18:39:12.947
-Test Case '-[NYTimesTests.PopularNewsPresenterTest testMostViewed]' started.

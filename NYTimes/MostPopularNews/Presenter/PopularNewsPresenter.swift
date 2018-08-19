@@ -30,7 +30,9 @@ class PopularNewsPresenter: PopularNewsPresentable {
 
     func selectedArtical(artical: News?, navigation: UINavigationController) {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        guard let newsViewController = storyboard.instantiateViewController(withIdentifier: "DetailPopularNewsViewController") as? DetailPopularNewsViewController else {
+        let detailViewIdentifier = "DetailPopularNewsViewController"
+        let viewContoller = storyboard.instantiateViewController(withIdentifier: detailViewIdentifier)
+        guard let newsViewController = viewContoller as? DetailPopularNewsViewController else {
             fatalError("Can't instantiate PopularNewsViewController")
         }
         newsViewController.selectedArtical = artical

@@ -1,18 +1,2 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<testsuites name='NYTimesTests.xctest' tests='7' failures='0'>
-  <testsuite name='NYTimesTests.AppDelegateTest' tests='1' failures='0'>
-    <testcase classname='NYTimesTests.AppDelegateTest' name='testApplicationDidFinishLaunchingWithOptions' time='0.017'/>
-  </testsuite>
-  <testsuite name='NYTimesTests.DetailPopularNewsViewControllerTest' tests='1' failures='0'>
-    <testcase classname='NYTimesTests.DetailPopularNewsViewControllerTest' name='testTextViewShouldBeginEditing' time='0.008'/>
-  </testsuite>
-  <testsuite name='NYTimesTests.PopularNewsModelTest' tests='2' failures='0'>
-    <testcase classname='NYTimesTests.PopularNewsModelTest' name='testExample' time='0.001'/>
-    <testcase classname='NYTimesTests.PopularNewsModelTest' name='testPerformanceExample' time='0.448'/>
-  </testsuite>
-  <testsuite name='NYTimesTests.PopularNewsViewControllerTest' tests='3' failures='0'>
-    <testcase classname='NYTimesTests.PopularNewsViewControllerTest' name='testCellForAtIndexPath' time='0.030'/>
-    <testcase classname='NYTimesTests.PopularNewsViewControllerTest' name='testHeightForRowAt' time='0.002'/>
-    <testcase classname='NYTimesTests.PopularNewsViewControllerTest' name='testNumberOfRowsInSection' time='0.002'/>
-  </testsuite>
-</testsuites>
+<testsuites tests='0' failures='0'/>

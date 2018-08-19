@@ -12,7 +12,6 @@ protocol PopularNewsModalProtocol {
     var presenter: PopularNewsPresentable? { get }
     var feedService: PopularNewsApiProtocol { get }
     var news: [News]? {get set}
-    
+
     func mostViewed(completion: @escaping NewsFeedCompletionHandler)
 }
-

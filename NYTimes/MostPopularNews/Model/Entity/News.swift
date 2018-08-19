@@ -14,15 +14,15 @@ class News: NSObject, Codable {
     var url: String?
     var title: String?
     var byline: String?
-    var PublishedDate: String?
+    var publishedDate: String?
     var media: [Media]?
 
-    enum CodingKeys : String, CodingKey {
+    enum CodingKeys: String, CodingKey {
         case identifier = "id"
         case url = "url"
         case title = "title"
         case byline = "byline"
-        case PublishedDate = "published_date"
+        case publishedDate = "published_date"
         case media = "media"
     }
 
@@ -32,7 +32,7 @@ class News: NSObject, Codable {
         try container.encode(url, forKey: .url)
         try container.encode(title, forKey: .title)
         try container.encode(byline, forKey: .byline)
-        try container.encode(PublishedDate, forKey: .PublishedDate)
+        try container.encode(publishedDate, forKey: .publishedDate)
         try container.encode(media, forKey: .media)
     }
 
@@ -42,7 +42,7 @@ class News: NSObject, Codable {
         url = try values.decode(String?.self, forKey: .url)
         title = try values.decode(String?.self, forKey: .title)
         byline = try values.decode(String?.self, forKey: .byline)
-        PublishedDate = try values.decode(String?.self, forKey: .PublishedDate)
+        publishedDate = try values.decode(String?.self, forKey: .publishedDate)
         media = try values.decode([Media]?.self, forKey: .media)
     }
 }

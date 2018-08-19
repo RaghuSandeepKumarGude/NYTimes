@@ -28,9 +28,9 @@ class PopularNewsApiService: PopularNewsApiProtocol {
     }
 
     func popularNews(category: MostPopularCategory,
-                              section: String,
-                              period: Period,
-                              completion: @escaping NewsFeedCompletionHandler) {
+                     section: String,
+                     period: Period,
+                     completion: @escaping NewsFeedCompletionHandler) {
 
         let popularNYNews = "\(baseUrl)\(category.rawValue)/\(section)/\(period.rawValue).json?api-key=\(apiKey)"
         guard let popularNYNewsurl = URL(string: popularNYNews) else {
@@ -38,7 +38,7 @@ class PopularNewsApiService: PopularNewsApiProtocol {
             return
         }
 
-        let task =  session.dataTask(with: popularNYNewsurl) { (data, response, error) in
+        let task =  session.dataTask(with: popularNYNewsurl) { (data, _, error) in
             guard let responseData = data, error == nil else {
                 completion(nil, error)
                 return
@@ -58,6 +58,6 @@ class PopularNewsApiService: PopularNewsApiProtocol {
         popularNews(category: MostPopularCategory.mostViewed,
                     section: "all-sections",
                     period: Period.week,
-                    completion:completion)
+                    completion: completion)
     }
 }

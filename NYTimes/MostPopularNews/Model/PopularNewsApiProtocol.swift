@@ -22,10 +22,10 @@ enum Period: Int {
 
 typealias  NewsFeedCompletionHandler = ([News]?, Error?) -> Void
 
-protocol PopularNewsApiProtocol  {
+protocol PopularNewsApiProtocol {
     func popularNews(category: MostPopularCategory,
-                             section: String,
-                             period: Period,
-                             completion: @escaping NewsFeedCompletionHandler)
+                     section: String,
+                     period: Period,
+                     completion: @escaping NewsFeedCompletionHandler)
     func mostViewed(completion: @escaping NewsFeedCompletionHandler)
 }

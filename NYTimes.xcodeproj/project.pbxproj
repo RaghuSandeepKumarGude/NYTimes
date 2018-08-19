@@ -41,6 +41,7 @@
 		93C35E3E2124987400A2A1E9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C35E3D2124987400A2A1E9 /* main.swift */; };
 		93C35E4521249FF600A2A1E9 /* TestingAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C35E4321249BE700A2A1E9 /* TestingAppDelegate.swift */; };
 		93C35E492124B14100A2A1E9 /* MockNewsObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C35E482124B14100A2A1E9 /* MockNewsObject.swift */; };
+		93C35E602126E8F800A2A1E9 /* sample_response.json in Resources */ = {isa = PBXBuildFile; fileRef = 93C35E5F2126E8F700A2A1E9 /* sample_response.json */; };
 		93E4AF4D2121BD5C009C8D8B /* MockUITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E4AF4C2121BD5C009C8D8B /* MockUITableView.swift */; };
 		93E4AF5521220562009C8D8B /* MockSessionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E4AF5421220562009C8D8B /* MockSessionHelper.swift */; };
 		93E4AF57212210D5009C8D8B /* PopularNewsApiServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E4AF56212210D5009C8D8B /* PopularNewsApiServiceTest.swift */; };
@@ -111,6 +112,7 @@
 		93C35E3F21249B7F00A2A1E9 /* NYTimes-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NYTimes-Bridging-Header.h"; sourceTree = "<group>"; };
 		93C35E4321249BE700A2A1E9 /* TestingAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingAppDelegate.swift; sourceTree = "<group>"; };
 		93C35E482124B14100A2A1E9 /* MockNewsObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNewsObject.swift; sourceTree = "<group>"; };
+		93C35E5F2126E8F700A2A1E9 /* sample_response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sample_response.json; sourceTree = "<group>"; };
 		93E4AF4C2121BD5C009C8D8B /* MockUITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockUITableView.swift; sourceTree = "<group>"; };
 		93E4AF5421220562009C8D8B /* MockSessionHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockSessionHelper.swift; sourceTree = "<group>"; };
 		93E4AF56212210D5009C8D8B /* PopularNewsApiServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularNewsApiServiceTest.swift; sourceTree = "<group>"; };
@@ -175,6 +177,7 @@
 		931FB8C9211B5A9E008E2B9D /* NYTimesTests */ = {
 			isa = PBXGroup;
 			children = (
+				93C35E5F2126E8F700A2A1E9 /* sample_response.json */,
 				93C35E462124A44100A2A1E9 /* TestAppdelegate */,
 				936C32832120912100BB85AD /* AppDelegateTest.swift */,
 				936C32852120953000BB85AD /* DetailPopularNewsViewControllerTest.swift */,
@@ -309,6 +312,7 @@
 				931FB8AF211B5A9E008E2B9D /* Frameworks */,
 				931FB8B0211B5A9E008E2B9D /* Resources */,
 				9369B74C211DA4FA007BE9C1 /* Embed Frameworks */,
+				930A43E92127DD700098D518 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -394,10 +398,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93C35E602126E8F800A2A1E9 /* sample_response.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		930A43E92127DD700098D518 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n   ${SRCROOT}/swiftlint/swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		931FB8AE211B5A9E008E2B9D /* Sources */ = {

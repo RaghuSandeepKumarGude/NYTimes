@@ -18,7 +18,7 @@ class DetailPopularNewsViewControllerTest: XCTestCase {
         super.setUp()
         sut = DetailPopularNewsViewController()
     }
-    
+
     override func tearDown() {
         sut = nil
         super.tearDown()
@@ -30,14 +30,16 @@ class DetailPopularNewsViewControllerTest: XCTestCase {
         XCTAssertFalse(sut.textViewShouldBeginEditing(aTextView))
     }
 
-    func testViewDidLoad() {
+    func testViewDidLoad() throws {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        guard let sut = storyboard.instantiateViewController(withIdentifier: "DetailPopularNewsViewController") as? DetailPopularNewsViewController else {
+        let storyBoardIdentifier = "DetailPopularNewsViewController"
+        guard let sut = storyboard.instantiateViewController(withIdentifier: storyBoardIdentifier)
+            as? DetailPopularNewsViewController else {
             return XCTFail("Could not load VC from main Story board")
         }
         sut.loadViewIfNeeded()
-        let mockNewsData = MockNewsObject()
-        sut.selectedArtical = mockNewsData
+        let mockNewsDetails = MockObjects()
+        sut.selectedArtical = try mockNewsDetails.mockNewsModel()
         sut.viewDidLoad()
         XCTAssertNil(sut.articalTitle.text)
     }

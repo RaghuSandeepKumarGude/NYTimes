@@ -14,7 +14,7 @@ class MockPopularNewsModal: PopularNewsModalProtocol {
     var feedService: PopularNewsApiProtocol
     var news: [News]?
     var mostViewedCalled = false
-    
+
     init(feedService: PopularNewsApiProtocol) {
         self.feedService = feedService
     }

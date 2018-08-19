@@ -30,14 +30,14 @@ class DetailPopularNewsViewController: UIViewController, DetailPopularViewable {
             articalImage.image = UIImage(named: "defaultArticalImage")
         }
         articalAuthor.text = selectedArtical?.byline
-        articalPulishedDate.text = selectedArtical?.PublishedDate
+        articalPulishedDate.text = selectedArtical?.publishedDate
         articalCaption.text = selectedArtical?.media?.first?.caption
         articalCaption.delegate = self
     }
 
     @IBAction public func toReadMoreSelected(_ sender: Any) {
         if let articalLink = URL(string: (selectedArtical?.url)!), UIApplication.shared.canOpenURL(articalLink) {
-            UIApplication.shared.open(articalLink, options: [:] , completionHandler: nil)
+            UIApplication.shared.open(articalLink, options: [:], completionHandler: nil)
         }
     }
 }
@@ -47,4 +47,3 @@ extension DetailPopularNewsViewController: UITextViewDelegate {
         return false
     }
 }
-

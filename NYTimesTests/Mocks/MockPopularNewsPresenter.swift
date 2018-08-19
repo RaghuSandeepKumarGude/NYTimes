@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 @testable import NYTimes
 
-class mockPopularNewsPresenter: PopularNewsPresentable {
+class MockPopularNewsPresenter: PopularNewsPresentable {
     var view: PopularNewsViewable?
     var model: PopularNewsModalProtocol
 
@@ -26,6 +26,4 @@ class mockPopularNewsPresenter: PopularNewsPresentable {
     func selectedArtical(artical: News?, navigation: UINavigationController) {
 
     }
-
-
 }
