@@ -23,6 +23,8 @@
 		931FB905211B6CA7008E2B9D /* PopularNewsApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931FB904211B6CA7008E2B9D /* PopularNewsApiService.swift */; };
 		931FB90D211B881F008E2B9D /* NewsFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931FB90C211B881F008E2B9D /* NewsFeed.swift */; };
 		931FB90F211BF93C008E2B9D /* PopularNewsViewContollerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931FB90E211BF93C008E2B9D /* PopularNewsViewContollerCell.swift */; };
+		93329DB72129C2B300A828C2 /* DetailWebViewViewable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93329DB52129C2B200A828C2 /* DetailWebViewViewable.swift */; };
+		93329DB82129C2B300A828C2 /* DetailWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93329DB62129C2B200A828C2 /* DetailWebViewController.swift */; };
 		9369B74A211DA4FA007BE9C1 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9369B749211DA4FA007BE9C1 /* SDWebImage.framework */; };
 		9369B74B211DA4FA007BE9C1 /* SDWebImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9369B749211DA4FA007BE9C1 /* SDWebImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9369B757211E192A007BE9C1 /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9369B756211E192A007BE9C1 /* SVProgressHUD.framework */; };
@@ -95,6 +97,8 @@
 		931FB904211B6CA7008E2B9D /* PopularNewsApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularNewsApiService.swift; sourceTree = "<group>"; };
 		931FB90C211B881F008E2B9D /* NewsFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeed.swift; sourceTree = "<group>"; };
 		931FB90E211BF93C008E2B9D /* PopularNewsViewContollerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularNewsViewContollerCell.swift; sourceTree = "<group>"; };
+		93329DB52129C2B200A828C2 /* DetailWebViewViewable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailWebViewViewable.swift; sourceTree = "<group>"; };
+		93329DB62129C2B200A828C2 /* DetailWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailWebViewController.swift; sourceTree = "<group>"; };
 		9369B749211DA4FA007BE9C1 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = Carthage/Build/iOS/SDWebImage.framework; sourceTree = "<group>"; };
 		9369B756211E192A007BE9C1 /* SVProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SVProgressHUD.framework; path = Carthage/Build/iOS/SVProgressHUD.framework; sourceTree = "<group>"; };
 		9369B759211E1C52007BE9C1 /* DetailPopularNewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPopularNewsViewController.swift; sourceTree = "<group>"; };
@@ -244,6 +248,15 @@
 			path = Entity;
 			sourceTree = "<group>";
 		};
+		93329DB92129C2C100A828C2 /* DetailWebView */ = {
+			isa = PBXGroup;
+			children = (
+				93329DB62129C2B200A828C2 /* DetailWebViewController.swift */,
+				93329DB52129C2B200A828C2 /* DetailWebViewViewable.swift */,
+			);
+			path = DetailWebView;
+			sourceTree = "<group>";
+		};
 		9369B73F211D935B007BE9C1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -254,6 +267,7 @@
 		9369B75B211E1C6D007BE9C1 /* DetailView */ = {
 			isa = PBXGroup;
 			children = (
+				93329DB92129C2C100A828C2 /* DetailWebView */,
 				9369B759211E1C52007BE9C1 /* DetailPopularNewsViewController.swift */,
 				9369B75C211E1D3A007BE9C1 /* DetailPopularViewable.swift */,
 			);
@@ -428,6 +442,7 @@
 				931FB8F0211B5B6E008E2B9D /* PopularNewsPresenter.swift in Sources */,
 				931FB8EA211B5B3A008E2B9D /* PopularNewsPresentable.swift in Sources */,
 				93C35E3E2124987400A2A1E9 /* main.swift in Sources */,
+				93329DB72129C2B300A828C2 /* DetailWebViewViewable.swift in Sources */,
 				9369B75A211E1C52007BE9C1 /* DetailPopularNewsViewController.swift in Sources */,
 				931FB90F211BF93C008E2B9D /* PopularNewsViewContollerCell.swift in Sources */,
 				931FB90D211B881F008E2B9D /* NewsFeed.swift in Sources */,
@@ -436,6 +451,7 @@
 				931FB8F8211B6253008E2B9D /* Media.swift in Sources */,
 				931FB8B6211B5A9E008E2B9D /* AppDelegate.swift in Sources */,
 				931FB8EC211B5B4A008E2B9D /* PopularNewsModalProtocol.swift in Sources */,
+				93329DB82129C2B300A828C2 /* DetailWebViewController.swift in Sources */,
 				931FB8E8211B5B2C008E2B9D /* PopularNewsViewable.swift in Sources */,
 				931FB905211B6CA7008E2B9D /* PopularNewsApiService.swift in Sources */,
 				931FB8F2211B5B7B008E2B9D /* PopularNewsModal.swift in Sources */,

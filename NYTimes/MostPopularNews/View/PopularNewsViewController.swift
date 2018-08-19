@@ -26,6 +26,7 @@ class PopularNewsViewController: UIViewController {
         presenter?.mostViewed()
         self.title = "NY Times Most Popular"
         SVProgressHUD.show()
+        SVProgressHUD.setBackgroundColor(.darkGray)
         view.isUserInteractionEnabled = false
     }
 }

@@ -10,4 +10,5 @@ import Foundation
 
 protocol DetailPopularViewable {
     var selectedArtical: News? { get }
+    var presenter: PopularNewsPresentable? { get }
 }

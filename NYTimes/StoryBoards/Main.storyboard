@@ -178,5 +178,39 @@
             </objects>
             <point key="canvasLocation" x="533.60000000000002" y="89.505247376311857"/>
         </scene>
+        <!--Detail Web View Controller-->
+        <scene sceneID="utV-8u-sg4">
+            <objects>
+                <viewController storyboardIdentifier="DetailWebViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="jUy-25-VdX" customClass="DetailWebViewController" customModule="NYTimes" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bAT-lA-uFi">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u7h-LT-RvD">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="u7h-LT-RvD" firstAttribute="top" secondItem="rlJ-pL-EhM" secondAttribute="top" id="PAI-tQ-UWV"/>
+                            <constraint firstItem="u7h-LT-RvD" firstAttribute="leading" secondItem="rlJ-pL-EhM" secondAttribute="leading" id="gOj-av-Qqd"/>
+                            <constraint firstItem="rlJ-pL-EhM" firstAttribute="bottom" secondItem="u7h-LT-RvD" secondAttribute="bottom" id="uI6-Jw-uDe"/>
+                            <constraint firstItem="rlJ-pL-EhM" firstAttribute="trailing" secondItem="u7h-LT-RvD" secondAttribute="trailing" id="zeO-VW-fF6"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="rlJ-pL-EhM"/>
+                    </view>
+                    <connections>
+                        <outlet property="webView" destination="u7h-LT-RvD" id="Isq-LS-9zQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fsA-IV-JZU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1170" y="123"/>
+        </scene>
     </scenes>
 </document>

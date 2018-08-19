@@ -14,4 +14,5 @@ protocol PopularNewsPresentable {
     var model: PopularNewsModalProtocol { get }
     func mostViewed()
     func selectedArtical(artical: News?, navigation: UINavigationController)
+    func showSelctedArticalInWebView(articalUrl: String, navigation: UINavigationController)
 }

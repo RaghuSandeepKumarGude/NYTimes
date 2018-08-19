@@ -35,7 +35,19 @@ class PopularNewsPresenter: PopularNewsPresentable {
         guard let newsViewController = viewContoller as? DetailPopularNewsViewController else {
             fatalError("Can't instantiate PopularNewsViewController")
         }
+        newsViewController.presenter = self
         newsViewController.selectedArtical = artical
+        navigation.pushViewController(newsViewController, animated: true)
+    }
+
+    func showSelctedArticalInWebView(articalUrl: String, navigation: UINavigationController) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let detailViewIdentifier = "DetailWebViewController"
+        let viewContoller = storyboard.instantiateViewController(withIdentifier: detailViewIdentifier)
+        guard let newsViewController = viewContoller as? DetailWebViewController else {
+            fatalError("Can't instantiate PopularNewsViewController")
+        }
+        newsViewController.selectedArticalUrl = articalUrl
         navigation.pushViewController(newsViewController, animated: true)
     }
 }

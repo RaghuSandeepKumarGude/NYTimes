@@ -11,6 +11,7 @@ import UIKit
 
 class DetailPopularNewsViewController: UIViewController, DetailPopularViewable {
     public var selectedArtical: News?
+    var presenter: PopularNewsPresentable?
     @IBOutlet weak var articalImage: UIImageView!
     @IBOutlet weak var articalTitle: UILabel!
     @IBOutlet weak var articalAuthor: UILabel!
@@ -36,9 +37,8 @@ class DetailPopularNewsViewController: UIViewController, DetailPopularViewable {
     }
 
     @IBAction public func toReadMoreSelected(_ sender: Any) {
-        if let articalLink = URL(string: (selectedArtical?.url)!), UIApplication.shared.canOpenURL(articalLink) {
-            UIApplication.shared.open(articalLink, options: [:], completionHandler: nil)
-        }
+        presenter?.showSelctedArticalInWebView(articalUrl: (selectedArtical?.url)!,
+                                               navigation: self.navigationController!)
     }
 }
 
