@@ -9,6 +9,13 @@
 import Foundation
 
 protocol DetailPopularViewable {
+    /**
+     * selectedArtical: Contains user selected News artical details
+     */
     var selectedArtical: News? { get }
+
+    /**
+     *presenter: To give call back to presenter to display selected artical in WkWebView.
+     */
     var presenter: PopularNewsPresentable? { get }
 }

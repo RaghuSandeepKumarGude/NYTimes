@@ -16,7 +16,9 @@ class DetailWebViewController: UIViewController, WKNavigationDelegate, DetailWeb
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        guard let url = NSURL(string: selectedArticalUrl!) else { return }
+        guard let url = NSURL(string: selectedArticalUrl!) else {
+            return
+        }
         let request = URLRequest(url: url as URL)
         webView.navigationDelegate = self
         webView.load(request)

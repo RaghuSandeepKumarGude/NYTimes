@@ -9,5 +9,8 @@
 import Foundation
 
 protocol DetailWebViewViewable {
+    /**
+     * selectedArticalUrl: Contains selcted alertica's URL to load webView.
+     */
     var selectedArticalUrl: String? { get }
 }

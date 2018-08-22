@@ -13,6 +13,7 @@ import QuartzCore
 import SVProgressHUD
 
 class PopularNewsViewController: UIViewController {
+
     @IBOutlet public weak var tableView: UITableView!
     public var newsFeed: [News]?
     var presenter: PopularNewsPresentable?

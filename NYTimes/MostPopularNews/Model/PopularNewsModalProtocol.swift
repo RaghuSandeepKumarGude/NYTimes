@@ -9,9 +9,24 @@
 import Foundation
 
 protocol PopularNewsModalProtocol {
+
+    /**
+     *presenter: After API call it call back presenter to update the status.
+     */
     var presenter: PopularNewsPresentable? { get }
+
+    /**
+     *feedService: Helps to make API server call
+     */
     var feedService: PopularNewsApiProtocol { get }
+
+    /**
+     *news: Contains news model object
+     */
     var news: [News]? {get set}
 
+    /**
+     *mostViewed: Makes API call, to fetch most viewed NYTimes articals from last 7 days.
+     */
     func mostViewed(completion: @escaping NewsFeedCompletionHandler)
 }
