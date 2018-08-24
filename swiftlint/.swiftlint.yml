@@ -1,0 +1,119 @@
+excluded:
+  - Carthage
+disabled_rules:
+  - attributes    # Inconsistent behaviour
+  - conditional_returns_on_newline    # allowed as long as it's a single return only
+  - discouraged_object_literal  # Not part of our coding standards  
+  - explicit_acl  # Not part of our coding standards
+  - explicit_type_interface     # Not part of our coding standards
+  - extension_access_modifier   # Not part of our coding standards
+  - no_grouping_extension    # Not part of our coding standards
+  - number_separator    # Not part of our coding standards  
+  - prefixed_toplevel_constant   # Not part of our coding standards
+  - redundant_string_enum_value   # Contradicts `explicit_enum_raw_value`
+  - sorted_imports      # Not part of our coding standards      
+opt_in_rules:
+  - array_init  
+  - closure_end_indentation
+  - closure_spacing
+  - contains_over_first_not_nil
+  - discouraged_optional_boolean
+  - empty_count
+  - explicit_enum_raw_value
+  - explicit_init  
+  - explicit_top_level_acl    # Can disable for Application projects
+  - fatal_error_message
+  - file_header
+  - first_where
+  - force_unwrapping
+  - implicit_return
+  - implicitly_unwrapped_optional
+  - joined_default_parameter
+  - let_var_whitespace
+  - literal_expression_end_indentation
+  - multiline_arguments
+  - multiline_parameters
+  - nimble_operator
+  - no_extension_access_modifier
+  - object_literal
+  - operator_usage_whitespace
+  - overridden_super_call
+  - override_in_extension
+  - pattern_matching_keywords
+  - private_action
+  - private_outlet
+  - prohibited_super_call
+  - quick_discouraged_call
+  - quick_discouraged_focused_test
+  - quick_discouraged_pending_test
+  - redundant_nil_coalescing
+  - required_enum_case
+  - single_test_class
+  - sorted_first_last
+  - strict_fileprivate  # Should enable in Swift 4
+  - switch_case_on_newline
+  - trailing_closure  
+  - unneeded_parentheses_in_closure_argument
+  - vertical_parameter_alignment_on_call
+  - yoda_condition
+line_length:
+  warning: 120
+  error: 200
+  ignores_urls: true
+type_body_length:
+  - 300
+  - 400
+file_length:
+  - 500
+  - 1200
+custom_rules:
+  if_as_guard:
+    included: .*.swift
+    regex: '^ *if [^\{]+\{\s*(return|continue|break)[^\n]*\n *\}(?! *else)'
+    name: If as Guard
+    message: >-
+      Don't use an if statement to just return – use guard for such cases
+      instead.
+    severity: warning
+  prefer_isempty_equal_false:
+    included: .*.swift
+    regex: ' !([^\n ])*.isEmpty(?! == .*)'
+    name: Prefer isEmpty == false over !.isEmpty
+    message: Use <variable>.isEmpty == false over !<variable>.isEmpty form
+    severity: warning
+  vertical_whitespace_opening_braces:
+    included: .*.swift
+    regex: '[{(\[][ \t]*\n[ \t]*\n'
+    name: Vertical Whitespace after Opening Braces
+    message: Don't include vertical whitespace (empty line) after opening braces.
+    severity: warning
+  vertical_whitespace_closing_braces:
+    included: .*.swift
+    regex: '^[ \t]*\n[ \t]*[)}\]]'
+    name: Vertical Whitespace before Closing Braces
+    message: Don't include vertical whitespace (empty line) before closing braces.
+    severity: warning
+  swiftlint_disable_comment:
+    included: .*.swift
+    regex: 'swiftlint:disable(:[a-z]+?| )([a-z_]*)$'
+    name: Missing comment when disabling swiftlint
+    message: >-
+      Must include a comment justifying why when disabling a SwiftLint check -
+      e.g. // swiftlint:disable force_unwrapping - Hard coded value will always
+      instantiate
+    severity: error
+    match_kinds: comment
+  swiftlint_mark:
+    included: .*.swift
+    regex: 'MARK: (?!-)'
+    name: Mark annotation validation
+    message: 'Missing separator marker, should be in the form // MARK: - Title'
+    severity: warning
+    match_kinds: comment
+  swiftlint_mark_description:
+    included: .*.swift
+    regex: 'MARK: -$'
+    name: Mark annotation description
+    message: 'Missing description, should be in the form // MARK: - Title'
+    severity: warning
+    match_kinds: comment
