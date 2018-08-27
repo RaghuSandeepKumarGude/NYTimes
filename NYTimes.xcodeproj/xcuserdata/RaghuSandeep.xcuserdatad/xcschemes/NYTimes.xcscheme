@@ -20,6 +20,20 @@
                ReferencedContainer = "container:NYTimes.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "931FB8C5211B5A9E008E2B9D"
+               BuildableName = "NYTimesTests.xctest"
+               BlueprintName = "NYTimesTests"
+               ReferencedContainer = "container:NYTimes.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -36,16 +50,6 @@
                BlueprintIdentifier = "931FB8C5211B5A9E008E2B9D"
                BuildableName = "NYTimesTests.xctest"
                BlueprintName = "NYTimesTests"
-               ReferencedContainer = "container:NYTimes.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "931FB8D0211B5A9E008E2B9D"
-               BuildableName = "NYTimesUITests.xctest"
-               BlueprintName = "NYTimesUITests"
                ReferencedContainer = "container:NYTimes.xcodeproj">
             </BuildableReference>
          </TestableReference>
