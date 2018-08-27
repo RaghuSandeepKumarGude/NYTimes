@@ -13,7 +13,6 @@ protocol PopularNewsModalProtocol {
     /**
      *presenter: After API call it call back presenter to update the status.
      */
-    var presenter: PopularNewsPresentable? { get }
 
     /**
      *feedService: Helps to make API server call
@@ -28,5 +27,5 @@ protocol PopularNewsModalProtocol {
     /**
      *mostViewed: Makes API call, to fetch most viewed NYTimes articals from last 7 days.
      */
-    func mostViewed(completion: @escaping NewsFeedCompletionHandler)
+    func mostViewed(period: Period, completion: @escaping NewsFeedCompletionHandler)
 }
