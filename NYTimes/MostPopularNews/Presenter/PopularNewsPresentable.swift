@@ -28,7 +28,7 @@ protocol PopularNewsPresentable {
 
     /**
      *selectedArtical: Invokes DetailPopularNewsViewController view on selecting any artical.
-     * Parameters: Takes selected artical and application navigation.
+     *Parameters: Takes selected artical and application navigation.
      */
     func selectedArtical(artical: News?, navigation: UINavigationController)
 
