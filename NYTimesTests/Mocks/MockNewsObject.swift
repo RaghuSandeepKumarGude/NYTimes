@@ -14,15 +14,17 @@ struct MockObjects {
         var newsData: Data?
         var feed: News?
 
-        guard let bundlePath = Bundle.main.path(forResource: "sample_response", ofType: "json") else {
-            return nil
+        guard let bundlePath = Bundle.main.url(forResource: "sampleResponse",
+                                               withExtension: "json") else {
+                                                return nil
         }
         do {
-            newsData = try String(contentsOfFile: bundlePath, encoding: .utf8).data(using: .utf8)
+            newsData = try Data(contentsOf: bundlePath)
         }
 
         do {
             let decoder = JSONDecoder()
+            print(String(decoding: newsData!, as: UTF8.self))
             feed = try decoder.decode(News.self, from: newsData!)
         } catch let error {
             print(error.localizedDescription)

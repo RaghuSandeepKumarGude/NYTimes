@@ -15,18 +15,10 @@ class PopularNewsPresenterTest: XCTestCase {
     var mockNewsApi: MockPopularNewsApi!
     var mockNewsModel: MockPopularNewsModal!
 
-    private class MockNavigationController: UINavigationController {
-        var navigationStack = [String: [String: Any]]()
-
-        override func pushViewController(_ viewController: UIViewController, animated: Bool) {
-            navigationStack["displayDetailView"] = ["viewController": viewController, "animated": animated]
-        }
-    }
-
     override func setUp() {
         super.setUp()
-        let mockView = MockPopularNewsView()
-        let mockNewsApi = MockPopularNewsApi()
+        mockView = MockPopularNewsView()
+        mockNewsApi = MockPopularNewsApi()
         mockNewsModel = MockPopularNewsModal(feedService: mockNewsApi)
         sut = PopularNewsPresenter(view: mockView, model: mockNewsModel)
         mockNewsModel.presenter = sut
@@ -41,6 +33,7 @@ class PopularNewsPresenterTest: XCTestCase {
     func testMostViewed() {
         sut.mostViewed()
         XCTAssertTrue(mockNewsModel.mostViewedCalled)
+        XCTAssertTrue(mockView.updateCalled)
     }
 
     func testSelectedArtical() {
@@ -51,5 +44,12 @@ class PopularNewsPresenterTest: XCTestCase {
             let view = navigationstack["viewController"] as? DetailPopularNewsViewController
             XCTAssertNotNil(view)
         }
+    }
+
+    func testShowSelctedArticalInWebView() {
+        let navigationController = MockNavigationController(rootViewController: mockView)
+        UIApplication.shared.keyWindow?.rootViewController = navigationController
+        sut.showSelctedArticalInWebView(articalUrl: "test", navigation: navigationController)
+        XCTAssertNotNil(navigationController.navigationStack)
     }
 }

@@ -27,7 +27,7 @@ class PopularNewsApiServiceTest: XCTestCase {
 
     func testMostViewed() {
         let expection = self.expectation(description: "testMostViewed")
-        sut.mostViewed { (_, _) in
+        sut.mostViewed(period: Period.week) { _, _ in
             expection.fulfill()
         }
         wait(for: [expection], timeout: 10)

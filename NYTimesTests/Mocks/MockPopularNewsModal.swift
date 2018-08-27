@@ -19,7 +19,8 @@ class MockPopularNewsModal: PopularNewsModalProtocol {
         self.feedService = feedService
     }
 
-    func mostViewed(completion: @escaping NewsFeedCompletionHandler) {
+    func mostViewed(period: Period, completion: @escaping NewsFeedCompletionHandler) {
         mostViewedCalled = true
+        completion(nil, nil)
     }
 }

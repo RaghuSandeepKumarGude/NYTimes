@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 @testable import NYTimes
 
-class MockPopularNewsView: PopularNewsViewable {
+class MockPopularNewsView: UIViewController, PopularNewsViewable {
     var presenter: PopularNewsPresentable?
     var updateCalled = false
     var showErrorAlertCalled = false

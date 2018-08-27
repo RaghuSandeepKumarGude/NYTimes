@@ -41,6 +41,20 @@ class DetailPopularNewsViewControllerTest: XCTestCase {
         let mockNewsDetails = MockObjects()
         sut.selectedArtical = try mockNewsDetails.mockNewsModel()
         sut.viewDidLoad()
-        XCTAssertNil(sut.articalTitle.text)
+        XCTAssertNotNil(sut.articalTitle.text)
+    }
+
+    func testToReadMoreSelected() throws {
+        let view = MockPopularNewsView()
+        let apiProtocol = MockPopularNewsApi()
+        let model = MockPopularNewsModal(feedService: apiProtocol)
+        let presenter = MockPopularNewsPresenter(view: view,
+                                                 model: model)
+        sut.selectedArtical = nil
+        sut.presenter = presenter
+
+        sut.toReadMoreSelected(sut)
+
+        XCTAssertFalse(presenter.showSelctedArticalInWebViewCalled)
     }
 }

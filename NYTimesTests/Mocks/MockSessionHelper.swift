@@ -36,10 +36,22 @@ struct MockSessionHelper {
             handler = completionHandler
             requestUrl = url
             dataTaskWithUrlCalled = true
-            return MockDataTask(data: data,
+            return MockDataTask(data: fetchActualData(),
                                 urlResponse: response,
                                 httpError: error,
                                 completionHandler: completionHandler)
+        }
+
+        private func fetchActualData() -> Data? {
+            if let bundlePath = Bundle.main.url(forResource: "sampleNewsFeed",
+                                                withExtension: "json") {
+                do {
+                    data = try Data(contentsOf: bundlePath)
+                } catch {
+                    print("There is an error")
+                }
+            }
+            return data
         }
     }
 

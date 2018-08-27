@@ -11,15 +11,16 @@ import Foundation
 
 class MockPopularNewsApi: NSObject, PopularNewsApiProtocol {
     var popularNewsCalled = false
-    var mostViewed = false
+    var mostViewedCalled = false
 
     func popularNews(category: MostPopularCategory,
-                     section: String, period: Period,
+                     section: String,
+                     period: Period,
                      completion: @escaping NewsFeedCompletionHandler) {
         popularNewsCalled = true
     }
 
-    func mostViewed(completion: @escaping NewsFeedCompletionHandler) {
-        mostViewed = true
+    func mostViewed(period: Period, completion: @escaping NewsFeedCompletionHandler) {
+        mostViewedCalled = true
     }
 }

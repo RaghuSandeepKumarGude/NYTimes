@@ -26,8 +26,8 @@ class PopularNewsModelTest: XCTestCase {
     }
 
     func testMostViewed() {
-        sut.mostViewed { (_, _) in
-            XCTAssertTrue(self.mockModel.mostViewed)
+        sut.mostViewed(period: Period.week) { _, _ in
         }
+        XCTAssertTrue(self.mockModel.mostViewedCalled)
     }
 }

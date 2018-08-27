@@ -37,7 +37,10 @@ class DetailPopularNewsViewController: UIViewController, DetailPopularViewable {
     }
 
     @IBAction public func toReadMoreSelected(_ sender: Any) {
-        presenter?.showSelctedArticalInWebView(articalUrl: (selectedArtical?.url)!,
+        guard let articalUrl = selectedArtical?.url else {
+            return
+        }
+        presenter?.showSelctedArticalInWebView(articalUrl: articalUrl,
                                                navigation: self.navigationController!)
     }
 }

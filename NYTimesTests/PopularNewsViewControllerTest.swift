@@ -9,6 +9,7 @@
 import XCTest
 @testable import NYTimes
 import Foundation
+import SVProgressHUD
 
 class PopularNewsViewControllerTest: XCTestCase {
     var sut: PopularNewsViewController!
@@ -33,12 +34,14 @@ class PopularNewsViewControllerTest: XCTestCase {
         XCTAssertFalse(sut.view.isUserInteractionEnabled)
     }
 
-    func testupdate() {
+    func testupdate() throws {
         sut.view = UIView()
+        let mockNewsDetails = MockObjects()
+        let mockNews = try mockNewsDetails.mockNewsModel()
 
-        sut.update(with: nil)
+        sut.update(with: [mockNews!])
 
-       // XCTAssertEqual(tableView.reloadDataCalled, 0)
+        XCTAssertTrue(sut.view.isUserInteractionEnabled)
     }
 
     func testHeightForRowAt() {
