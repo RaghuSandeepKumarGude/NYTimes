@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-internal protocol PopularNewsViewable {
+internal protocol PopularNewsViewable: class {
     /**
      * presenter: Responsible to fetch data and also performes action on user selection
      */
