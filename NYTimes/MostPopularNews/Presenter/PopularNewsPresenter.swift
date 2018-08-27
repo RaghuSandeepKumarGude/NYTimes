@@ -10,7 +10,7 @@ import Foundation
 import  UIKit
 
 class PopularNewsPresenter: PopularNewsPresentable {
-    var view: PopularNewsViewable?
+    weak var view: PopularNewsViewable?
     var model: PopularNewsModalProtocol
 
     init(view: PopularNewsViewable, model: PopularNewsModalProtocol) {
@@ -19,12 +19,12 @@ class PopularNewsPresenter: PopularNewsPresentable {
     }
 
     func mostViewed() {
-        self.model.mostViewed { (news, error) in
+        self.model.mostViewed (period: Period.week) { [weak self] (news, error) in
             guard error == nil else {
-                self.view?.showErrorAlert()
+                self?.view?.showErrorAlert()
                 return
             }
-            self.view?.update(with: news)
+            self?.view?.update(with: news)
         }
     }
 
