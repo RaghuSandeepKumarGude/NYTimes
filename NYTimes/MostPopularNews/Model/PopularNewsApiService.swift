@@ -54,10 +54,10 @@ class PopularNewsApiService: PopularNewsApiProtocol {
         task.resume()
     }
 
-    func mostViewed(completion: @escaping NewsFeedCompletionHandler) {
+    func mostViewed(period: Period, completion: @escaping NewsFeedCompletionHandler) {
         popularNews(category: MostPopularCategory.mostViewed,
                     section: "all-sections",
-                    period: Period.week,
+                    period: period,
                     completion: completion)
     }
 }

@@ -63,5 +63,5 @@ protocol PopularNewsApiProtocol {
     /**
      * mostViewed calls popularNews and give call back.
      */
-    func mostViewed(completion: @escaping NewsFeedCompletionHandler)
+    func mostViewed(period: Period, completion: @escaping NewsFeedCompletionHandler)
 }

@@ -11,13 +11,13 @@ import Foundation
 class PopularNewsModal: PopularNewsModalProtocol {
     var feedService: PopularNewsApiProtocol
     var news: [News]?
-    var presenter: PopularNewsPresentable?
+//    var presenter: PopularNewsPresentable?
 
     init(feedService: PopularNewsApiProtocol) {
         self.feedService = feedService
     }
 
-    func mostViewed(completion: @escaping NewsFeedCompletionHandler) {
-        feedService.mostViewed(completion: completion)
+    func mostViewed(period: Period, completion: @escaping NewsFeedCompletionHandler) {
+        feedService.mostViewed(period: period, completion: completion)
     }
 }

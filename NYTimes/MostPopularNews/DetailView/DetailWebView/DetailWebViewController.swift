@@ -26,6 +26,10 @@ class DetailWebViewController: UIViewController, WKNavigationDelegate, DetailWeb
         SVProgressHUD.setBackgroundColor(.darkGray)
     }
 
+    override func viewDidDisappear(_ animated: Bool) {
+        SVProgressHUD.dismiss()
+    }
+
     func webView(_ webView: WKWebView, didFailProvisionalNavigation navigation: WKNavigation!, withError error: Error) {
         print(error.localizedDescription)
         SVProgressHUD.show()
