@@ -23,6 +23,8 @@ How to run unittests:
 
 
 Design Document:
+Followed 
 
-
-
+<br>
+<img hright = "700" src="https://github.com/RaghuSandeepKumarGude/NYTimes/blob/master/Class%20Diagram.png" />
+<br>
