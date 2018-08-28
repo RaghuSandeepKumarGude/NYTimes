@@ -23,7 +23,7 @@ How to run unittests:
 
 
 Design Document:
-Followed 
+Followed MVP Design Pattern
 
 <br>
 <img hright = "700" src="https://github.com/RaghuSandeepKumarGude/NYTimes/blob/master/Class%20Diagram.png" />
